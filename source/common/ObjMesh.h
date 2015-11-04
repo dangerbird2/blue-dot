@@ -7,6 +7,7 @@
 #include "Angel.h"
 #include <vector>
 #include <list>
+#include <iomanip>
 
 using namespace Angel;
 
@@ -147,7 +148,7 @@ public:
     return vec3(p1.x*rl, p1.y*rl, p1.z*rl);
   }
   
-  bool makeSphere(int steps=8){
+  bool makeSubdivisionSphere(int steps=8){
     
     Box_min = vec3(-1,-1,-1);
     Box_max = vec3(1,1,1);
@@ -194,6 +195,12 @@ public:
     
     return true;
   }
+  
+  bool makeParametricSphere(int steps=32){
+    return true;
+  }
+    
+
   
   friend std::ostream& operator << ( std::ostream& os, const Mesh& v ) {
     os << "Vertices:\n";
