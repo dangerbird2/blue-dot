@@ -50,17 +50,17 @@ vec.h
 Angel.h
 .././source/common/Angel.h
 
-/Users/Shea/Projects/earth/source/Earth.cpp
+/Users/Shea/Projects/bluedot/source/Earth.cpp
 Angel.h
-/Users/Shea/Projects/earth/source/Angel.h
+/Users/Shea/Projects/bluedot/source/Angel.h
 SourcePath.h
-/Users/Shea/Projects/earth/source/SourcePath.h
+/Users/Shea/Projects/bluedot/source/SourcePath.h
 Trackball.h
-/Users/Shea/Projects/earth/source/Trackball.h
+/Users/Shea/Projects/bluedot/source/Trackball.h
 ObjMesh.h
-/Users/Shea/Projects/earth/source/ObjMesh.h
+/Users/Shea/Projects/bluedot/source/ObjMesh.h
 
-/Users/Shea/Projects/earth/source/common/Angel.h
+/Users/Shea/Projects/bluedot/source/common/Angel.h
 cmath
 -
 iostream
@@ -78,25 +78,35 @@ GL/freeglut.h
 GL/freeglut_ext.h
 -
 vec.h
-/Users/Shea/Projects/earth/source/common/vec.h
+/Users/Shea/Projects/bluedot/source/common/vec.h
 mat.h
-/Users/Shea/Projects/earth/source/common/mat.h
+/Users/Shea/Projects/bluedot/source/common/mat.h
 
-/Users/Shea/Projects/earth/source/common/InitShader.cpp
+/Users/Shea/Projects/bluedot/source/common/InitShader.cpp
 Angel.h
-/Users/Shea/Projects/earth/source/common/Angel.h
+/Users/Shea/Projects/bluedot/source/common/Angel.h
 
-/Users/Shea/Projects/earth/source/common/ObjMesh.cpp
+/Users/Shea/Projects/bluedot/source/common/ObjMesh.cpp
+ObjMesh.h
+/Users/Shea/Projects/bluedot/source/common/ObjMesh.h
 
-/Users/Shea/Projects/earth/source/common/SourcePath.cpp
+/Users/Shea/Projects/bluedot/source/common/ObjMesh.h
+Angel.h
+/Users/Shea/Projects/bluedot/source/common/Angel.h
+vector
+-
+list
+-
+
+/Users/Shea/Projects/bluedot/source/common/SourcePath.cpp
 SourcePath.h
-/Users/Shea/Projects/earth/source/common/SourcePath.h
+/Users/Shea/Projects/bluedot/source/common/SourcePath.h
 
-/Users/Shea/Projects/earth/source/common/SourcePath.h
+/Users/Shea/Projects/bluedot/source/common/SourcePath.h
 string
 -
 
-/Users/Shea/Projects/earth/source/common/Trackball.cpp
+/Users/Shea/Projects/bluedot/source/common/Trackball.cpp
 stdio.h
 -
 stdlib.h
@@ -106,15 +116,15 @@ string.h
 math.h
 -
 Trackball.h
-/Users/Shea/Projects/earth/source/common/Trackball.h
+/Users/Shea/Projects/bluedot/source/common/Trackball.h
 
-/Users/Shea/Projects/earth/source/common/Trackball.h
+/Users/Shea/Projects/bluedot/source/common/Trackball.h
 
-/Users/Shea/Projects/earth/source/common/mat.h
+/Users/Shea/Projects/bluedot/source/common/mat.h
 vec.h
-/Users/Shea/Projects/earth/source/common/vec.h
+/Users/Shea/Projects/bluedot/source/common/vec.h
 
-/Users/Shea/Projects/earth/source/common/vec.h
+/Users/Shea/Projects/bluedot/source/common/vec.h
 Angel.h
-/Users/Shea/Projects/earth/source/common/Angel.h
+/Users/Shea/Projects/bluedot/source/common/Angel.h
 

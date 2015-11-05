@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Shea/Projects/earth/FreeImage3151
+# Install script for directory: /Users/Shea/Projects/bluedot/FreeImage3151
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

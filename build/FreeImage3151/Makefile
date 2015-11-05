@@ -42,10 +42,10 @@ RM = /usr/local/Cellar/cmake/3.2.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Shea/Projects/earth
+CMAKE_SOURCE_DIR = /Users/Shea/Projects/bluedot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Shea/Projects/earth/build
+CMAKE_BINARY_DIR = /Users/Shea/Projects/bluedot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/Shea/Projects/earth/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles /Users/Shea/Projects/earth/build/FreeImage3151/CMakeFiles/progress.marks
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles 0
+	cd /Users/Shea/Projects/bluedot/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles /Users/Shea/Projects/bluedot/build/FreeImage3151/CMakeFiles/progress.marks
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/clean
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/preinstall
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/preinstall
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/Shea/Projects/earth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/Shea/Projects/bluedot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 FreeImage3151/CMakeFiles/FreeImage.dir/rule:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/CMakeFiles/FreeImage.dir/rule
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f CMakeFiles/Makefile2 FreeImage3151/CMakeFiles/FreeImage.dir/rule
 .PHONY : FreeImage3151/CMakeFiles/FreeImage.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ FreeImage: FreeImage3151/CMakeFiles/FreeImage.dir/rule
 
 # fast build rule for target.
 FreeImage/fast:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/build
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/build
 .PHONY : FreeImage/fast
 
 Source/FreeImage/BitmapAccess.o: Source/FreeImage/BitmapAccess.cpp.o
@@ -120,7 +120,7 @@ Source/FreeImage/BitmapAccess.o: Source/FreeImage/BitmapAccess.cpp.o
 
 # target to build an object file
 Source/FreeImage/BitmapAccess.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.o
 .PHONY : Source/FreeImage/BitmapAccess.cpp.o
 
 Source/FreeImage/BitmapAccess.i: Source/FreeImage/BitmapAccess.cpp.i
@@ -128,7 +128,7 @@ Source/FreeImage/BitmapAccess.i: Source/FreeImage/BitmapAccess.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/BitmapAccess.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.i
 .PHONY : Source/FreeImage/BitmapAccess.cpp.i
 
 Source/FreeImage/BitmapAccess.s: Source/FreeImage/BitmapAccess.cpp.s
@@ -136,7 +136,7 @@ Source/FreeImage/BitmapAccess.s: Source/FreeImage/BitmapAccess.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/BitmapAccess.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/BitmapAccess.cpp.s
 .PHONY : Source/FreeImage/BitmapAccess.cpp.s
 
 Source/FreeImage/CacheFile.o: Source/FreeImage/CacheFile.cpp.o
@@ -144,7 +144,7 @@ Source/FreeImage/CacheFile.o: Source/FreeImage/CacheFile.cpp.o
 
 # target to build an object file
 Source/FreeImage/CacheFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.o
 .PHONY : Source/FreeImage/CacheFile.cpp.o
 
 Source/FreeImage/CacheFile.i: Source/FreeImage/CacheFile.cpp.i
@@ -152,7 +152,7 @@ Source/FreeImage/CacheFile.i: Source/FreeImage/CacheFile.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/CacheFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.i
 .PHONY : Source/FreeImage/CacheFile.cpp.i
 
 Source/FreeImage/CacheFile.s: Source/FreeImage/CacheFile.cpp.s
@@ -160,7 +160,7 @@ Source/FreeImage/CacheFile.s: Source/FreeImage/CacheFile.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/CacheFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/CacheFile.cpp.s
 .PHONY : Source/FreeImage/CacheFile.cpp.s
 
 Source/FreeImage/ColorLookup.o: Source/FreeImage/ColorLookup.cpp.o
@@ -168,7 +168,7 @@ Source/FreeImage/ColorLookup.o: Source/FreeImage/ColorLookup.cpp.o
 
 # target to build an object file
 Source/FreeImage/ColorLookup.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.o
 .PHONY : Source/FreeImage/ColorLookup.cpp.o
 
 Source/FreeImage/ColorLookup.i: Source/FreeImage/ColorLookup.cpp.i
@@ -176,7 +176,7 @@ Source/FreeImage/ColorLookup.i: Source/FreeImage/ColorLookup.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ColorLookup.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.i
 .PHONY : Source/FreeImage/ColorLookup.cpp.i
 
 Source/FreeImage/ColorLookup.s: Source/FreeImage/ColorLookup.cpp.s
@@ -184,7 +184,7 @@ Source/FreeImage/ColorLookup.s: Source/FreeImage/ColorLookup.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ColorLookup.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ColorLookup.cpp.s
 .PHONY : Source/FreeImage/ColorLookup.cpp.s
 
 Source/FreeImage/Conversion.o: Source/FreeImage/Conversion.cpp.o
@@ -192,7 +192,7 @@ Source/FreeImage/Conversion.o: Source/FreeImage/Conversion.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.o
 .PHONY : Source/FreeImage/Conversion.cpp.o
 
 Source/FreeImage/Conversion.i: Source/FreeImage/Conversion.cpp.i
@@ -200,7 +200,7 @@ Source/FreeImage/Conversion.i: Source/FreeImage/Conversion.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.i
 .PHONY : Source/FreeImage/Conversion.cpp.i
 
 Source/FreeImage/Conversion.s: Source/FreeImage/Conversion.cpp.s
@@ -208,7 +208,7 @@ Source/FreeImage/Conversion.s: Source/FreeImage/Conversion.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion.cpp.s
 .PHONY : Source/FreeImage/Conversion.cpp.s
 
 Source/FreeImage/Conversion16_555.o: Source/FreeImage/Conversion16_555.cpp.o
@@ -216,7 +216,7 @@ Source/FreeImage/Conversion16_555.o: Source/FreeImage/Conversion16_555.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion16_555.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.o
 .PHONY : Source/FreeImage/Conversion16_555.cpp.o
 
 Source/FreeImage/Conversion16_555.i: Source/FreeImage/Conversion16_555.cpp.i
@@ -224,7 +224,7 @@ Source/FreeImage/Conversion16_555.i: Source/FreeImage/Conversion16_555.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion16_555.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.i
 .PHONY : Source/FreeImage/Conversion16_555.cpp.i
 
 Source/FreeImage/Conversion16_555.s: Source/FreeImage/Conversion16_555.cpp.s
@@ -232,7 +232,7 @@ Source/FreeImage/Conversion16_555.s: Source/FreeImage/Conversion16_555.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion16_555.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_555.cpp.s
 .PHONY : Source/FreeImage/Conversion16_555.cpp.s
 
 Source/FreeImage/Conversion16_565.o: Source/FreeImage/Conversion16_565.cpp.o
@@ -240,7 +240,7 @@ Source/FreeImage/Conversion16_565.o: Source/FreeImage/Conversion16_565.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion16_565.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.o
 .PHONY : Source/FreeImage/Conversion16_565.cpp.o
 
 Source/FreeImage/Conversion16_565.i: Source/FreeImage/Conversion16_565.cpp.i
@@ -248,7 +248,7 @@ Source/FreeImage/Conversion16_565.i: Source/FreeImage/Conversion16_565.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion16_565.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.i
 .PHONY : Source/FreeImage/Conversion16_565.cpp.i
 
 Source/FreeImage/Conversion16_565.s: Source/FreeImage/Conversion16_565.cpp.s
@@ -256,7 +256,7 @@ Source/FreeImage/Conversion16_565.s: Source/FreeImage/Conversion16_565.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion16_565.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion16_565.cpp.s
 .PHONY : Source/FreeImage/Conversion16_565.cpp.s
 
 Source/FreeImage/Conversion24.o: Source/FreeImage/Conversion24.cpp.o
@@ -264,7 +264,7 @@ Source/FreeImage/Conversion24.o: Source/FreeImage/Conversion24.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion24.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.o
 .PHONY : Source/FreeImage/Conversion24.cpp.o
 
 Source/FreeImage/Conversion24.i: Source/FreeImage/Conversion24.cpp.i
@@ -272,7 +272,7 @@ Source/FreeImage/Conversion24.i: Source/FreeImage/Conversion24.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion24.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.i
 .PHONY : Source/FreeImage/Conversion24.cpp.i
 
 Source/FreeImage/Conversion24.s: Source/FreeImage/Conversion24.cpp.s
@@ -280,7 +280,7 @@ Source/FreeImage/Conversion24.s: Source/FreeImage/Conversion24.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion24.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion24.cpp.s
 .PHONY : Source/FreeImage/Conversion24.cpp.s
 
 Source/FreeImage/Conversion32.o: Source/FreeImage/Conversion32.cpp.o
@@ -288,7 +288,7 @@ Source/FreeImage/Conversion32.o: Source/FreeImage/Conversion32.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion32.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.o
 .PHONY : Source/FreeImage/Conversion32.cpp.o
 
 Source/FreeImage/Conversion32.i: Source/FreeImage/Conversion32.cpp.i
@@ -296,7 +296,7 @@ Source/FreeImage/Conversion32.i: Source/FreeImage/Conversion32.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion32.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.i
 .PHONY : Source/FreeImage/Conversion32.cpp.i
 
 Source/FreeImage/Conversion32.s: Source/FreeImage/Conversion32.cpp.s
@@ -304,7 +304,7 @@ Source/FreeImage/Conversion32.s: Source/FreeImage/Conversion32.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion32.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion32.cpp.s
 .PHONY : Source/FreeImage/Conversion32.cpp.s
 
 Source/FreeImage/Conversion4.o: Source/FreeImage/Conversion4.cpp.o
@@ -312,7 +312,7 @@ Source/FreeImage/Conversion4.o: Source/FreeImage/Conversion4.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion4.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.o
 .PHONY : Source/FreeImage/Conversion4.cpp.o
 
 Source/FreeImage/Conversion4.i: Source/FreeImage/Conversion4.cpp.i
@@ -320,7 +320,7 @@ Source/FreeImage/Conversion4.i: Source/FreeImage/Conversion4.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion4.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.i
 .PHONY : Source/FreeImage/Conversion4.cpp.i
 
 Source/FreeImage/Conversion4.s: Source/FreeImage/Conversion4.cpp.s
@@ -328,7 +328,7 @@ Source/FreeImage/Conversion4.s: Source/FreeImage/Conversion4.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion4.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion4.cpp.s
 .PHONY : Source/FreeImage/Conversion4.cpp.s
 
 Source/FreeImage/Conversion8.o: Source/FreeImage/Conversion8.cpp.o
@@ -336,7 +336,7 @@ Source/FreeImage/Conversion8.o: Source/FreeImage/Conversion8.cpp.o
 
 # target to build an object file
 Source/FreeImage/Conversion8.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.o
 .PHONY : Source/FreeImage/Conversion8.cpp.o
 
 Source/FreeImage/Conversion8.i: Source/FreeImage/Conversion8.cpp.i
@@ -344,7 +344,7 @@ Source/FreeImage/Conversion8.i: Source/FreeImage/Conversion8.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Conversion8.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.i
 .PHONY : Source/FreeImage/Conversion8.cpp.i
 
 Source/FreeImage/Conversion8.s: Source/FreeImage/Conversion8.cpp.s
@@ -352,7 +352,7 @@ Source/FreeImage/Conversion8.s: Source/FreeImage/Conversion8.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Conversion8.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Conversion8.cpp.s
 .PHONY : Source/FreeImage/Conversion8.cpp.s
 
 Source/FreeImage/ConversionRGB16.o: Source/FreeImage/ConversionRGB16.cpp.o
@@ -360,7 +360,7 @@ Source/FreeImage/ConversionRGB16.o: Source/FreeImage/ConversionRGB16.cpp.o
 
 # target to build an object file
 Source/FreeImage/ConversionRGB16.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.o
 .PHONY : Source/FreeImage/ConversionRGB16.cpp.o
 
 Source/FreeImage/ConversionRGB16.i: Source/FreeImage/ConversionRGB16.cpp.i
@@ -368,7 +368,7 @@ Source/FreeImage/ConversionRGB16.i: Source/FreeImage/ConversionRGB16.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ConversionRGB16.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.i
 .PHONY : Source/FreeImage/ConversionRGB16.cpp.i
 
 Source/FreeImage/ConversionRGB16.s: Source/FreeImage/ConversionRGB16.cpp.s
@@ -376,7 +376,7 @@ Source/FreeImage/ConversionRGB16.s: Source/FreeImage/ConversionRGB16.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ConversionRGB16.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGB16.cpp.s
 .PHONY : Source/FreeImage/ConversionRGB16.cpp.s
 
 Source/FreeImage/ConversionRGBF.o: Source/FreeImage/ConversionRGBF.cpp.o
@@ -384,7 +384,7 @@ Source/FreeImage/ConversionRGBF.o: Source/FreeImage/ConversionRGBF.cpp.o
 
 # target to build an object file
 Source/FreeImage/ConversionRGBF.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.o
 .PHONY : Source/FreeImage/ConversionRGBF.cpp.o
 
 Source/FreeImage/ConversionRGBF.i: Source/FreeImage/ConversionRGBF.cpp.i
@@ -392,7 +392,7 @@ Source/FreeImage/ConversionRGBF.i: Source/FreeImage/ConversionRGBF.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ConversionRGBF.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.i
 .PHONY : Source/FreeImage/ConversionRGBF.cpp.i
 
 Source/FreeImage/ConversionRGBF.s: Source/FreeImage/ConversionRGBF.cpp.s
@@ -400,7 +400,7 @@ Source/FreeImage/ConversionRGBF.s: Source/FreeImage/ConversionRGBF.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ConversionRGBF.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionRGBF.cpp.s
 .PHONY : Source/FreeImage/ConversionRGBF.cpp.s
 
 Source/FreeImage/ConversionType.o: Source/FreeImage/ConversionType.cpp.o
@@ -408,7 +408,7 @@ Source/FreeImage/ConversionType.o: Source/FreeImage/ConversionType.cpp.o
 
 # target to build an object file
 Source/FreeImage/ConversionType.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.o
 .PHONY : Source/FreeImage/ConversionType.cpp.o
 
 Source/FreeImage/ConversionType.i: Source/FreeImage/ConversionType.cpp.i
@@ -416,7 +416,7 @@ Source/FreeImage/ConversionType.i: Source/FreeImage/ConversionType.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ConversionType.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.i
 .PHONY : Source/FreeImage/ConversionType.cpp.i
 
 Source/FreeImage/ConversionType.s: Source/FreeImage/ConversionType.cpp.s
@@ -424,7 +424,7 @@ Source/FreeImage/ConversionType.s: Source/FreeImage/ConversionType.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ConversionType.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ConversionType.cpp.s
 .PHONY : Source/FreeImage/ConversionType.cpp.s
 
 Source/FreeImage/FreeImage.o: Source/FreeImage/FreeImage.cpp.o
@@ -432,7 +432,7 @@ Source/FreeImage/FreeImage.o: Source/FreeImage/FreeImage.cpp.o
 
 # target to build an object file
 Source/FreeImage/FreeImage.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.o
 .PHONY : Source/FreeImage/FreeImage.cpp.o
 
 Source/FreeImage/FreeImage.i: Source/FreeImage/FreeImage.cpp.i
@@ -440,7 +440,7 @@ Source/FreeImage/FreeImage.i: Source/FreeImage/FreeImage.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/FreeImage.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.i
 .PHONY : Source/FreeImage/FreeImage.cpp.i
 
 Source/FreeImage/FreeImage.s: Source/FreeImage/FreeImage.cpp.s
@@ -448,7 +448,7 @@ Source/FreeImage/FreeImage.s: Source/FreeImage/FreeImage.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/FreeImage.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImage.cpp.s
 .PHONY : Source/FreeImage/FreeImage.cpp.s
 
 Source/FreeImage/FreeImageIO.o: Source/FreeImage/FreeImageIO.cpp.o
@@ -456,7 +456,7 @@ Source/FreeImage/FreeImageIO.o: Source/FreeImage/FreeImageIO.cpp.o
 
 # target to build an object file
 Source/FreeImage/FreeImageIO.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.o
 .PHONY : Source/FreeImage/FreeImageIO.cpp.o
 
 Source/FreeImage/FreeImageIO.i: Source/FreeImage/FreeImageIO.cpp.i
@@ -464,7 +464,7 @@ Source/FreeImage/FreeImageIO.i: Source/FreeImage/FreeImageIO.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/FreeImageIO.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.i
 .PHONY : Source/FreeImage/FreeImageIO.cpp.i
 
 Source/FreeImage/FreeImageIO.s: Source/FreeImage/FreeImageIO.cpp.s
@@ -472,7 +472,7 @@ Source/FreeImage/FreeImageIO.s: Source/FreeImage/FreeImageIO.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/FreeImageIO.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/FreeImageIO.cpp.s
 .PHONY : Source/FreeImage/FreeImageIO.cpp.s
 
 Source/FreeImage/GetType.o: Source/FreeImage/GetType.cpp.o
@@ -480,7 +480,7 @@ Source/FreeImage/GetType.o: Source/FreeImage/GetType.cpp.o
 
 # target to build an object file
 Source/FreeImage/GetType.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.o
 .PHONY : Source/FreeImage/GetType.cpp.o
 
 Source/FreeImage/GetType.i: Source/FreeImage/GetType.cpp.i
@@ -488,7 +488,7 @@ Source/FreeImage/GetType.i: Source/FreeImage/GetType.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/GetType.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.i
 .PHONY : Source/FreeImage/GetType.cpp.i
 
 Source/FreeImage/GetType.s: Source/FreeImage/GetType.cpp.s
@@ -496,7 +496,7 @@ Source/FreeImage/GetType.s: Source/FreeImage/GetType.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/GetType.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/GetType.cpp.s
 .PHONY : Source/FreeImage/GetType.cpp.s
 
 Source/FreeImage/Halftoning.o: Source/FreeImage/Halftoning.cpp.o
@@ -504,7 +504,7 @@ Source/FreeImage/Halftoning.o: Source/FreeImage/Halftoning.cpp.o
 
 # target to build an object file
 Source/FreeImage/Halftoning.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.o
 .PHONY : Source/FreeImage/Halftoning.cpp.o
 
 Source/FreeImage/Halftoning.i: Source/FreeImage/Halftoning.cpp.i
@@ -512,7 +512,7 @@ Source/FreeImage/Halftoning.i: Source/FreeImage/Halftoning.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Halftoning.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.i
 .PHONY : Source/FreeImage/Halftoning.cpp.i
 
 Source/FreeImage/Halftoning.s: Source/FreeImage/Halftoning.cpp.s
@@ -520,7 +520,7 @@ Source/FreeImage/Halftoning.s: Source/FreeImage/Halftoning.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Halftoning.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Halftoning.cpp.s
 .PHONY : Source/FreeImage/Halftoning.cpp.s
 
 Source/FreeImage/J2KHelper.o: Source/FreeImage/J2KHelper.cpp.o
@@ -528,7 +528,7 @@ Source/FreeImage/J2KHelper.o: Source/FreeImage/J2KHelper.cpp.o
 
 # target to build an object file
 Source/FreeImage/J2KHelper.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.o
 .PHONY : Source/FreeImage/J2KHelper.cpp.o
 
 Source/FreeImage/J2KHelper.i: Source/FreeImage/J2KHelper.cpp.i
@@ -536,7 +536,7 @@ Source/FreeImage/J2KHelper.i: Source/FreeImage/J2KHelper.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/J2KHelper.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.i
 .PHONY : Source/FreeImage/J2KHelper.cpp.i
 
 Source/FreeImage/J2KHelper.s: Source/FreeImage/J2KHelper.cpp.s
@@ -544,7 +544,7 @@ Source/FreeImage/J2KHelper.s: Source/FreeImage/J2KHelper.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/J2KHelper.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/J2KHelper.cpp.s
 .PHONY : Source/FreeImage/J2KHelper.cpp.s
 
 Source/FreeImage/MemoryIO.o: Source/FreeImage/MemoryIO.cpp.o
@@ -552,7 +552,7 @@ Source/FreeImage/MemoryIO.o: Source/FreeImage/MemoryIO.cpp.o
 
 # target to build an object file
 Source/FreeImage/MemoryIO.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.o
 .PHONY : Source/FreeImage/MemoryIO.cpp.o
 
 Source/FreeImage/MemoryIO.i: Source/FreeImage/MemoryIO.cpp.i
@@ -560,7 +560,7 @@ Source/FreeImage/MemoryIO.i: Source/FreeImage/MemoryIO.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/MemoryIO.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.i
 .PHONY : Source/FreeImage/MemoryIO.cpp.i
 
 Source/FreeImage/MemoryIO.s: Source/FreeImage/MemoryIO.cpp.s
@@ -568,7 +568,7 @@ Source/FreeImage/MemoryIO.s: Source/FreeImage/MemoryIO.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/MemoryIO.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MemoryIO.cpp.s
 .PHONY : Source/FreeImage/MemoryIO.cpp.s
 
 Source/FreeImage/MultiPage.o: Source/FreeImage/MultiPage.cpp.o
@@ -576,7 +576,7 @@ Source/FreeImage/MultiPage.o: Source/FreeImage/MultiPage.cpp.o
 
 # target to build an object file
 Source/FreeImage/MultiPage.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.o
 .PHONY : Source/FreeImage/MultiPage.cpp.o
 
 Source/FreeImage/MultiPage.i: Source/FreeImage/MultiPage.cpp.i
@@ -584,7 +584,7 @@ Source/FreeImage/MultiPage.i: Source/FreeImage/MultiPage.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/MultiPage.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.i
 .PHONY : Source/FreeImage/MultiPage.cpp.i
 
 Source/FreeImage/MultiPage.s: Source/FreeImage/MultiPage.cpp.s
@@ -592,7 +592,7 @@ Source/FreeImage/MultiPage.s: Source/FreeImage/MultiPage.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/MultiPage.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/MultiPage.cpp.s
 .PHONY : Source/FreeImage/MultiPage.cpp.s
 
 Source/FreeImage/NNQuantizer.o: Source/FreeImage/NNQuantizer.cpp.o
@@ -600,7 +600,7 @@ Source/FreeImage/NNQuantizer.o: Source/FreeImage/NNQuantizer.cpp.o
 
 # target to build an object file
 Source/FreeImage/NNQuantizer.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.o
 .PHONY : Source/FreeImage/NNQuantizer.cpp.o
 
 Source/FreeImage/NNQuantizer.i: Source/FreeImage/NNQuantizer.cpp.i
@@ -608,7 +608,7 @@ Source/FreeImage/NNQuantizer.i: Source/FreeImage/NNQuantizer.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/NNQuantizer.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.i
 .PHONY : Source/FreeImage/NNQuantizer.cpp.i
 
 Source/FreeImage/NNQuantizer.s: Source/FreeImage/NNQuantizer.cpp.s
@@ -616,7 +616,7 @@ Source/FreeImage/NNQuantizer.s: Source/FreeImage/NNQuantizer.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/NNQuantizer.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/NNQuantizer.cpp.s
 .PHONY : Source/FreeImage/NNQuantizer.cpp.s
 
 Source/FreeImage/PSDParser.o: Source/FreeImage/PSDParser.cpp.o
@@ -624,7 +624,7 @@ Source/FreeImage/PSDParser.o: Source/FreeImage/PSDParser.cpp.o
 
 # target to build an object file
 Source/FreeImage/PSDParser.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.o
 .PHONY : Source/FreeImage/PSDParser.cpp.o
 
 Source/FreeImage/PSDParser.i: Source/FreeImage/PSDParser.cpp.i
@@ -632,7 +632,7 @@ Source/FreeImage/PSDParser.i: Source/FreeImage/PSDParser.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PSDParser.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.i
 .PHONY : Source/FreeImage/PSDParser.cpp.i
 
 Source/FreeImage/PSDParser.s: Source/FreeImage/PSDParser.cpp.s
@@ -640,7 +640,7 @@ Source/FreeImage/PSDParser.s: Source/FreeImage/PSDParser.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PSDParser.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PSDParser.cpp.s
 .PHONY : Source/FreeImage/PSDParser.cpp.s
 
 Source/FreeImage/PixelAccess.o: Source/FreeImage/PixelAccess.cpp.o
@@ -648,7 +648,7 @@ Source/FreeImage/PixelAccess.o: Source/FreeImage/PixelAccess.cpp.o
 
 # target to build an object file
 Source/FreeImage/PixelAccess.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.o
 .PHONY : Source/FreeImage/PixelAccess.cpp.o
 
 Source/FreeImage/PixelAccess.i: Source/FreeImage/PixelAccess.cpp.i
@@ -656,7 +656,7 @@ Source/FreeImage/PixelAccess.i: Source/FreeImage/PixelAccess.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PixelAccess.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.i
 .PHONY : Source/FreeImage/PixelAccess.cpp.i
 
 Source/FreeImage/PixelAccess.s: Source/FreeImage/PixelAccess.cpp.s
@@ -664,7 +664,7 @@ Source/FreeImage/PixelAccess.s: Source/FreeImage/PixelAccess.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PixelAccess.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PixelAccess.cpp.s
 .PHONY : Source/FreeImage/PixelAccess.cpp.s
 
 Source/FreeImage/Plugin.o: Source/FreeImage/Plugin.cpp.o
@@ -672,7 +672,7 @@ Source/FreeImage/Plugin.o: Source/FreeImage/Plugin.cpp.o
 
 # target to build an object file
 Source/FreeImage/Plugin.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.o
 .PHONY : Source/FreeImage/Plugin.cpp.o
 
 Source/FreeImage/Plugin.i: Source/FreeImage/Plugin.cpp.i
@@ -680,7 +680,7 @@ Source/FreeImage/Plugin.i: Source/FreeImage/Plugin.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/Plugin.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.i
 .PHONY : Source/FreeImage/Plugin.cpp.i
 
 Source/FreeImage/Plugin.s: Source/FreeImage/Plugin.cpp.s
@@ -688,7 +688,7 @@ Source/FreeImage/Plugin.s: Source/FreeImage/Plugin.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/Plugin.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/Plugin.cpp.s
 .PHONY : Source/FreeImage/Plugin.cpp.s
 
 Source/FreeImage/PluginBMP.o: Source/FreeImage/PluginBMP.cpp.o
@@ -696,7 +696,7 @@ Source/FreeImage/PluginBMP.o: Source/FreeImage/PluginBMP.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginBMP.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.o
 .PHONY : Source/FreeImage/PluginBMP.cpp.o
 
 Source/FreeImage/PluginBMP.i: Source/FreeImage/PluginBMP.cpp.i
@@ -704,7 +704,7 @@ Source/FreeImage/PluginBMP.i: Source/FreeImage/PluginBMP.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginBMP.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.i
 .PHONY : Source/FreeImage/PluginBMP.cpp.i
 
 Source/FreeImage/PluginBMP.s: Source/FreeImage/PluginBMP.cpp.s
@@ -712,7 +712,7 @@ Source/FreeImage/PluginBMP.s: Source/FreeImage/PluginBMP.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginBMP.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginBMP.cpp.s
 .PHONY : Source/FreeImage/PluginBMP.cpp.s
 
 Source/FreeImage/PluginCUT.o: Source/FreeImage/PluginCUT.cpp.o
@@ -720,7 +720,7 @@ Source/FreeImage/PluginCUT.o: Source/FreeImage/PluginCUT.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginCUT.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.o
 .PHONY : Source/FreeImage/PluginCUT.cpp.o
 
 Source/FreeImage/PluginCUT.i: Source/FreeImage/PluginCUT.cpp.i
@@ -728,7 +728,7 @@ Source/FreeImage/PluginCUT.i: Source/FreeImage/PluginCUT.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginCUT.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.i
 .PHONY : Source/FreeImage/PluginCUT.cpp.i
 
 Source/FreeImage/PluginCUT.s: Source/FreeImage/PluginCUT.cpp.s
@@ -736,7 +736,7 @@ Source/FreeImage/PluginCUT.s: Source/FreeImage/PluginCUT.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginCUT.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginCUT.cpp.s
 .PHONY : Source/FreeImage/PluginCUT.cpp.s
 
 Source/FreeImage/PluginDDS.o: Source/FreeImage/PluginDDS.cpp.o
@@ -744,7 +744,7 @@ Source/FreeImage/PluginDDS.o: Source/FreeImage/PluginDDS.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginDDS.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.o
 .PHONY : Source/FreeImage/PluginDDS.cpp.o
 
 Source/FreeImage/PluginDDS.i: Source/FreeImage/PluginDDS.cpp.i
@@ -752,7 +752,7 @@ Source/FreeImage/PluginDDS.i: Source/FreeImage/PluginDDS.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginDDS.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.i
 .PHONY : Source/FreeImage/PluginDDS.cpp.i
 
 Source/FreeImage/PluginDDS.s: Source/FreeImage/PluginDDS.cpp.s
@@ -760,7 +760,7 @@ Source/FreeImage/PluginDDS.s: Source/FreeImage/PluginDDS.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginDDS.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginDDS.cpp.s
 .PHONY : Source/FreeImage/PluginDDS.cpp.s
 
 Source/FreeImage/PluginEXR.o: Source/FreeImage/PluginEXR.cpp.o
@@ -768,7 +768,7 @@ Source/FreeImage/PluginEXR.o: Source/FreeImage/PluginEXR.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginEXR.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.o
 .PHONY : Source/FreeImage/PluginEXR.cpp.o
 
 Source/FreeImage/PluginEXR.i: Source/FreeImage/PluginEXR.cpp.i
@@ -776,7 +776,7 @@ Source/FreeImage/PluginEXR.i: Source/FreeImage/PluginEXR.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginEXR.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.i
 .PHONY : Source/FreeImage/PluginEXR.cpp.i
 
 Source/FreeImage/PluginEXR.s: Source/FreeImage/PluginEXR.cpp.s
@@ -784,7 +784,7 @@ Source/FreeImage/PluginEXR.s: Source/FreeImage/PluginEXR.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginEXR.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginEXR.cpp.s
 .PHONY : Source/FreeImage/PluginEXR.cpp.s
 
 Source/FreeImage/PluginG3.o: Source/FreeImage/PluginG3.cpp.o
@@ -792,7 +792,7 @@ Source/FreeImage/PluginG3.o: Source/FreeImage/PluginG3.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginG3.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.o
 .PHONY : Source/FreeImage/PluginG3.cpp.o
 
 Source/FreeImage/PluginG3.i: Source/FreeImage/PluginG3.cpp.i
@@ -800,7 +800,7 @@ Source/FreeImage/PluginG3.i: Source/FreeImage/PluginG3.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginG3.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.i
 .PHONY : Source/FreeImage/PluginG3.cpp.i
 
 Source/FreeImage/PluginG3.s: Source/FreeImage/PluginG3.cpp.s
@@ -808,7 +808,7 @@ Source/FreeImage/PluginG3.s: Source/FreeImage/PluginG3.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginG3.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginG3.cpp.s
 .PHONY : Source/FreeImage/PluginG3.cpp.s
 
 Source/FreeImage/PluginGIF.o: Source/FreeImage/PluginGIF.cpp.o
@@ -816,7 +816,7 @@ Source/FreeImage/PluginGIF.o: Source/FreeImage/PluginGIF.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginGIF.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.o
 .PHONY : Source/FreeImage/PluginGIF.cpp.o
 
 Source/FreeImage/PluginGIF.i: Source/FreeImage/PluginGIF.cpp.i
@@ -824,7 +824,7 @@ Source/FreeImage/PluginGIF.i: Source/FreeImage/PluginGIF.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginGIF.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.i
 .PHONY : Source/FreeImage/PluginGIF.cpp.i
 
 Source/FreeImage/PluginGIF.s: Source/FreeImage/PluginGIF.cpp.s
@@ -832,7 +832,7 @@ Source/FreeImage/PluginGIF.s: Source/FreeImage/PluginGIF.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginGIF.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginGIF.cpp.s
 .PHONY : Source/FreeImage/PluginGIF.cpp.s
 
 Source/FreeImage/PluginHDR.o: Source/FreeImage/PluginHDR.cpp.o
@@ -840,7 +840,7 @@ Source/FreeImage/PluginHDR.o: Source/FreeImage/PluginHDR.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginHDR.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.o
 .PHONY : Source/FreeImage/PluginHDR.cpp.o
 
 Source/FreeImage/PluginHDR.i: Source/FreeImage/PluginHDR.cpp.i
@@ -848,7 +848,7 @@ Source/FreeImage/PluginHDR.i: Source/FreeImage/PluginHDR.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginHDR.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.i
 .PHONY : Source/FreeImage/PluginHDR.cpp.i
 
 Source/FreeImage/PluginHDR.s: Source/FreeImage/PluginHDR.cpp.s
@@ -856,7 +856,7 @@ Source/FreeImage/PluginHDR.s: Source/FreeImage/PluginHDR.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginHDR.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginHDR.cpp.s
 .PHONY : Source/FreeImage/PluginHDR.cpp.s
 
 Source/FreeImage/PluginICO.o: Source/FreeImage/PluginICO.cpp.o
@@ -864,7 +864,7 @@ Source/FreeImage/PluginICO.o: Source/FreeImage/PluginICO.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginICO.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.o
 .PHONY : Source/FreeImage/PluginICO.cpp.o
 
 Source/FreeImage/PluginICO.i: Source/FreeImage/PluginICO.cpp.i
@@ -872,7 +872,7 @@ Source/FreeImage/PluginICO.i: Source/FreeImage/PluginICO.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginICO.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.i
 .PHONY : Source/FreeImage/PluginICO.cpp.i
 
 Source/FreeImage/PluginICO.s: Source/FreeImage/PluginICO.cpp.s
@@ -880,7 +880,7 @@ Source/FreeImage/PluginICO.s: Source/FreeImage/PluginICO.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginICO.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginICO.cpp.s
 .PHONY : Source/FreeImage/PluginICO.cpp.s
 
 Source/FreeImage/PluginIFF.o: Source/FreeImage/PluginIFF.cpp.o
@@ -888,7 +888,7 @@ Source/FreeImage/PluginIFF.o: Source/FreeImage/PluginIFF.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginIFF.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.o
 .PHONY : Source/FreeImage/PluginIFF.cpp.o
 
 Source/FreeImage/PluginIFF.i: Source/FreeImage/PluginIFF.cpp.i
@@ -896,7 +896,7 @@ Source/FreeImage/PluginIFF.i: Source/FreeImage/PluginIFF.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginIFF.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.i
 .PHONY : Source/FreeImage/PluginIFF.cpp.i
 
 Source/FreeImage/PluginIFF.s: Source/FreeImage/PluginIFF.cpp.s
@@ -904,7 +904,7 @@ Source/FreeImage/PluginIFF.s: Source/FreeImage/PluginIFF.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginIFF.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginIFF.cpp.s
 .PHONY : Source/FreeImage/PluginIFF.cpp.s
 
 Source/FreeImage/PluginJ2K.o: Source/FreeImage/PluginJ2K.cpp.o
@@ -912,7 +912,7 @@ Source/FreeImage/PluginJ2K.o: Source/FreeImage/PluginJ2K.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginJ2K.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.o
 .PHONY : Source/FreeImage/PluginJ2K.cpp.o
 
 Source/FreeImage/PluginJ2K.i: Source/FreeImage/PluginJ2K.cpp.i
@@ -920,7 +920,7 @@ Source/FreeImage/PluginJ2K.i: Source/FreeImage/PluginJ2K.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginJ2K.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.i
 .PHONY : Source/FreeImage/PluginJ2K.cpp.i
 
 Source/FreeImage/PluginJ2K.s: Source/FreeImage/PluginJ2K.cpp.s
@@ -928,7 +928,7 @@ Source/FreeImage/PluginJ2K.s: Source/FreeImage/PluginJ2K.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginJ2K.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJ2K.cpp.s
 .PHONY : Source/FreeImage/PluginJ2K.cpp.s
 
 Source/FreeImage/PluginJP2.o: Source/FreeImage/PluginJP2.cpp.o
@@ -936,7 +936,7 @@ Source/FreeImage/PluginJP2.o: Source/FreeImage/PluginJP2.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginJP2.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.o
 .PHONY : Source/FreeImage/PluginJP2.cpp.o
 
 Source/FreeImage/PluginJP2.i: Source/FreeImage/PluginJP2.cpp.i
@@ -944,7 +944,7 @@ Source/FreeImage/PluginJP2.i: Source/FreeImage/PluginJP2.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginJP2.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.i
 .PHONY : Source/FreeImage/PluginJP2.cpp.i
 
 Source/FreeImage/PluginJP2.s: Source/FreeImage/PluginJP2.cpp.s
@@ -952,7 +952,7 @@ Source/FreeImage/PluginJP2.s: Source/FreeImage/PluginJP2.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginJP2.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJP2.cpp.s
 .PHONY : Source/FreeImage/PluginJP2.cpp.s
 
 Source/FreeImage/PluginJPEG.o: Source/FreeImage/PluginJPEG.cpp.o
@@ -960,7 +960,7 @@ Source/FreeImage/PluginJPEG.o: Source/FreeImage/PluginJPEG.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginJPEG.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.o
 .PHONY : Source/FreeImage/PluginJPEG.cpp.o
 
 Source/FreeImage/PluginJPEG.i: Source/FreeImage/PluginJPEG.cpp.i
@@ -968,7 +968,7 @@ Source/FreeImage/PluginJPEG.i: Source/FreeImage/PluginJPEG.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginJPEG.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.i
 .PHONY : Source/FreeImage/PluginJPEG.cpp.i
 
 Source/FreeImage/PluginJPEG.s: Source/FreeImage/PluginJPEG.cpp.s
@@ -976,7 +976,7 @@ Source/FreeImage/PluginJPEG.s: Source/FreeImage/PluginJPEG.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginJPEG.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginJPEG.cpp.s
 .PHONY : Source/FreeImage/PluginJPEG.cpp.s
 
 Source/FreeImage/PluginKOALA.o: Source/FreeImage/PluginKOALA.cpp.o
@@ -984,7 +984,7 @@ Source/FreeImage/PluginKOALA.o: Source/FreeImage/PluginKOALA.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginKOALA.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.o
 .PHONY : Source/FreeImage/PluginKOALA.cpp.o
 
 Source/FreeImage/PluginKOALA.i: Source/FreeImage/PluginKOALA.cpp.i
@@ -992,7 +992,7 @@ Source/FreeImage/PluginKOALA.i: Source/FreeImage/PluginKOALA.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginKOALA.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.i
 .PHONY : Source/FreeImage/PluginKOALA.cpp.i
 
 Source/FreeImage/PluginKOALA.s: Source/FreeImage/PluginKOALA.cpp.s
@@ -1000,7 +1000,7 @@ Source/FreeImage/PluginKOALA.s: Source/FreeImage/PluginKOALA.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginKOALA.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginKOALA.cpp.s
 .PHONY : Source/FreeImage/PluginKOALA.cpp.s
 
 Source/FreeImage/PluginMNG.o: Source/FreeImage/PluginMNG.cpp.o
@@ -1008,7 +1008,7 @@ Source/FreeImage/PluginMNG.o: Source/FreeImage/PluginMNG.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginMNG.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.o
 .PHONY : Source/FreeImage/PluginMNG.cpp.o
 
 Source/FreeImage/PluginMNG.i: Source/FreeImage/PluginMNG.cpp.i
@@ -1016,7 +1016,7 @@ Source/FreeImage/PluginMNG.i: Source/FreeImage/PluginMNG.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginMNG.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.i
 .PHONY : Source/FreeImage/PluginMNG.cpp.i
 
 Source/FreeImage/PluginMNG.s: Source/FreeImage/PluginMNG.cpp.s
@@ -1024,7 +1024,7 @@ Source/FreeImage/PluginMNG.s: Source/FreeImage/PluginMNG.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginMNG.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginMNG.cpp.s
 .PHONY : Source/FreeImage/PluginMNG.cpp.s
 
 Source/FreeImage/PluginPCD.o: Source/FreeImage/PluginPCD.cpp.o
@@ -1032,7 +1032,7 @@ Source/FreeImage/PluginPCD.o: Source/FreeImage/PluginPCD.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPCD.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.o
 .PHONY : Source/FreeImage/PluginPCD.cpp.o
 
 Source/FreeImage/PluginPCD.i: Source/FreeImage/PluginPCD.cpp.i
@@ -1040,7 +1040,7 @@ Source/FreeImage/PluginPCD.i: Source/FreeImage/PluginPCD.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPCD.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.i
 .PHONY : Source/FreeImage/PluginPCD.cpp.i
 
 Source/FreeImage/PluginPCD.s: Source/FreeImage/PluginPCD.cpp.s
@@ -1048,7 +1048,7 @@ Source/FreeImage/PluginPCD.s: Source/FreeImage/PluginPCD.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPCD.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCD.cpp.s
 .PHONY : Source/FreeImage/PluginPCD.cpp.s
 
 Source/FreeImage/PluginPCX.o: Source/FreeImage/PluginPCX.cpp.o
@@ -1056,7 +1056,7 @@ Source/FreeImage/PluginPCX.o: Source/FreeImage/PluginPCX.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPCX.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.o
 .PHONY : Source/FreeImage/PluginPCX.cpp.o
 
 Source/FreeImage/PluginPCX.i: Source/FreeImage/PluginPCX.cpp.i
@@ -1064,7 +1064,7 @@ Source/FreeImage/PluginPCX.i: Source/FreeImage/PluginPCX.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPCX.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.i
 .PHONY : Source/FreeImage/PluginPCX.cpp.i
 
 Source/FreeImage/PluginPCX.s: Source/FreeImage/PluginPCX.cpp.s
@@ -1072,7 +1072,7 @@ Source/FreeImage/PluginPCX.s: Source/FreeImage/PluginPCX.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPCX.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPCX.cpp.s
 .PHONY : Source/FreeImage/PluginPCX.cpp.s
 
 Source/FreeImage/PluginPFM.o: Source/FreeImage/PluginPFM.cpp.o
@@ -1080,7 +1080,7 @@ Source/FreeImage/PluginPFM.o: Source/FreeImage/PluginPFM.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPFM.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.o
 .PHONY : Source/FreeImage/PluginPFM.cpp.o
 
 Source/FreeImage/PluginPFM.i: Source/FreeImage/PluginPFM.cpp.i
@@ -1088,7 +1088,7 @@ Source/FreeImage/PluginPFM.i: Source/FreeImage/PluginPFM.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPFM.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.i
 .PHONY : Source/FreeImage/PluginPFM.cpp.i
 
 Source/FreeImage/PluginPFM.s: Source/FreeImage/PluginPFM.cpp.s
@@ -1096,7 +1096,7 @@ Source/FreeImage/PluginPFM.s: Source/FreeImage/PluginPFM.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPFM.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPFM.cpp.s
 .PHONY : Source/FreeImage/PluginPFM.cpp.s
 
 Source/FreeImage/PluginPICT.o: Source/FreeImage/PluginPICT.cpp.o
@@ -1104,7 +1104,7 @@ Source/FreeImage/PluginPICT.o: Source/FreeImage/PluginPICT.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPICT.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.o
 .PHONY : Source/FreeImage/PluginPICT.cpp.o
 
 Source/FreeImage/PluginPICT.i: Source/FreeImage/PluginPICT.cpp.i
@@ -1112,7 +1112,7 @@ Source/FreeImage/PluginPICT.i: Source/FreeImage/PluginPICT.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPICT.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.i
 .PHONY : Source/FreeImage/PluginPICT.cpp.i
 
 Source/FreeImage/PluginPICT.s: Source/FreeImage/PluginPICT.cpp.s
@@ -1120,7 +1120,7 @@ Source/FreeImage/PluginPICT.s: Source/FreeImage/PluginPICT.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPICT.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPICT.cpp.s
 .PHONY : Source/FreeImage/PluginPICT.cpp.s
 
 Source/FreeImage/PluginPNG.o: Source/FreeImage/PluginPNG.cpp.o
@@ -1128,7 +1128,7 @@ Source/FreeImage/PluginPNG.o: Source/FreeImage/PluginPNG.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPNG.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.o
 .PHONY : Source/FreeImage/PluginPNG.cpp.o
 
 Source/FreeImage/PluginPNG.i: Source/FreeImage/PluginPNG.cpp.i
@@ -1136,7 +1136,7 @@ Source/FreeImage/PluginPNG.i: Source/FreeImage/PluginPNG.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPNG.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.i
 .PHONY : Source/FreeImage/PluginPNG.cpp.i
 
 Source/FreeImage/PluginPNG.s: Source/FreeImage/PluginPNG.cpp.s
@@ -1144,7 +1144,7 @@ Source/FreeImage/PluginPNG.s: Source/FreeImage/PluginPNG.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPNG.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNG.cpp.s
 .PHONY : Source/FreeImage/PluginPNG.cpp.s
 
 Source/FreeImage/PluginPNM.o: Source/FreeImage/PluginPNM.cpp.o
@@ -1152,7 +1152,7 @@ Source/FreeImage/PluginPNM.o: Source/FreeImage/PluginPNM.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPNM.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.o
 .PHONY : Source/FreeImage/PluginPNM.cpp.o
 
 Source/FreeImage/PluginPNM.i: Source/FreeImage/PluginPNM.cpp.i
@@ -1160,7 +1160,7 @@ Source/FreeImage/PluginPNM.i: Source/FreeImage/PluginPNM.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPNM.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.i
 .PHONY : Source/FreeImage/PluginPNM.cpp.i
 
 Source/FreeImage/PluginPNM.s: Source/FreeImage/PluginPNM.cpp.s
@@ -1168,7 +1168,7 @@ Source/FreeImage/PluginPNM.s: Source/FreeImage/PluginPNM.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPNM.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPNM.cpp.s
 .PHONY : Source/FreeImage/PluginPNM.cpp.s
 
 Source/FreeImage/PluginPSD.o: Source/FreeImage/PluginPSD.cpp.o
@@ -1176,7 +1176,7 @@ Source/FreeImage/PluginPSD.o: Source/FreeImage/PluginPSD.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginPSD.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.o
 .PHONY : Source/FreeImage/PluginPSD.cpp.o
 
 Source/FreeImage/PluginPSD.i: Source/FreeImage/PluginPSD.cpp.i
@@ -1184,7 +1184,7 @@ Source/FreeImage/PluginPSD.i: Source/FreeImage/PluginPSD.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginPSD.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.i
 .PHONY : Source/FreeImage/PluginPSD.cpp.i
 
 Source/FreeImage/PluginPSD.s: Source/FreeImage/PluginPSD.cpp.s
@@ -1192,7 +1192,7 @@ Source/FreeImage/PluginPSD.s: Source/FreeImage/PluginPSD.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginPSD.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginPSD.cpp.s
 .PHONY : Source/FreeImage/PluginPSD.cpp.s
 
 Source/FreeImage/PluginRAS.o: Source/FreeImage/PluginRAS.cpp.o
@@ -1200,7 +1200,7 @@ Source/FreeImage/PluginRAS.o: Source/FreeImage/PluginRAS.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginRAS.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.o
 .PHONY : Source/FreeImage/PluginRAS.cpp.o
 
 Source/FreeImage/PluginRAS.i: Source/FreeImage/PluginRAS.cpp.i
@@ -1208,7 +1208,7 @@ Source/FreeImage/PluginRAS.i: Source/FreeImage/PluginRAS.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginRAS.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.i
 .PHONY : Source/FreeImage/PluginRAS.cpp.i
 
 Source/FreeImage/PluginRAS.s: Source/FreeImage/PluginRAS.cpp.s
@@ -1216,7 +1216,7 @@ Source/FreeImage/PluginRAS.s: Source/FreeImage/PluginRAS.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginRAS.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAS.cpp.s
 .PHONY : Source/FreeImage/PluginRAS.cpp.s
 
 Source/FreeImage/PluginRAW.o: Source/FreeImage/PluginRAW.cpp.o
@@ -1224,7 +1224,7 @@ Source/FreeImage/PluginRAW.o: Source/FreeImage/PluginRAW.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginRAW.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.o
 .PHONY : Source/FreeImage/PluginRAW.cpp.o
 
 Source/FreeImage/PluginRAW.i: Source/FreeImage/PluginRAW.cpp.i
@@ -1232,7 +1232,7 @@ Source/FreeImage/PluginRAW.i: Source/FreeImage/PluginRAW.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginRAW.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.i
 .PHONY : Source/FreeImage/PluginRAW.cpp.i
 
 Source/FreeImage/PluginRAW.s: Source/FreeImage/PluginRAW.cpp.s
@@ -1240,7 +1240,7 @@ Source/FreeImage/PluginRAW.s: Source/FreeImage/PluginRAW.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginRAW.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginRAW.cpp.s
 .PHONY : Source/FreeImage/PluginRAW.cpp.s
 
 Source/FreeImage/PluginSGI.o: Source/FreeImage/PluginSGI.cpp.o
@@ -1248,7 +1248,7 @@ Source/FreeImage/PluginSGI.o: Source/FreeImage/PluginSGI.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginSGI.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.o
 .PHONY : Source/FreeImage/PluginSGI.cpp.o
 
 Source/FreeImage/PluginSGI.i: Source/FreeImage/PluginSGI.cpp.i
@@ -1256,7 +1256,7 @@ Source/FreeImage/PluginSGI.i: Source/FreeImage/PluginSGI.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginSGI.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.i
 .PHONY : Source/FreeImage/PluginSGI.cpp.i
 
 Source/FreeImage/PluginSGI.s: Source/FreeImage/PluginSGI.cpp.s
@@ -1264,7 +1264,7 @@ Source/FreeImage/PluginSGI.s: Source/FreeImage/PluginSGI.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginSGI.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginSGI.cpp.s
 .PHONY : Source/FreeImage/PluginSGI.cpp.s
 
 Source/FreeImage/PluginTARGA.o: Source/FreeImage/PluginTARGA.cpp.o
@@ -1272,7 +1272,7 @@ Source/FreeImage/PluginTARGA.o: Source/FreeImage/PluginTARGA.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginTARGA.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.o
 .PHONY : Source/FreeImage/PluginTARGA.cpp.o
 
 Source/FreeImage/PluginTARGA.i: Source/FreeImage/PluginTARGA.cpp.i
@@ -1280,7 +1280,7 @@ Source/FreeImage/PluginTARGA.i: Source/FreeImage/PluginTARGA.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginTARGA.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.i
 .PHONY : Source/FreeImage/PluginTARGA.cpp.i
 
 Source/FreeImage/PluginTARGA.s: Source/FreeImage/PluginTARGA.cpp.s
@@ -1288,7 +1288,7 @@ Source/FreeImage/PluginTARGA.s: Source/FreeImage/PluginTARGA.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginTARGA.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTARGA.cpp.s
 .PHONY : Source/FreeImage/PluginTARGA.cpp.s
 
 Source/FreeImage/PluginTIFF.o: Source/FreeImage/PluginTIFF.cpp.o
@@ -1296,7 +1296,7 @@ Source/FreeImage/PluginTIFF.o: Source/FreeImage/PluginTIFF.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginTIFF.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.o
 .PHONY : Source/FreeImage/PluginTIFF.cpp.o
 
 Source/FreeImage/PluginTIFF.i: Source/FreeImage/PluginTIFF.cpp.i
@@ -1304,7 +1304,7 @@ Source/FreeImage/PluginTIFF.i: Source/FreeImage/PluginTIFF.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginTIFF.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.i
 .PHONY : Source/FreeImage/PluginTIFF.cpp.i
 
 Source/FreeImage/PluginTIFF.s: Source/FreeImage/PluginTIFF.cpp.s
@@ -1312,7 +1312,7 @@ Source/FreeImage/PluginTIFF.s: Source/FreeImage/PluginTIFF.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginTIFF.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginTIFF.cpp.s
 .PHONY : Source/FreeImage/PluginTIFF.cpp.s
 
 Source/FreeImage/PluginWBMP.o: Source/FreeImage/PluginWBMP.cpp.o
@@ -1320,7 +1320,7 @@ Source/FreeImage/PluginWBMP.o: Source/FreeImage/PluginWBMP.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginWBMP.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.o
 .PHONY : Source/FreeImage/PluginWBMP.cpp.o
 
 Source/FreeImage/PluginWBMP.i: Source/FreeImage/PluginWBMP.cpp.i
@@ -1328,7 +1328,7 @@ Source/FreeImage/PluginWBMP.i: Source/FreeImage/PluginWBMP.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginWBMP.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.i
 .PHONY : Source/FreeImage/PluginWBMP.cpp.i
 
 Source/FreeImage/PluginWBMP.s: Source/FreeImage/PluginWBMP.cpp.s
@@ -1336,7 +1336,7 @@ Source/FreeImage/PluginWBMP.s: Source/FreeImage/PluginWBMP.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginWBMP.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginWBMP.cpp.s
 .PHONY : Source/FreeImage/PluginWBMP.cpp.s
 
 Source/FreeImage/PluginXBM.o: Source/FreeImage/PluginXBM.cpp.o
@@ -1344,7 +1344,7 @@ Source/FreeImage/PluginXBM.o: Source/FreeImage/PluginXBM.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginXBM.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.o
 .PHONY : Source/FreeImage/PluginXBM.cpp.o
 
 Source/FreeImage/PluginXBM.i: Source/FreeImage/PluginXBM.cpp.i
@@ -1352,7 +1352,7 @@ Source/FreeImage/PluginXBM.i: Source/FreeImage/PluginXBM.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginXBM.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.i
 .PHONY : Source/FreeImage/PluginXBM.cpp.i
 
 Source/FreeImage/PluginXBM.s: Source/FreeImage/PluginXBM.cpp.s
@@ -1360,7 +1360,7 @@ Source/FreeImage/PluginXBM.s: Source/FreeImage/PluginXBM.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginXBM.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXBM.cpp.s
 .PHONY : Source/FreeImage/PluginXBM.cpp.s
 
 Source/FreeImage/PluginXPM.o: Source/FreeImage/PluginXPM.cpp.o
@@ -1368,7 +1368,7 @@ Source/FreeImage/PluginXPM.o: Source/FreeImage/PluginXPM.cpp.o
 
 # target to build an object file
 Source/FreeImage/PluginXPM.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.o
 .PHONY : Source/FreeImage/PluginXPM.cpp.o
 
 Source/FreeImage/PluginXPM.i: Source/FreeImage/PluginXPM.cpp.i
@@ -1376,7 +1376,7 @@ Source/FreeImage/PluginXPM.i: Source/FreeImage/PluginXPM.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/PluginXPM.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.i
 .PHONY : Source/FreeImage/PluginXPM.cpp.i
 
 Source/FreeImage/PluginXPM.s: Source/FreeImage/PluginXPM.cpp.s
@@ -1384,7 +1384,7 @@ Source/FreeImage/PluginXPM.s: Source/FreeImage/PluginXPM.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/PluginXPM.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/PluginXPM.cpp.s
 .PHONY : Source/FreeImage/PluginXPM.cpp.s
 
 Source/FreeImage/TIFFLogLuv.o: Source/FreeImage/TIFFLogLuv.cpp.o
@@ -1392,7 +1392,7 @@ Source/FreeImage/TIFFLogLuv.o: Source/FreeImage/TIFFLogLuv.cpp.o
 
 # target to build an object file
 Source/FreeImage/TIFFLogLuv.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.o
 .PHONY : Source/FreeImage/TIFFLogLuv.cpp.o
 
 Source/FreeImage/TIFFLogLuv.i: Source/FreeImage/TIFFLogLuv.cpp.i
@@ -1400,7 +1400,7 @@ Source/FreeImage/TIFFLogLuv.i: Source/FreeImage/TIFFLogLuv.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/TIFFLogLuv.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.i
 .PHONY : Source/FreeImage/TIFFLogLuv.cpp.i
 
 Source/FreeImage/TIFFLogLuv.s: Source/FreeImage/TIFFLogLuv.cpp.s
@@ -1408,7 +1408,7 @@ Source/FreeImage/TIFFLogLuv.s: Source/FreeImage/TIFFLogLuv.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/TIFFLogLuv.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/TIFFLogLuv.cpp.s
 .PHONY : Source/FreeImage/TIFFLogLuv.cpp.s
 
 Source/FreeImage/ToneMapping.o: Source/FreeImage/ToneMapping.cpp.o
@@ -1416,7 +1416,7 @@ Source/FreeImage/ToneMapping.o: Source/FreeImage/ToneMapping.cpp.o
 
 # target to build an object file
 Source/FreeImage/ToneMapping.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.o
 .PHONY : Source/FreeImage/ToneMapping.cpp.o
 
 Source/FreeImage/ToneMapping.i: Source/FreeImage/ToneMapping.cpp.i
@@ -1424,7 +1424,7 @@ Source/FreeImage/ToneMapping.i: Source/FreeImage/ToneMapping.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ToneMapping.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.i
 .PHONY : Source/FreeImage/ToneMapping.cpp.i
 
 Source/FreeImage/ToneMapping.s: Source/FreeImage/ToneMapping.cpp.s
@@ -1432,7 +1432,7 @@ Source/FreeImage/ToneMapping.s: Source/FreeImage/ToneMapping.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ToneMapping.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ToneMapping.cpp.s
 .PHONY : Source/FreeImage/ToneMapping.cpp.s
 
 Source/FreeImage/WuQuantizer.o: Source/FreeImage/WuQuantizer.cpp.o
@@ -1440,7 +1440,7 @@ Source/FreeImage/WuQuantizer.o: Source/FreeImage/WuQuantizer.cpp.o
 
 # target to build an object file
 Source/FreeImage/WuQuantizer.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.o
 .PHONY : Source/FreeImage/WuQuantizer.cpp.o
 
 Source/FreeImage/WuQuantizer.i: Source/FreeImage/WuQuantizer.cpp.i
@@ -1448,7 +1448,7 @@ Source/FreeImage/WuQuantizer.i: Source/FreeImage/WuQuantizer.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/WuQuantizer.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.i
 .PHONY : Source/FreeImage/WuQuantizer.cpp.i
 
 Source/FreeImage/WuQuantizer.s: Source/FreeImage/WuQuantizer.cpp.s
@@ -1456,7 +1456,7 @@ Source/FreeImage/WuQuantizer.s: Source/FreeImage/WuQuantizer.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/WuQuantizer.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/WuQuantizer.cpp.s
 .PHONY : Source/FreeImage/WuQuantizer.cpp.s
 
 Source/FreeImage/ZLibInterface.o: Source/FreeImage/ZLibInterface.cpp.o
@@ -1464,7 +1464,7 @@ Source/FreeImage/ZLibInterface.o: Source/FreeImage/ZLibInterface.cpp.o
 
 # target to build an object file
 Source/FreeImage/ZLibInterface.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.o
 .PHONY : Source/FreeImage/ZLibInterface.cpp.o
 
 Source/FreeImage/ZLibInterface.i: Source/FreeImage/ZLibInterface.cpp.i
@@ -1472,7 +1472,7 @@ Source/FreeImage/ZLibInterface.i: Source/FreeImage/ZLibInterface.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/ZLibInterface.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.i
 .PHONY : Source/FreeImage/ZLibInterface.cpp.i
 
 Source/FreeImage/ZLibInterface.s: Source/FreeImage/ZLibInterface.cpp.s
@@ -1480,7 +1480,7 @@ Source/FreeImage/ZLibInterface.s: Source/FreeImage/ZLibInterface.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/ZLibInterface.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/ZLibInterface.cpp.s
 .PHONY : Source/FreeImage/ZLibInterface.cpp.s
 
 Source/FreeImage/tmoColorConvert.o: Source/FreeImage/tmoColorConvert.cpp.o
@@ -1488,7 +1488,7 @@ Source/FreeImage/tmoColorConvert.o: Source/FreeImage/tmoColorConvert.cpp.o
 
 # target to build an object file
 Source/FreeImage/tmoColorConvert.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.o
 .PHONY : Source/FreeImage/tmoColorConvert.cpp.o
 
 Source/FreeImage/tmoColorConvert.i: Source/FreeImage/tmoColorConvert.cpp.i
@@ -1496,7 +1496,7 @@ Source/FreeImage/tmoColorConvert.i: Source/FreeImage/tmoColorConvert.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/tmoColorConvert.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.i
 .PHONY : Source/FreeImage/tmoColorConvert.cpp.i
 
 Source/FreeImage/tmoColorConvert.s: Source/FreeImage/tmoColorConvert.cpp.s
@@ -1504,7 +1504,7 @@ Source/FreeImage/tmoColorConvert.s: Source/FreeImage/tmoColorConvert.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/tmoColorConvert.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoColorConvert.cpp.s
 .PHONY : Source/FreeImage/tmoColorConvert.cpp.s
 
 Source/FreeImage/tmoDrago03.o: Source/FreeImage/tmoDrago03.cpp.o
@@ -1512,7 +1512,7 @@ Source/FreeImage/tmoDrago03.o: Source/FreeImage/tmoDrago03.cpp.o
 
 # target to build an object file
 Source/FreeImage/tmoDrago03.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.o
 .PHONY : Source/FreeImage/tmoDrago03.cpp.o
 
 Source/FreeImage/tmoDrago03.i: Source/FreeImage/tmoDrago03.cpp.i
@@ -1520,7 +1520,7 @@ Source/FreeImage/tmoDrago03.i: Source/FreeImage/tmoDrago03.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/tmoDrago03.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.i
 .PHONY : Source/FreeImage/tmoDrago03.cpp.i
 
 Source/FreeImage/tmoDrago03.s: Source/FreeImage/tmoDrago03.cpp.s
@@ -1528,7 +1528,7 @@ Source/FreeImage/tmoDrago03.s: Source/FreeImage/tmoDrago03.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/tmoDrago03.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoDrago03.cpp.s
 .PHONY : Source/FreeImage/tmoDrago03.cpp.s
 
 Source/FreeImage/tmoFattal02.o: Source/FreeImage/tmoFattal02.cpp.o
@@ -1536,7 +1536,7 @@ Source/FreeImage/tmoFattal02.o: Source/FreeImage/tmoFattal02.cpp.o
 
 # target to build an object file
 Source/FreeImage/tmoFattal02.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.o
 .PHONY : Source/FreeImage/tmoFattal02.cpp.o
 
 Source/FreeImage/tmoFattal02.i: Source/FreeImage/tmoFattal02.cpp.i
@@ -1544,7 +1544,7 @@ Source/FreeImage/tmoFattal02.i: Source/FreeImage/tmoFattal02.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/tmoFattal02.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.i
 .PHONY : Source/FreeImage/tmoFattal02.cpp.i
 
 Source/FreeImage/tmoFattal02.s: Source/FreeImage/tmoFattal02.cpp.s
@@ -1552,7 +1552,7 @@ Source/FreeImage/tmoFattal02.s: Source/FreeImage/tmoFattal02.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/tmoFattal02.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoFattal02.cpp.s
 .PHONY : Source/FreeImage/tmoFattal02.cpp.s
 
 Source/FreeImage/tmoReinhard05.o: Source/FreeImage/tmoReinhard05.cpp.o
@@ -1560,7 +1560,7 @@ Source/FreeImage/tmoReinhard05.o: Source/FreeImage/tmoReinhard05.cpp.o
 
 # target to build an object file
 Source/FreeImage/tmoReinhard05.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.o
 .PHONY : Source/FreeImage/tmoReinhard05.cpp.o
 
 Source/FreeImage/tmoReinhard05.i: Source/FreeImage/tmoReinhard05.cpp.i
@@ -1568,7 +1568,7 @@ Source/FreeImage/tmoReinhard05.i: Source/FreeImage/tmoReinhard05.cpp.i
 
 # target to preprocess a source file
 Source/FreeImage/tmoReinhard05.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.i
 .PHONY : Source/FreeImage/tmoReinhard05.cpp.i
 
 Source/FreeImage/tmoReinhard05.s: Source/FreeImage/tmoReinhard05.cpp.s
@@ -1576,7 +1576,7 @@ Source/FreeImage/tmoReinhard05.s: Source/FreeImage/tmoReinhard05.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImage/tmoReinhard05.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImage/tmoReinhard05.cpp.s
 .PHONY : Source/FreeImage/tmoReinhard05.cpp.s
 
 Source/FreeImageToolkit/BSplineRotate.o: Source/FreeImageToolkit/BSplineRotate.cpp.o
@@ -1584,7 +1584,7 @@ Source/FreeImageToolkit/BSplineRotate.o: Source/FreeImageToolkit/BSplineRotate.c
 
 # target to build an object file
 Source/FreeImageToolkit/BSplineRotate.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.o
 .PHONY : Source/FreeImageToolkit/BSplineRotate.cpp.o
 
 Source/FreeImageToolkit/BSplineRotate.i: Source/FreeImageToolkit/BSplineRotate.cpp.i
@@ -1592,7 +1592,7 @@ Source/FreeImageToolkit/BSplineRotate.i: Source/FreeImageToolkit/BSplineRotate.c
 
 # target to preprocess a source file
 Source/FreeImageToolkit/BSplineRotate.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.i
 .PHONY : Source/FreeImageToolkit/BSplineRotate.cpp.i
 
 Source/FreeImageToolkit/BSplineRotate.s: Source/FreeImageToolkit/BSplineRotate.cpp.s
@@ -1600,7 +1600,7 @@ Source/FreeImageToolkit/BSplineRotate.s: Source/FreeImageToolkit/BSplineRotate.c
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/BSplineRotate.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/BSplineRotate.cpp.s
 .PHONY : Source/FreeImageToolkit/BSplineRotate.cpp.s
 
 Source/FreeImageToolkit/Background.o: Source/FreeImageToolkit/Background.cpp.o
@@ -1608,7 +1608,7 @@ Source/FreeImageToolkit/Background.o: Source/FreeImageToolkit/Background.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Background.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.o
 .PHONY : Source/FreeImageToolkit/Background.cpp.o
 
 Source/FreeImageToolkit/Background.i: Source/FreeImageToolkit/Background.cpp.i
@@ -1616,7 +1616,7 @@ Source/FreeImageToolkit/Background.i: Source/FreeImageToolkit/Background.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Background.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.i
 .PHONY : Source/FreeImageToolkit/Background.cpp.i
 
 Source/FreeImageToolkit/Background.s: Source/FreeImageToolkit/Background.cpp.s
@@ -1624,7 +1624,7 @@ Source/FreeImageToolkit/Background.s: Source/FreeImageToolkit/Background.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Background.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Background.cpp.s
 .PHONY : Source/FreeImageToolkit/Background.cpp.s
 
 Source/FreeImageToolkit/Channels.o: Source/FreeImageToolkit/Channels.cpp.o
@@ -1632,7 +1632,7 @@ Source/FreeImageToolkit/Channels.o: Source/FreeImageToolkit/Channels.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Channels.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.o
 .PHONY : Source/FreeImageToolkit/Channels.cpp.o
 
 Source/FreeImageToolkit/Channels.i: Source/FreeImageToolkit/Channels.cpp.i
@@ -1640,7 +1640,7 @@ Source/FreeImageToolkit/Channels.i: Source/FreeImageToolkit/Channels.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Channels.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.i
 .PHONY : Source/FreeImageToolkit/Channels.cpp.i
 
 Source/FreeImageToolkit/Channels.s: Source/FreeImageToolkit/Channels.cpp.s
@@ -1648,7 +1648,7 @@ Source/FreeImageToolkit/Channels.s: Source/FreeImageToolkit/Channels.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Channels.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Channels.cpp.s
 .PHONY : Source/FreeImageToolkit/Channels.cpp.s
 
 Source/FreeImageToolkit/ClassicRotate.o: Source/FreeImageToolkit/ClassicRotate.cpp.o
@@ -1656,7 +1656,7 @@ Source/FreeImageToolkit/ClassicRotate.o: Source/FreeImageToolkit/ClassicRotate.c
 
 # target to build an object file
 Source/FreeImageToolkit/ClassicRotate.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.o
 .PHONY : Source/FreeImageToolkit/ClassicRotate.cpp.o
 
 Source/FreeImageToolkit/ClassicRotate.i: Source/FreeImageToolkit/ClassicRotate.cpp.i
@@ -1664,7 +1664,7 @@ Source/FreeImageToolkit/ClassicRotate.i: Source/FreeImageToolkit/ClassicRotate.c
 
 # target to preprocess a source file
 Source/FreeImageToolkit/ClassicRotate.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.i
 .PHONY : Source/FreeImageToolkit/ClassicRotate.cpp.i
 
 Source/FreeImageToolkit/ClassicRotate.s: Source/FreeImageToolkit/ClassicRotate.cpp.s
@@ -1672,7 +1672,7 @@ Source/FreeImageToolkit/ClassicRotate.s: Source/FreeImageToolkit/ClassicRotate.c
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/ClassicRotate.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/ClassicRotate.cpp.s
 .PHONY : Source/FreeImageToolkit/ClassicRotate.cpp.s
 
 Source/FreeImageToolkit/Colors.o: Source/FreeImageToolkit/Colors.cpp.o
@@ -1680,7 +1680,7 @@ Source/FreeImageToolkit/Colors.o: Source/FreeImageToolkit/Colors.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Colors.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.o
 .PHONY : Source/FreeImageToolkit/Colors.cpp.o
 
 Source/FreeImageToolkit/Colors.i: Source/FreeImageToolkit/Colors.cpp.i
@@ -1688,7 +1688,7 @@ Source/FreeImageToolkit/Colors.i: Source/FreeImageToolkit/Colors.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Colors.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.i
 .PHONY : Source/FreeImageToolkit/Colors.cpp.i
 
 Source/FreeImageToolkit/Colors.s: Source/FreeImageToolkit/Colors.cpp.s
@@ -1696,7 +1696,7 @@ Source/FreeImageToolkit/Colors.s: Source/FreeImageToolkit/Colors.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Colors.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Colors.cpp.s
 .PHONY : Source/FreeImageToolkit/Colors.cpp.s
 
 Source/FreeImageToolkit/CopyPaste.o: Source/FreeImageToolkit/CopyPaste.cpp.o
@@ -1704,7 +1704,7 @@ Source/FreeImageToolkit/CopyPaste.o: Source/FreeImageToolkit/CopyPaste.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/CopyPaste.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.o
 .PHONY : Source/FreeImageToolkit/CopyPaste.cpp.o
 
 Source/FreeImageToolkit/CopyPaste.i: Source/FreeImageToolkit/CopyPaste.cpp.i
@@ -1712,7 +1712,7 @@ Source/FreeImageToolkit/CopyPaste.i: Source/FreeImageToolkit/CopyPaste.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/CopyPaste.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.i
 .PHONY : Source/FreeImageToolkit/CopyPaste.cpp.i
 
 Source/FreeImageToolkit/CopyPaste.s: Source/FreeImageToolkit/CopyPaste.cpp.s
@@ -1720,7 +1720,7 @@ Source/FreeImageToolkit/CopyPaste.s: Source/FreeImageToolkit/CopyPaste.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/CopyPaste.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/CopyPaste.cpp.s
 .PHONY : Source/FreeImageToolkit/CopyPaste.cpp.s
 
 Source/FreeImageToolkit/Display.o: Source/FreeImageToolkit/Display.cpp.o
@@ -1728,7 +1728,7 @@ Source/FreeImageToolkit/Display.o: Source/FreeImageToolkit/Display.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Display.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.o
 .PHONY : Source/FreeImageToolkit/Display.cpp.o
 
 Source/FreeImageToolkit/Display.i: Source/FreeImageToolkit/Display.cpp.i
@@ -1736,7 +1736,7 @@ Source/FreeImageToolkit/Display.i: Source/FreeImageToolkit/Display.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Display.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.i
 .PHONY : Source/FreeImageToolkit/Display.cpp.i
 
 Source/FreeImageToolkit/Display.s: Source/FreeImageToolkit/Display.cpp.s
@@ -1744,7 +1744,7 @@ Source/FreeImageToolkit/Display.s: Source/FreeImageToolkit/Display.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Display.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Display.cpp.s
 .PHONY : Source/FreeImageToolkit/Display.cpp.s
 
 Source/FreeImageToolkit/Flip.o: Source/FreeImageToolkit/Flip.cpp.o
@@ -1752,7 +1752,7 @@ Source/FreeImageToolkit/Flip.o: Source/FreeImageToolkit/Flip.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Flip.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.o
 .PHONY : Source/FreeImageToolkit/Flip.cpp.o
 
 Source/FreeImageToolkit/Flip.i: Source/FreeImageToolkit/Flip.cpp.i
@@ -1760,7 +1760,7 @@ Source/FreeImageToolkit/Flip.i: Source/FreeImageToolkit/Flip.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Flip.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.i
 .PHONY : Source/FreeImageToolkit/Flip.cpp.i
 
 Source/FreeImageToolkit/Flip.s: Source/FreeImageToolkit/Flip.cpp.s
@@ -1768,7 +1768,7 @@ Source/FreeImageToolkit/Flip.s: Source/FreeImageToolkit/Flip.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Flip.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Flip.cpp.s
 .PHONY : Source/FreeImageToolkit/Flip.cpp.s
 
 Source/FreeImageToolkit/JPEGTransform.o: Source/FreeImageToolkit/JPEGTransform.cpp.o
@@ -1776,7 +1776,7 @@ Source/FreeImageToolkit/JPEGTransform.o: Source/FreeImageToolkit/JPEGTransform.c
 
 # target to build an object file
 Source/FreeImageToolkit/JPEGTransform.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.o
 .PHONY : Source/FreeImageToolkit/JPEGTransform.cpp.o
 
 Source/FreeImageToolkit/JPEGTransform.i: Source/FreeImageToolkit/JPEGTransform.cpp.i
@@ -1784,7 +1784,7 @@ Source/FreeImageToolkit/JPEGTransform.i: Source/FreeImageToolkit/JPEGTransform.c
 
 # target to preprocess a source file
 Source/FreeImageToolkit/JPEGTransform.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.i
 .PHONY : Source/FreeImageToolkit/JPEGTransform.cpp.i
 
 Source/FreeImageToolkit/JPEGTransform.s: Source/FreeImageToolkit/JPEGTransform.cpp.s
@@ -1792,7 +1792,7 @@ Source/FreeImageToolkit/JPEGTransform.s: Source/FreeImageToolkit/JPEGTransform.c
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/JPEGTransform.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/JPEGTransform.cpp.s
 .PHONY : Source/FreeImageToolkit/JPEGTransform.cpp.s
 
 Source/FreeImageToolkit/MultigridPoissonSolver.o: Source/FreeImageToolkit/MultigridPoissonSolver.cpp.o
@@ -1800,7 +1800,7 @@ Source/FreeImageToolkit/MultigridPoissonSolver.o: Source/FreeImageToolkit/Multig
 
 # target to build an object file
 Source/FreeImageToolkit/MultigridPoissonSolver.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.o
 .PHONY : Source/FreeImageToolkit/MultigridPoissonSolver.cpp.o
 
 Source/FreeImageToolkit/MultigridPoissonSolver.i: Source/FreeImageToolkit/MultigridPoissonSolver.cpp.i
@@ -1808,7 +1808,7 @@ Source/FreeImageToolkit/MultigridPoissonSolver.i: Source/FreeImageToolkit/Multig
 
 # target to preprocess a source file
 Source/FreeImageToolkit/MultigridPoissonSolver.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.i
 .PHONY : Source/FreeImageToolkit/MultigridPoissonSolver.cpp.i
 
 Source/FreeImageToolkit/MultigridPoissonSolver.s: Source/FreeImageToolkit/MultigridPoissonSolver.cpp.s
@@ -1816,7 +1816,7 @@ Source/FreeImageToolkit/MultigridPoissonSolver.s: Source/FreeImageToolkit/Multig
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/MultigridPoissonSolver.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/MultigridPoissonSolver.cpp.s
 .PHONY : Source/FreeImageToolkit/MultigridPoissonSolver.cpp.s
 
 Source/FreeImageToolkit/Rescale.o: Source/FreeImageToolkit/Rescale.cpp.o
@@ -1824,7 +1824,7 @@ Source/FreeImageToolkit/Rescale.o: Source/FreeImageToolkit/Rescale.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Rescale.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.o
 .PHONY : Source/FreeImageToolkit/Rescale.cpp.o
 
 Source/FreeImageToolkit/Rescale.i: Source/FreeImageToolkit/Rescale.cpp.i
@@ -1832,7 +1832,7 @@ Source/FreeImageToolkit/Rescale.i: Source/FreeImageToolkit/Rescale.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Rescale.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.i
 .PHONY : Source/FreeImageToolkit/Rescale.cpp.i
 
 Source/FreeImageToolkit/Rescale.s: Source/FreeImageToolkit/Rescale.cpp.s
@@ -1840,7 +1840,7 @@ Source/FreeImageToolkit/Rescale.s: Source/FreeImageToolkit/Rescale.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Rescale.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Rescale.cpp.s
 .PHONY : Source/FreeImageToolkit/Rescale.cpp.s
 
 Source/FreeImageToolkit/Resize.o: Source/FreeImageToolkit/Resize.cpp.o
@@ -1848,7 +1848,7 @@ Source/FreeImageToolkit/Resize.o: Source/FreeImageToolkit/Resize.cpp.o
 
 # target to build an object file
 Source/FreeImageToolkit/Resize.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.o
 .PHONY : Source/FreeImageToolkit/Resize.cpp.o
 
 Source/FreeImageToolkit/Resize.i: Source/FreeImageToolkit/Resize.cpp.i
@@ -1856,7 +1856,7 @@ Source/FreeImageToolkit/Resize.i: Source/FreeImageToolkit/Resize.cpp.i
 
 # target to preprocess a source file
 Source/FreeImageToolkit/Resize.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.i
 .PHONY : Source/FreeImageToolkit/Resize.cpp.i
 
 Source/FreeImageToolkit/Resize.s: Source/FreeImageToolkit/Resize.cpp.s
@@ -1864,7 +1864,7 @@ Source/FreeImageToolkit/Resize.s: Source/FreeImageToolkit/Resize.cpp.s
 
 # target to generate assembly for a file
 Source/FreeImageToolkit/Resize.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/FreeImageToolkit/Resize.cpp.s
 .PHONY : Source/FreeImageToolkit/Resize.cpp.s
 
 Source/LibJPEG/jaricom.o: Source/LibJPEG/jaricom.c.o
@@ -1872,7 +1872,7 @@ Source/LibJPEG/jaricom.o: Source/LibJPEG/jaricom.c.o
 
 # target to build an object file
 Source/LibJPEG/jaricom.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.o
 .PHONY : Source/LibJPEG/jaricom.c.o
 
 Source/LibJPEG/jaricom.i: Source/LibJPEG/jaricom.c.i
@@ -1880,7 +1880,7 @@ Source/LibJPEG/jaricom.i: Source/LibJPEG/jaricom.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jaricom.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.i
 .PHONY : Source/LibJPEG/jaricom.c.i
 
 Source/LibJPEG/jaricom.s: Source/LibJPEG/jaricom.c.s
@@ -1888,7 +1888,7 @@ Source/LibJPEG/jaricom.s: Source/LibJPEG/jaricom.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jaricom.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jaricom.c.s
 .PHONY : Source/LibJPEG/jaricom.c.s
 
 Source/LibJPEG/jcapimin.o: Source/LibJPEG/jcapimin.c.o
@@ -1896,7 +1896,7 @@ Source/LibJPEG/jcapimin.o: Source/LibJPEG/jcapimin.c.o
 
 # target to build an object file
 Source/LibJPEG/jcapimin.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.o
 .PHONY : Source/LibJPEG/jcapimin.c.o
 
 Source/LibJPEG/jcapimin.i: Source/LibJPEG/jcapimin.c.i
@@ -1904,7 +1904,7 @@ Source/LibJPEG/jcapimin.i: Source/LibJPEG/jcapimin.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcapimin.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.i
 .PHONY : Source/LibJPEG/jcapimin.c.i
 
 Source/LibJPEG/jcapimin.s: Source/LibJPEG/jcapimin.c.s
@@ -1912,7 +1912,7 @@ Source/LibJPEG/jcapimin.s: Source/LibJPEG/jcapimin.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcapimin.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapimin.c.s
 .PHONY : Source/LibJPEG/jcapimin.c.s
 
 Source/LibJPEG/jcapistd.o: Source/LibJPEG/jcapistd.c.o
@@ -1920,7 +1920,7 @@ Source/LibJPEG/jcapistd.o: Source/LibJPEG/jcapistd.c.o
 
 # target to build an object file
 Source/LibJPEG/jcapistd.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.o
 .PHONY : Source/LibJPEG/jcapistd.c.o
 
 Source/LibJPEG/jcapistd.i: Source/LibJPEG/jcapistd.c.i
@@ -1928,7 +1928,7 @@ Source/LibJPEG/jcapistd.i: Source/LibJPEG/jcapistd.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcapistd.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.i
 .PHONY : Source/LibJPEG/jcapistd.c.i
 
 Source/LibJPEG/jcapistd.s: Source/LibJPEG/jcapistd.c.s
@@ -1936,7 +1936,7 @@ Source/LibJPEG/jcapistd.s: Source/LibJPEG/jcapistd.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcapistd.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcapistd.c.s
 .PHONY : Source/LibJPEG/jcapistd.c.s
 
 Source/LibJPEG/jcarith.o: Source/LibJPEG/jcarith.c.o
@@ -1944,7 +1944,7 @@ Source/LibJPEG/jcarith.o: Source/LibJPEG/jcarith.c.o
 
 # target to build an object file
 Source/LibJPEG/jcarith.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.o
 .PHONY : Source/LibJPEG/jcarith.c.o
 
 Source/LibJPEG/jcarith.i: Source/LibJPEG/jcarith.c.i
@@ -1952,7 +1952,7 @@ Source/LibJPEG/jcarith.i: Source/LibJPEG/jcarith.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcarith.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.i
 .PHONY : Source/LibJPEG/jcarith.c.i
 
 Source/LibJPEG/jcarith.s: Source/LibJPEG/jcarith.c.s
@@ -1960,7 +1960,7 @@ Source/LibJPEG/jcarith.s: Source/LibJPEG/jcarith.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcarith.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcarith.c.s
 .PHONY : Source/LibJPEG/jcarith.c.s
 
 Source/LibJPEG/jccoefct.o: Source/LibJPEG/jccoefct.c.o
@@ -1968,7 +1968,7 @@ Source/LibJPEG/jccoefct.o: Source/LibJPEG/jccoefct.c.o
 
 # target to build an object file
 Source/LibJPEG/jccoefct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.o
 .PHONY : Source/LibJPEG/jccoefct.c.o
 
 Source/LibJPEG/jccoefct.i: Source/LibJPEG/jccoefct.c.i
@@ -1976,7 +1976,7 @@ Source/LibJPEG/jccoefct.i: Source/LibJPEG/jccoefct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jccoefct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.i
 .PHONY : Source/LibJPEG/jccoefct.c.i
 
 Source/LibJPEG/jccoefct.s: Source/LibJPEG/jccoefct.c.s
@@ -1984,7 +1984,7 @@ Source/LibJPEG/jccoefct.s: Source/LibJPEG/jccoefct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jccoefct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccoefct.c.s
 .PHONY : Source/LibJPEG/jccoefct.c.s
 
 Source/LibJPEG/jccolor.o: Source/LibJPEG/jccolor.c.o
@@ -1992,7 +1992,7 @@ Source/LibJPEG/jccolor.o: Source/LibJPEG/jccolor.c.o
 
 # target to build an object file
 Source/LibJPEG/jccolor.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.o
 .PHONY : Source/LibJPEG/jccolor.c.o
 
 Source/LibJPEG/jccolor.i: Source/LibJPEG/jccolor.c.i
@@ -2000,7 +2000,7 @@ Source/LibJPEG/jccolor.i: Source/LibJPEG/jccolor.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jccolor.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.i
 .PHONY : Source/LibJPEG/jccolor.c.i
 
 Source/LibJPEG/jccolor.s: Source/LibJPEG/jccolor.c.s
@@ -2008,7 +2008,7 @@ Source/LibJPEG/jccolor.s: Source/LibJPEG/jccolor.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jccolor.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jccolor.c.s
 .PHONY : Source/LibJPEG/jccolor.c.s
 
 Source/LibJPEG/jcdctmgr.o: Source/LibJPEG/jcdctmgr.c.o
@@ -2016,7 +2016,7 @@ Source/LibJPEG/jcdctmgr.o: Source/LibJPEG/jcdctmgr.c.o
 
 # target to build an object file
 Source/LibJPEG/jcdctmgr.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.o
 .PHONY : Source/LibJPEG/jcdctmgr.c.o
 
 Source/LibJPEG/jcdctmgr.i: Source/LibJPEG/jcdctmgr.c.i
@@ -2024,7 +2024,7 @@ Source/LibJPEG/jcdctmgr.i: Source/LibJPEG/jcdctmgr.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcdctmgr.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.i
 .PHONY : Source/LibJPEG/jcdctmgr.c.i
 
 Source/LibJPEG/jcdctmgr.s: Source/LibJPEG/jcdctmgr.c.s
@@ -2032,7 +2032,7 @@ Source/LibJPEG/jcdctmgr.s: Source/LibJPEG/jcdctmgr.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcdctmgr.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcdctmgr.c.s
 .PHONY : Source/LibJPEG/jcdctmgr.c.s
 
 Source/LibJPEG/jchuff.o: Source/LibJPEG/jchuff.c.o
@@ -2040,7 +2040,7 @@ Source/LibJPEG/jchuff.o: Source/LibJPEG/jchuff.c.o
 
 # target to build an object file
 Source/LibJPEG/jchuff.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.o
 .PHONY : Source/LibJPEG/jchuff.c.o
 
 Source/LibJPEG/jchuff.i: Source/LibJPEG/jchuff.c.i
@@ -2048,7 +2048,7 @@ Source/LibJPEG/jchuff.i: Source/LibJPEG/jchuff.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jchuff.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.i
 .PHONY : Source/LibJPEG/jchuff.c.i
 
 Source/LibJPEG/jchuff.s: Source/LibJPEG/jchuff.c.s
@@ -2056,7 +2056,7 @@ Source/LibJPEG/jchuff.s: Source/LibJPEG/jchuff.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jchuff.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jchuff.c.s
 .PHONY : Source/LibJPEG/jchuff.c.s
 
 Source/LibJPEG/jcinit.o: Source/LibJPEG/jcinit.c.o
@@ -2064,7 +2064,7 @@ Source/LibJPEG/jcinit.o: Source/LibJPEG/jcinit.c.o
 
 # target to build an object file
 Source/LibJPEG/jcinit.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.o
 .PHONY : Source/LibJPEG/jcinit.c.o
 
 Source/LibJPEG/jcinit.i: Source/LibJPEG/jcinit.c.i
@@ -2072,7 +2072,7 @@ Source/LibJPEG/jcinit.i: Source/LibJPEG/jcinit.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcinit.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.i
 .PHONY : Source/LibJPEG/jcinit.c.i
 
 Source/LibJPEG/jcinit.s: Source/LibJPEG/jcinit.c.s
@@ -2080,7 +2080,7 @@ Source/LibJPEG/jcinit.s: Source/LibJPEG/jcinit.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcinit.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcinit.c.s
 .PHONY : Source/LibJPEG/jcinit.c.s
 
 Source/LibJPEG/jcmainct.o: Source/LibJPEG/jcmainct.c.o
@@ -2088,7 +2088,7 @@ Source/LibJPEG/jcmainct.o: Source/LibJPEG/jcmainct.c.o
 
 # target to build an object file
 Source/LibJPEG/jcmainct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.o
 .PHONY : Source/LibJPEG/jcmainct.c.o
 
 Source/LibJPEG/jcmainct.i: Source/LibJPEG/jcmainct.c.i
@@ -2096,7 +2096,7 @@ Source/LibJPEG/jcmainct.i: Source/LibJPEG/jcmainct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcmainct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.i
 .PHONY : Source/LibJPEG/jcmainct.c.i
 
 Source/LibJPEG/jcmainct.s: Source/LibJPEG/jcmainct.c.s
@@ -2104,7 +2104,7 @@ Source/LibJPEG/jcmainct.s: Source/LibJPEG/jcmainct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcmainct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmainct.c.s
 .PHONY : Source/LibJPEG/jcmainct.c.s
 
 Source/LibJPEG/jcmarker.o: Source/LibJPEG/jcmarker.c.o
@@ -2112,7 +2112,7 @@ Source/LibJPEG/jcmarker.o: Source/LibJPEG/jcmarker.c.o
 
 # target to build an object file
 Source/LibJPEG/jcmarker.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.o
 .PHONY : Source/LibJPEG/jcmarker.c.o
 
 Source/LibJPEG/jcmarker.i: Source/LibJPEG/jcmarker.c.i
@@ -2120,7 +2120,7 @@ Source/LibJPEG/jcmarker.i: Source/LibJPEG/jcmarker.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcmarker.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.i
 .PHONY : Source/LibJPEG/jcmarker.c.i
 
 Source/LibJPEG/jcmarker.s: Source/LibJPEG/jcmarker.c.s
@@ -2128,7 +2128,7 @@ Source/LibJPEG/jcmarker.s: Source/LibJPEG/jcmarker.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcmarker.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmarker.c.s
 .PHONY : Source/LibJPEG/jcmarker.c.s
 
 Source/LibJPEG/jcmaster.o: Source/LibJPEG/jcmaster.c.o
@@ -2136,7 +2136,7 @@ Source/LibJPEG/jcmaster.o: Source/LibJPEG/jcmaster.c.o
 
 # target to build an object file
 Source/LibJPEG/jcmaster.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.o
 .PHONY : Source/LibJPEG/jcmaster.c.o
 
 Source/LibJPEG/jcmaster.i: Source/LibJPEG/jcmaster.c.i
@@ -2144,7 +2144,7 @@ Source/LibJPEG/jcmaster.i: Source/LibJPEG/jcmaster.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcmaster.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.i
 .PHONY : Source/LibJPEG/jcmaster.c.i
 
 Source/LibJPEG/jcmaster.s: Source/LibJPEG/jcmaster.c.s
@@ -2152,7 +2152,7 @@ Source/LibJPEG/jcmaster.s: Source/LibJPEG/jcmaster.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcmaster.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcmaster.c.s
 .PHONY : Source/LibJPEG/jcmaster.c.s
 
 Source/LibJPEG/jcomapi.o: Source/LibJPEG/jcomapi.c.o
@@ -2160,7 +2160,7 @@ Source/LibJPEG/jcomapi.o: Source/LibJPEG/jcomapi.c.o
 
 # target to build an object file
 Source/LibJPEG/jcomapi.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.o
 .PHONY : Source/LibJPEG/jcomapi.c.o
 
 Source/LibJPEG/jcomapi.i: Source/LibJPEG/jcomapi.c.i
@@ -2168,7 +2168,7 @@ Source/LibJPEG/jcomapi.i: Source/LibJPEG/jcomapi.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcomapi.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.i
 .PHONY : Source/LibJPEG/jcomapi.c.i
 
 Source/LibJPEG/jcomapi.s: Source/LibJPEG/jcomapi.c.s
@@ -2176,7 +2176,7 @@ Source/LibJPEG/jcomapi.s: Source/LibJPEG/jcomapi.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcomapi.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcomapi.c.s
 .PHONY : Source/LibJPEG/jcomapi.c.s
 
 Source/LibJPEG/jcparam.o: Source/LibJPEG/jcparam.c.o
@@ -2184,7 +2184,7 @@ Source/LibJPEG/jcparam.o: Source/LibJPEG/jcparam.c.o
 
 # target to build an object file
 Source/LibJPEG/jcparam.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.o
 .PHONY : Source/LibJPEG/jcparam.c.o
 
 Source/LibJPEG/jcparam.i: Source/LibJPEG/jcparam.c.i
@@ -2192,7 +2192,7 @@ Source/LibJPEG/jcparam.i: Source/LibJPEG/jcparam.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcparam.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.i
 .PHONY : Source/LibJPEG/jcparam.c.i
 
 Source/LibJPEG/jcparam.s: Source/LibJPEG/jcparam.c.s
@@ -2200,7 +2200,7 @@ Source/LibJPEG/jcparam.s: Source/LibJPEG/jcparam.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcparam.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcparam.c.s
 .PHONY : Source/LibJPEG/jcparam.c.s
 
 Source/LibJPEG/jcprepct.o: Source/LibJPEG/jcprepct.c.o
@@ -2208,7 +2208,7 @@ Source/LibJPEG/jcprepct.o: Source/LibJPEG/jcprepct.c.o
 
 # target to build an object file
 Source/LibJPEG/jcprepct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.o
 .PHONY : Source/LibJPEG/jcprepct.c.o
 
 Source/LibJPEG/jcprepct.i: Source/LibJPEG/jcprepct.c.i
@@ -2216,7 +2216,7 @@ Source/LibJPEG/jcprepct.i: Source/LibJPEG/jcprepct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcprepct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.i
 .PHONY : Source/LibJPEG/jcprepct.c.i
 
 Source/LibJPEG/jcprepct.s: Source/LibJPEG/jcprepct.c.s
@@ -2224,7 +2224,7 @@ Source/LibJPEG/jcprepct.s: Source/LibJPEG/jcprepct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcprepct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcprepct.c.s
 .PHONY : Source/LibJPEG/jcprepct.c.s
 
 Source/LibJPEG/jcsample.o: Source/LibJPEG/jcsample.c.o
@@ -2232,7 +2232,7 @@ Source/LibJPEG/jcsample.o: Source/LibJPEG/jcsample.c.o
 
 # target to build an object file
 Source/LibJPEG/jcsample.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.o
 .PHONY : Source/LibJPEG/jcsample.c.o
 
 Source/LibJPEG/jcsample.i: Source/LibJPEG/jcsample.c.i
@@ -2240,7 +2240,7 @@ Source/LibJPEG/jcsample.i: Source/LibJPEG/jcsample.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jcsample.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.i
 .PHONY : Source/LibJPEG/jcsample.c.i
 
 Source/LibJPEG/jcsample.s: Source/LibJPEG/jcsample.c.s
@@ -2248,7 +2248,7 @@ Source/LibJPEG/jcsample.s: Source/LibJPEG/jcsample.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jcsample.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jcsample.c.s
 .PHONY : Source/LibJPEG/jcsample.c.s
 
 Source/LibJPEG/jctrans.o: Source/LibJPEG/jctrans.c.o
@@ -2256,7 +2256,7 @@ Source/LibJPEG/jctrans.o: Source/LibJPEG/jctrans.c.o
 
 # target to build an object file
 Source/LibJPEG/jctrans.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.o
 .PHONY : Source/LibJPEG/jctrans.c.o
 
 Source/LibJPEG/jctrans.i: Source/LibJPEG/jctrans.c.i
@@ -2264,7 +2264,7 @@ Source/LibJPEG/jctrans.i: Source/LibJPEG/jctrans.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jctrans.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.i
 .PHONY : Source/LibJPEG/jctrans.c.i
 
 Source/LibJPEG/jctrans.s: Source/LibJPEG/jctrans.c.s
@@ -2272,7 +2272,7 @@ Source/LibJPEG/jctrans.s: Source/LibJPEG/jctrans.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jctrans.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jctrans.c.s
 .PHONY : Source/LibJPEG/jctrans.c.s
 
 Source/LibJPEG/jdapimin.o: Source/LibJPEG/jdapimin.c.o
@@ -2280,7 +2280,7 @@ Source/LibJPEG/jdapimin.o: Source/LibJPEG/jdapimin.c.o
 
 # target to build an object file
 Source/LibJPEG/jdapimin.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.o
 .PHONY : Source/LibJPEG/jdapimin.c.o
 
 Source/LibJPEG/jdapimin.i: Source/LibJPEG/jdapimin.c.i
@@ -2288,7 +2288,7 @@ Source/LibJPEG/jdapimin.i: Source/LibJPEG/jdapimin.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdapimin.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.i
 .PHONY : Source/LibJPEG/jdapimin.c.i
 
 Source/LibJPEG/jdapimin.s: Source/LibJPEG/jdapimin.c.s
@@ -2296,7 +2296,7 @@ Source/LibJPEG/jdapimin.s: Source/LibJPEG/jdapimin.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdapimin.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapimin.c.s
 .PHONY : Source/LibJPEG/jdapimin.c.s
 
 Source/LibJPEG/jdapistd.o: Source/LibJPEG/jdapistd.c.o
@@ -2304,7 +2304,7 @@ Source/LibJPEG/jdapistd.o: Source/LibJPEG/jdapistd.c.o
 
 # target to build an object file
 Source/LibJPEG/jdapistd.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.o
 .PHONY : Source/LibJPEG/jdapistd.c.o
 
 Source/LibJPEG/jdapistd.i: Source/LibJPEG/jdapistd.c.i
@@ -2312,7 +2312,7 @@ Source/LibJPEG/jdapistd.i: Source/LibJPEG/jdapistd.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdapistd.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.i
 .PHONY : Source/LibJPEG/jdapistd.c.i
 
 Source/LibJPEG/jdapistd.s: Source/LibJPEG/jdapistd.c.s
@@ -2320,7 +2320,7 @@ Source/LibJPEG/jdapistd.s: Source/LibJPEG/jdapistd.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdapistd.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdapistd.c.s
 .PHONY : Source/LibJPEG/jdapistd.c.s
 
 Source/LibJPEG/jdarith.o: Source/LibJPEG/jdarith.c.o
@@ -2328,7 +2328,7 @@ Source/LibJPEG/jdarith.o: Source/LibJPEG/jdarith.c.o
 
 # target to build an object file
 Source/LibJPEG/jdarith.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.o
 .PHONY : Source/LibJPEG/jdarith.c.o
 
 Source/LibJPEG/jdarith.i: Source/LibJPEG/jdarith.c.i
@@ -2336,7 +2336,7 @@ Source/LibJPEG/jdarith.i: Source/LibJPEG/jdarith.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdarith.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.i
 .PHONY : Source/LibJPEG/jdarith.c.i
 
 Source/LibJPEG/jdarith.s: Source/LibJPEG/jdarith.c.s
@@ -2344,7 +2344,7 @@ Source/LibJPEG/jdarith.s: Source/LibJPEG/jdarith.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdarith.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdarith.c.s
 .PHONY : Source/LibJPEG/jdarith.c.s
 
 Source/LibJPEG/jdatadst.o: Source/LibJPEG/jdatadst.c.o
@@ -2352,7 +2352,7 @@ Source/LibJPEG/jdatadst.o: Source/LibJPEG/jdatadst.c.o
 
 # target to build an object file
 Source/LibJPEG/jdatadst.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.o
 .PHONY : Source/LibJPEG/jdatadst.c.o
 
 Source/LibJPEG/jdatadst.i: Source/LibJPEG/jdatadst.c.i
@@ -2360,7 +2360,7 @@ Source/LibJPEG/jdatadst.i: Source/LibJPEG/jdatadst.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdatadst.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.i
 .PHONY : Source/LibJPEG/jdatadst.c.i
 
 Source/LibJPEG/jdatadst.s: Source/LibJPEG/jdatadst.c.s
@@ -2368,7 +2368,7 @@ Source/LibJPEG/jdatadst.s: Source/LibJPEG/jdatadst.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdatadst.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatadst.c.s
 .PHONY : Source/LibJPEG/jdatadst.c.s
 
 Source/LibJPEG/jdatasrc.o: Source/LibJPEG/jdatasrc.c.o
@@ -2376,7 +2376,7 @@ Source/LibJPEG/jdatasrc.o: Source/LibJPEG/jdatasrc.c.o
 
 # target to build an object file
 Source/LibJPEG/jdatasrc.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.o
 .PHONY : Source/LibJPEG/jdatasrc.c.o
 
 Source/LibJPEG/jdatasrc.i: Source/LibJPEG/jdatasrc.c.i
@@ -2384,7 +2384,7 @@ Source/LibJPEG/jdatasrc.i: Source/LibJPEG/jdatasrc.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdatasrc.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.i
 .PHONY : Source/LibJPEG/jdatasrc.c.i
 
 Source/LibJPEG/jdatasrc.s: Source/LibJPEG/jdatasrc.c.s
@@ -2392,7 +2392,7 @@ Source/LibJPEG/jdatasrc.s: Source/LibJPEG/jdatasrc.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdatasrc.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdatasrc.c.s
 .PHONY : Source/LibJPEG/jdatasrc.c.s
 
 Source/LibJPEG/jdcoefct.o: Source/LibJPEG/jdcoefct.c.o
@@ -2400,7 +2400,7 @@ Source/LibJPEG/jdcoefct.o: Source/LibJPEG/jdcoefct.c.o
 
 # target to build an object file
 Source/LibJPEG/jdcoefct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.o
 .PHONY : Source/LibJPEG/jdcoefct.c.o
 
 Source/LibJPEG/jdcoefct.i: Source/LibJPEG/jdcoefct.c.i
@@ -2408,7 +2408,7 @@ Source/LibJPEG/jdcoefct.i: Source/LibJPEG/jdcoefct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdcoefct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.i
 .PHONY : Source/LibJPEG/jdcoefct.c.i
 
 Source/LibJPEG/jdcoefct.s: Source/LibJPEG/jdcoefct.c.s
@@ -2416,7 +2416,7 @@ Source/LibJPEG/jdcoefct.s: Source/LibJPEG/jdcoefct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdcoefct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcoefct.c.s
 .PHONY : Source/LibJPEG/jdcoefct.c.s
 
 Source/LibJPEG/jdcolor.o: Source/LibJPEG/jdcolor.c.o
@@ -2424,7 +2424,7 @@ Source/LibJPEG/jdcolor.o: Source/LibJPEG/jdcolor.c.o
 
 # target to build an object file
 Source/LibJPEG/jdcolor.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.o
 .PHONY : Source/LibJPEG/jdcolor.c.o
 
 Source/LibJPEG/jdcolor.i: Source/LibJPEG/jdcolor.c.i
@@ -2432,7 +2432,7 @@ Source/LibJPEG/jdcolor.i: Source/LibJPEG/jdcolor.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdcolor.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.i
 .PHONY : Source/LibJPEG/jdcolor.c.i
 
 Source/LibJPEG/jdcolor.s: Source/LibJPEG/jdcolor.c.s
@@ -2440,7 +2440,7 @@ Source/LibJPEG/jdcolor.s: Source/LibJPEG/jdcolor.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdcolor.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdcolor.c.s
 .PHONY : Source/LibJPEG/jdcolor.c.s
 
 Source/LibJPEG/jddctmgr.o: Source/LibJPEG/jddctmgr.c.o
@@ -2448,7 +2448,7 @@ Source/LibJPEG/jddctmgr.o: Source/LibJPEG/jddctmgr.c.o
 
 # target to build an object file
 Source/LibJPEG/jddctmgr.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.o
 .PHONY : Source/LibJPEG/jddctmgr.c.o
 
 Source/LibJPEG/jddctmgr.i: Source/LibJPEG/jddctmgr.c.i
@@ -2456,7 +2456,7 @@ Source/LibJPEG/jddctmgr.i: Source/LibJPEG/jddctmgr.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jddctmgr.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.i
 .PHONY : Source/LibJPEG/jddctmgr.c.i
 
 Source/LibJPEG/jddctmgr.s: Source/LibJPEG/jddctmgr.c.s
@@ -2464,7 +2464,7 @@ Source/LibJPEG/jddctmgr.s: Source/LibJPEG/jddctmgr.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jddctmgr.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jddctmgr.c.s
 .PHONY : Source/LibJPEG/jddctmgr.c.s
 
 Source/LibJPEG/jdhuff.o: Source/LibJPEG/jdhuff.c.o
@@ -2472,7 +2472,7 @@ Source/LibJPEG/jdhuff.o: Source/LibJPEG/jdhuff.c.o
 
 # target to build an object file
 Source/LibJPEG/jdhuff.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.o
 .PHONY : Source/LibJPEG/jdhuff.c.o
 
 Source/LibJPEG/jdhuff.i: Source/LibJPEG/jdhuff.c.i
@@ -2480,7 +2480,7 @@ Source/LibJPEG/jdhuff.i: Source/LibJPEG/jdhuff.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdhuff.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.i
 .PHONY : Source/LibJPEG/jdhuff.c.i
 
 Source/LibJPEG/jdhuff.s: Source/LibJPEG/jdhuff.c.s
@@ -2488,7 +2488,7 @@ Source/LibJPEG/jdhuff.s: Source/LibJPEG/jdhuff.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdhuff.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdhuff.c.s
 .PHONY : Source/LibJPEG/jdhuff.c.s
 
 Source/LibJPEG/jdinput.o: Source/LibJPEG/jdinput.c.o
@@ -2496,7 +2496,7 @@ Source/LibJPEG/jdinput.o: Source/LibJPEG/jdinput.c.o
 
 # target to build an object file
 Source/LibJPEG/jdinput.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.o
 .PHONY : Source/LibJPEG/jdinput.c.o
 
 Source/LibJPEG/jdinput.i: Source/LibJPEG/jdinput.c.i
@@ -2504,7 +2504,7 @@ Source/LibJPEG/jdinput.i: Source/LibJPEG/jdinput.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdinput.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.i
 .PHONY : Source/LibJPEG/jdinput.c.i
 
 Source/LibJPEG/jdinput.s: Source/LibJPEG/jdinput.c.s
@@ -2512,7 +2512,7 @@ Source/LibJPEG/jdinput.s: Source/LibJPEG/jdinput.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdinput.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdinput.c.s
 .PHONY : Source/LibJPEG/jdinput.c.s
 
 Source/LibJPEG/jdmainct.o: Source/LibJPEG/jdmainct.c.o
@@ -2520,7 +2520,7 @@ Source/LibJPEG/jdmainct.o: Source/LibJPEG/jdmainct.c.o
 
 # target to build an object file
 Source/LibJPEG/jdmainct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.o
 .PHONY : Source/LibJPEG/jdmainct.c.o
 
 Source/LibJPEG/jdmainct.i: Source/LibJPEG/jdmainct.c.i
@@ -2528,7 +2528,7 @@ Source/LibJPEG/jdmainct.i: Source/LibJPEG/jdmainct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdmainct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.i
 .PHONY : Source/LibJPEG/jdmainct.c.i
 
 Source/LibJPEG/jdmainct.s: Source/LibJPEG/jdmainct.c.s
@@ -2536,7 +2536,7 @@ Source/LibJPEG/jdmainct.s: Source/LibJPEG/jdmainct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdmainct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmainct.c.s
 .PHONY : Source/LibJPEG/jdmainct.c.s
 
 Source/LibJPEG/jdmarker.o: Source/LibJPEG/jdmarker.c.o
@@ -2544,7 +2544,7 @@ Source/LibJPEG/jdmarker.o: Source/LibJPEG/jdmarker.c.o
 
 # target to build an object file
 Source/LibJPEG/jdmarker.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.o
 .PHONY : Source/LibJPEG/jdmarker.c.o
 
 Source/LibJPEG/jdmarker.i: Source/LibJPEG/jdmarker.c.i
@@ -2552,7 +2552,7 @@ Source/LibJPEG/jdmarker.i: Source/LibJPEG/jdmarker.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdmarker.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.i
 .PHONY : Source/LibJPEG/jdmarker.c.i
 
 Source/LibJPEG/jdmarker.s: Source/LibJPEG/jdmarker.c.s
@@ -2560,7 +2560,7 @@ Source/LibJPEG/jdmarker.s: Source/LibJPEG/jdmarker.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdmarker.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmarker.c.s
 .PHONY : Source/LibJPEG/jdmarker.c.s
 
 Source/LibJPEG/jdmaster.o: Source/LibJPEG/jdmaster.c.o
@@ -2568,7 +2568,7 @@ Source/LibJPEG/jdmaster.o: Source/LibJPEG/jdmaster.c.o
 
 # target to build an object file
 Source/LibJPEG/jdmaster.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.o
 .PHONY : Source/LibJPEG/jdmaster.c.o
 
 Source/LibJPEG/jdmaster.i: Source/LibJPEG/jdmaster.c.i
@@ -2576,7 +2576,7 @@ Source/LibJPEG/jdmaster.i: Source/LibJPEG/jdmaster.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdmaster.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.i
 .PHONY : Source/LibJPEG/jdmaster.c.i
 
 Source/LibJPEG/jdmaster.s: Source/LibJPEG/jdmaster.c.s
@@ -2584,7 +2584,7 @@ Source/LibJPEG/jdmaster.s: Source/LibJPEG/jdmaster.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdmaster.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmaster.c.s
 .PHONY : Source/LibJPEG/jdmaster.c.s
 
 Source/LibJPEG/jdmerge.o: Source/LibJPEG/jdmerge.c.o
@@ -2592,7 +2592,7 @@ Source/LibJPEG/jdmerge.o: Source/LibJPEG/jdmerge.c.o
 
 # target to build an object file
 Source/LibJPEG/jdmerge.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.o
 .PHONY : Source/LibJPEG/jdmerge.c.o
 
 Source/LibJPEG/jdmerge.i: Source/LibJPEG/jdmerge.c.i
@@ -2600,7 +2600,7 @@ Source/LibJPEG/jdmerge.i: Source/LibJPEG/jdmerge.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdmerge.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.i
 .PHONY : Source/LibJPEG/jdmerge.c.i
 
 Source/LibJPEG/jdmerge.s: Source/LibJPEG/jdmerge.c.s
@@ -2608,7 +2608,7 @@ Source/LibJPEG/jdmerge.s: Source/LibJPEG/jdmerge.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdmerge.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdmerge.c.s
 .PHONY : Source/LibJPEG/jdmerge.c.s
 
 Source/LibJPEG/jdpostct.o: Source/LibJPEG/jdpostct.c.o
@@ -2616,7 +2616,7 @@ Source/LibJPEG/jdpostct.o: Source/LibJPEG/jdpostct.c.o
 
 # target to build an object file
 Source/LibJPEG/jdpostct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.o
 .PHONY : Source/LibJPEG/jdpostct.c.o
 
 Source/LibJPEG/jdpostct.i: Source/LibJPEG/jdpostct.c.i
@@ -2624,7 +2624,7 @@ Source/LibJPEG/jdpostct.i: Source/LibJPEG/jdpostct.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdpostct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.i
 .PHONY : Source/LibJPEG/jdpostct.c.i
 
 Source/LibJPEG/jdpostct.s: Source/LibJPEG/jdpostct.c.s
@@ -2632,7 +2632,7 @@ Source/LibJPEG/jdpostct.s: Source/LibJPEG/jdpostct.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdpostct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdpostct.c.s
 .PHONY : Source/LibJPEG/jdpostct.c.s
 
 Source/LibJPEG/jdsample.o: Source/LibJPEG/jdsample.c.o
@@ -2640,7 +2640,7 @@ Source/LibJPEG/jdsample.o: Source/LibJPEG/jdsample.c.o
 
 # target to build an object file
 Source/LibJPEG/jdsample.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.o
 .PHONY : Source/LibJPEG/jdsample.c.o
 
 Source/LibJPEG/jdsample.i: Source/LibJPEG/jdsample.c.i
@@ -2648,7 +2648,7 @@ Source/LibJPEG/jdsample.i: Source/LibJPEG/jdsample.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdsample.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.i
 .PHONY : Source/LibJPEG/jdsample.c.i
 
 Source/LibJPEG/jdsample.s: Source/LibJPEG/jdsample.c.s
@@ -2656,7 +2656,7 @@ Source/LibJPEG/jdsample.s: Source/LibJPEG/jdsample.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdsample.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdsample.c.s
 .PHONY : Source/LibJPEG/jdsample.c.s
 
 Source/LibJPEG/jdtrans.o: Source/LibJPEG/jdtrans.c.o
@@ -2664,7 +2664,7 @@ Source/LibJPEG/jdtrans.o: Source/LibJPEG/jdtrans.c.o
 
 # target to build an object file
 Source/LibJPEG/jdtrans.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.o
 .PHONY : Source/LibJPEG/jdtrans.c.o
 
 Source/LibJPEG/jdtrans.i: Source/LibJPEG/jdtrans.c.i
@@ -2672,7 +2672,7 @@ Source/LibJPEG/jdtrans.i: Source/LibJPEG/jdtrans.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jdtrans.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.i
 .PHONY : Source/LibJPEG/jdtrans.c.i
 
 Source/LibJPEG/jdtrans.s: Source/LibJPEG/jdtrans.c.s
@@ -2680,7 +2680,7 @@ Source/LibJPEG/jdtrans.s: Source/LibJPEG/jdtrans.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jdtrans.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jdtrans.c.s
 .PHONY : Source/LibJPEG/jdtrans.c.s
 
 Source/LibJPEG/jerror.o: Source/LibJPEG/jerror.c.o
@@ -2688,7 +2688,7 @@ Source/LibJPEG/jerror.o: Source/LibJPEG/jerror.c.o
 
 # target to build an object file
 Source/LibJPEG/jerror.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.o
 .PHONY : Source/LibJPEG/jerror.c.o
 
 Source/LibJPEG/jerror.i: Source/LibJPEG/jerror.c.i
@@ -2696,7 +2696,7 @@ Source/LibJPEG/jerror.i: Source/LibJPEG/jerror.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jerror.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.i
 .PHONY : Source/LibJPEG/jerror.c.i
 
 Source/LibJPEG/jerror.s: Source/LibJPEG/jerror.c.s
@@ -2704,7 +2704,7 @@ Source/LibJPEG/jerror.s: Source/LibJPEG/jerror.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jerror.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jerror.c.s
 .PHONY : Source/LibJPEG/jerror.c.s
 
 Source/LibJPEG/jfdctflt.o: Source/LibJPEG/jfdctflt.c.o
@@ -2712,7 +2712,7 @@ Source/LibJPEG/jfdctflt.o: Source/LibJPEG/jfdctflt.c.o
 
 # target to build an object file
 Source/LibJPEG/jfdctflt.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.o
 .PHONY : Source/LibJPEG/jfdctflt.c.o
 
 Source/LibJPEG/jfdctflt.i: Source/LibJPEG/jfdctflt.c.i
@@ -2720,7 +2720,7 @@ Source/LibJPEG/jfdctflt.i: Source/LibJPEG/jfdctflt.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jfdctflt.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.i
 .PHONY : Source/LibJPEG/jfdctflt.c.i
 
 Source/LibJPEG/jfdctflt.s: Source/LibJPEG/jfdctflt.c.s
@@ -2728,7 +2728,7 @@ Source/LibJPEG/jfdctflt.s: Source/LibJPEG/jfdctflt.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jfdctflt.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctflt.c.s
 .PHONY : Source/LibJPEG/jfdctflt.c.s
 
 Source/LibJPEG/jfdctfst.o: Source/LibJPEG/jfdctfst.c.o
@@ -2736,7 +2736,7 @@ Source/LibJPEG/jfdctfst.o: Source/LibJPEG/jfdctfst.c.o
 
 # target to build an object file
 Source/LibJPEG/jfdctfst.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.o
 .PHONY : Source/LibJPEG/jfdctfst.c.o
 
 Source/LibJPEG/jfdctfst.i: Source/LibJPEG/jfdctfst.c.i
@@ -2744,7 +2744,7 @@ Source/LibJPEG/jfdctfst.i: Source/LibJPEG/jfdctfst.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jfdctfst.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.i
 .PHONY : Source/LibJPEG/jfdctfst.c.i
 
 Source/LibJPEG/jfdctfst.s: Source/LibJPEG/jfdctfst.c.s
@@ -2752,7 +2752,7 @@ Source/LibJPEG/jfdctfst.s: Source/LibJPEG/jfdctfst.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jfdctfst.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctfst.c.s
 .PHONY : Source/LibJPEG/jfdctfst.c.s
 
 Source/LibJPEG/jfdctint.o: Source/LibJPEG/jfdctint.c.o
@@ -2760,7 +2760,7 @@ Source/LibJPEG/jfdctint.o: Source/LibJPEG/jfdctint.c.o
 
 # target to build an object file
 Source/LibJPEG/jfdctint.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.o
 .PHONY : Source/LibJPEG/jfdctint.c.o
 
 Source/LibJPEG/jfdctint.i: Source/LibJPEG/jfdctint.c.i
@@ -2768,7 +2768,7 @@ Source/LibJPEG/jfdctint.i: Source/LibJPEG/jfdctint.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jfdctint.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.i
 .PHONY : Source/LibJPEG/jfdctint.c.i
 
 Source/LibJPEG/jfdctint.s: Source/LibJPEG/jfdctint.c.s
@@ -2776,7 +2776,7 @@ Source/LibJPEG/jfdctint.s: Source/LibJPEG/jfdctint.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jfdctint.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jfdctint.c.s
 .PHONY : Source/LibJPEG/jfdctint.c.s
 
 Source/LibJPEG/jidctflt.o: Source/LibJPEG/jidctflt.c.o
@@ -2784,7 +2784,7 @@ Source/LibJPEG/jidctflt.o: Source/LibJPEG/jidctflt.c.o
 
 # target to build an object file
 Source/LibJPEG/jidctflt.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.o
 .PHONY : Source/LibJPEG/jidctflt.c.o
 
 Source/LibJPEG/jidctflt.i: Source/LibJPEG/jidctflt.c.i
@@ -2792,7 +2792,7 @@ Source/LibJPEG/jidctflt.i: Source/LibJPEG/jidctflt.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jidctflt.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.i
 .PHONY : Source/LibJPEG/jidctflt.c.i
 
 Source/LibJPEG/jidctflt.s: Source/LibJPEG/jidctflt.c.s
@@ -2800,7 +2800,7 @@ Source/LibJPEG/jidctflt.s: Source/LibJPEG/jidctflt.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jidctflt.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctflt.c.s
 .PHONY : Source/LibJPEG/jidctflt.c.s
 
 Source/LibJPEG/jidctfst.o: Source/LibJPEG/jidctfst.c.o
@@ -2808,7 +2808,7 @@ Source/LibJPEG/jidctfst.o: Source/LibJPEG/jidctfst.c.o
 
 # target to build an object file
 Source/LibJPEG/jidctfst.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.o
 .PHONY : Source/LibJPEG/jidctfst.c.o
 
 Source/LibJPEG/jidctfst.i: Source/LibJPEG/jidctfst.c.i
@@ -2816,7 +2816,7 @@ Source/LibJPEG/jidctfst.i: Source/LibJPEG/jidctfst.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jidctfst.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.i
 .PHONY : Source/LibJPEG/jidctfst.c.i
 
 Source/LibJPEG/jidctfst.s: Source/LibJPEG/jidctfst.c.s
@@ -2824,7 +2824,7 @@ Source/LibJPEG/jidctfst.s: Source/LibJPEG/jidctfst.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jidctfst.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctfst.c.s
 .PHONY : Source/LibJPEG/jidctfst.c.s
 
 Source/LibJPEG/jidctint.o: Source/LibJPEG/jidctint.c.o
@@ -2832,7 +2832,7 @@ Source/LibJPEG/jidctint.o: Source/LibJPEG/jidctint.c.o
 
 # target to build an object file
 Source/LibJPEG/jidctint.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.o
 .PHONY : Source/LibJPEG/jidctint.c.o
 
 Source/LibJPEG/jidctint.i: Source/LibJPEG/jidctint.c.i
@@ -2840,7 +2840,7 @@ Source/LibJPEG/jidctint.i: Source/LibJPEG/jidctint.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jidctint.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.i
 .PHONY : Source/LibJPEG/jidctint.c.i
 
 Source/LibJPEG/jidctint.s: Source/LibJPEG/jidctint.c.s
@@ -2848,7 +2848,7 @@ Source/LibJPEG/jidctint.s: Source/LibJPEG/jidctint.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jidctint.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jidctint.c.s
 .PHONY : Source/LibJPEG/jidctint.c.s
 
 Source/LibJPEG/jmemansi.o: Source/LibJPEG/jmemansi.c.o
@@ -2856,7 +2856,7 @@ Source/LibJPEG/jmemansi.o: Source/LibJPEG/jmemansi.c.o
 
 # target to build an object file
 Source/LibJPEG/jmemansi.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.o
 .PHONY : Source/LibJPEG/jmemansi.c.o
 
 Source/LibJPEG/jmemansi.i: Source/LibJPEG/jmemansi.c.i
@@ -2864,7 +2864,7 @@ Source/LibJPEG/jmemansi.i: Source/LibJPEG/jmemansi.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jmemansi.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.i
 .PHONY : Source/LibJPEG/jmemansi.c.i
 
 Source/LibJPEG/jmemansi.s: Source/LibJPEG/jmemansi.c.s
@@ -2872,7 +2872,7 @@ Source/LibJPEG/jmemansi.s: Source/LibJPEG/jmemansi.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jmemansi.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemansi.c.s
 .PHONY : Source/LibJPEG/jmemansi.c.s
 
 Source/LibJPEG/jmemmgr.o: Source/LibJPEG/jmemmgr.c.o
@@ -2880,7 +2880,7 @@ Source/LibJPEG/jmemmgr.o: Source/LibJPEG/jmemmgr.c.o
 
 # target to build an object file
 Source/LibJPEG/jmemmgr.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.o
 .PHONY : Source/LibJPEG/jmemmgr.c.o
 
 Source/LibJPEG/jmemmgr.i: Source/LibJPEG/jmemmgr.c.i
@@ -2888,7 +2888,7 @@ Source/LibJPEG/jmemmgr.i: Source/LibJPEG/jmemmgr.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jmemmgr.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.i
 .PHONY : Source/LibJPEG/jmemmgr.c.i
 
 Source/LibJPEG/jmemmgr.s: Source/LibJPEG/jmemmgr.c.s
@@ -2896,7 +2896,7 @@ Source/LibJPEG/jmemmgr.s: Source/LibJPEG/jmemmgr.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jmemmgr.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jmemmgr.c.s
 .PHONY : Source/LibJPEG/jmemmgr.c.s
 
 Source/LibJPEG/jquant1.o: Source/LibJPEG/jquant1.c.o
@@ -2904,7 +2904,7 @@ Source/LibJPEG/jquant1.o: Source/LibJPEG/jquant1.c.o
 
 # target to build an object file
 Source/LibJPEG/jquant1.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.o
 .PHONY : Source/LibJPEG/jquant1.c.o
 
 Source/LibJPEG/jquant1.i: Source/LibJPEG/jquant1.c.i
@@ -2912,7 +2912,7 @@ Source/LibJPEG/jquant1.i: Source/LibJPEG/jquant1.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jquant1.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.i
 .PHONY : Source/LibJPEG/jquant1.c.i
 
 Source/LibJPEG/jquant1.s: Source/LibJPEG/jquant1.c.s
@@ -2920,7 +2920,7 @@ Source/LibJPEG/jquant1.s: Source/LibJPEG/jquant1.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jquant1.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant1.c.s
 .PHONY : Source/LibJPEG/jquant1.c.s
 
 Source/LibJPEG/jquant2.o: Source/LibJPEG/jquant2.c.o
@@ -2928,7 +2928,7 @@ Source/LibJPEG/jquant2.o: Source/LibJPEG/jquant2.c.o
 
 # target to build an object file
 Source/LibJPEG/jquant2.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.o
 .PHONY : Source/LibJPEG/jquant2.c.o
 
 Source/LibJPEG/jquant2.i: Source/LibJPEG/jquant2.c.i
@@ -2936,7 +2936,7 @@ Source/LibJPEG/jquant2.i: Source/LibJPEG/jquant2.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jquant2.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.i
 .PHONY : Source/LibJPEG/jquant2.c.i
 
 Source/LibJPEG/jquant2.s: Source/LibJPEG/jquant2.c.s
@@ -2944,7 +2944,7 @@ Source/LibJPEG/jquant2.s: Source/LibJPEG/jquant2.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jquant2.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jquant2.c.s
 .PHONY : Source/LibJPEG/jquant2.c.s
 
 Source/LibJPEG/jutils.o: Source/LibJPEG/jutils.c.o
@@ -2952,7 +2952,7 @@ Source/LibJPEG/jutils.o: Source/LibJPEG/jutils.c.o
 
 # target to build an object file
 Source/LibJPEG/jutils.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.o
 .PHONY : Source/LibJPEG/jutils.c.o
 
 Source/LibJPEG/jutils.i: Source/LibJPEG/jutils.c.i
@@ -2960,7 +2960,7 @@ Source/LibJPEG/jutils.i: Source/LibJPEG/jutils.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/jutils.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.i
 .PHONY : Source/LibJPEG/jutils.c.i
 
 Source/LibJPEG/jutils.s: Source/LibJPEG/jutils.c.s
@@ -2968,7 +2968,7 @@ Source/LibJPEG/jutils.s: Source/LibJPEG/jutils.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/jutils.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/jutils.c.s
 .PHONY : Source/LibJPEG/jutils.c.s
 
 Source/LibJPEG/rdbmp.o: Source/LibJPEG/rdbmp.c.o
@@ -2976,7 +2976,7 @@ Source/LibJPEG/rdbmp.o: Source/LibJPEG/rdbmp.c.o
 
 # target to build an object file
 Source/LibJPEG/rdbmp.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.o
 .PHONY : Source/LibJPEG/rdbmp.c.o
 
 Source/LibJPEG/rdbmp.i: Source/LibJPEG/rdbmp.c.i
@@ -2984,7 +2984,7 @@ Source/LibJPEG/rdbmp.i: Source/LibJPEG/rdbmp.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdbmp.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.i
 .PHONY : Source/LibJPEG/rdbmp.c.i
 
 Source/LibJPEG/rdbmp.s: Source/LibJPEG/rdbmp.c.s
@@ -2992,7 +2992,7 @@ Source/LibJPEG/rdbmp.s: Source/LibJPEG/rdbmp.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdbmp.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdbmp.c.s
 .PHONY : Source/LibJPEG/rdbmp.c.s
 
 Source/LibJPEG/rdcolmap.o: Source/LibJPEG/rdcolmap.c.o
@@ -3000,7 +3000,7 @@ Source/LibJPEG/rdcolmap.o: Source/LibJPEG/rdcolmap.c.o
 
 # target to build an object file
 Source/LibJPEG/rdcolmap.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.o
 .PHONY : Source/LibJPEG/rdcolmap.c.o
 
 Source/LibJPEG/rdcolmap.i: Source/LibJPEG/rdcolmap.c.i
@@ -3008,7 +3008,7 @@ Source/LibJPEG/rdcolmap.i: Source/LibJPEG/rdcolmap.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdcolmap.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.i
 .PHONY : Source/LibJPEG/rdcolmap.c.i
 
 Source/LibJPEG/rdcolmap.s: Source/LibJPEG/rdcolmap.c.s
@@ -3016,7 +3016,7 @@ Source/LibJPEG/rdcolmap.s: Source/LibJPEG/rdcolmap.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdcolmap.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdcolmap.c.s
 .PHONY : Source/LibJPEG/rdcolmap.c.s
 
 Source/LibJPEG/rdgif.o: Source/LibJPEG/rdgif.c.o
@@ -3024,7 +3024,7 @@ Source/LibJPEG/rdgif.o: Source/LibJPEG/rdgif.c.o
 
 # target to build an object file
 Source/LibJPEG/rdgif.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.o
 .PHONY : Source/LibJPEG/rdgif.c.o
 
 Source/LibJPEG/rdgif.i: Source/LibJPEG/rdgif.c.i
@@ -3032,7 +3032,7 @@ Source/LibJPEG/rdgif.i: Source/LibJPEG/rdgif.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdgif.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.i
 .PHONY : Source/LibJPEG/rdgif.c.i
 
 Source/LibJPEG/rdgif.s: Source/LibJPEG/rdgif.c.s
@@ -3040,7 +3040,7 @@ Source/LibJPEG/rdgif.s: Source/LibJPEG/rdgif.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdgif.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdgif.c.s
 .PHONY : Source/LibJPEG/rdgif.c.s
 
 Source/LibJPEG/rdppm.o: Source/LibJPEG/rdppm.c.o
@@ -3048,7 +3048,7 @@ Source/LibJPEG/rdppm.o: Source/LibJPEG/rdppm.c.o
 
 # target to build an object file
 Source/LibJPEG/rdppm.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.o
 .PHONY : Source/LibJPEG/rdppm.c.o
 
 Source/LibJPEG/rdppm.i: Source/LibJPEG/rdppm.c.i
@@ -3056,7 +3056,7 @@ Source/LibJPEG/rdppm.i: Source/LibJPEG/rdppm.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdppm.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.i
 .PHONY : Source/LibJPEG/rdppm.c.i
 
 Source/LibJPEG/rdppm.s: Source/LibJPEG/rdppm.c.s
@@ -3064,7 +3064,7 @@ Source/LibJPEG/rdppm.s: Source/LibJPEG/rdppm.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdppm.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdppm.c.s
 .PHONY : Source/LibJPEG/rdppm.c.s
 
 Source/LibJPEG/rdrle.o: Source/LibJPEG/rdrle.c.o
@@ -3072,7 +3072,7 @@ Source/LibJPEG/rdrle.o: Source/LibJPEG/rdrle.c.o
 
 # target to build an object file
 Source/LibJPEG/rdrle.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.o
 .PHONY : Source/LibJPEG/rdrle.c.o
 
 Source/LibJPEG/rdrle.i: Source/LibJPEG/rdrle.c.i
@@ -3080,7 +3080,7 @@ Source/LibJPEG/rdrle.i: Source/LibJPEG/rdrle.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdrle.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.i
 .PHONY : Source/LibJPEG/rdrle.c.i
 
 Source/LibJPEG/rdrle.s: Source/LibJPEG/rdrle.c.s
@@ -3088,7 +3088,7 @@ Source/LibJPEG/rdrle.s: Source/LibJPEG/rdrle.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdrle.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdrle.c.s
 .PHONY : Source/LibJPEG/rdrle.c.s
 
 Source/LibJPEG/rdswitch.o: Source/LibJPEG/rdswitch.c.o
@@ -3096,7 +3096,7 @@ Source/LibJPEG/rdswitch.o: Source/LibJPEG/rdswitch.c.o
 
 # target to build an object file
 Source/LibJPEG/rdswitch.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.o
 .PHONY : Source/LibJPEG/rdswitch.c.o
 
 Source/LibJPEG/rdswitch.i: Source/LibJPEG/rdswitch.c.i
@@ -3104,7 +3104,7 @@ Source/LibJPEG/rdswitch.i: Source/LibJPEG/rdswitch.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdswitch.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.i
 .PHONY : Source/LibJPEG/rdswitch.c.i
 
 Source/LibJPEG/rdswitch.s: Source/LibJPEG/rdswitch.c.s
@@ -3112,7 +3112,7 @@ Source/LibJPEG/rdswitch.s: Source/LibJPEG/rdswitch.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdswitch.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdswitch.c.s
 .PHONY : Source/LibJPEG/rdswitch.c.s
 
 Source/LibJPEG/rdtarga.o: Source/LibJPEG/rdtarga.c.o
@@ -3120,7 +3120,7 @@ Source/LibJPEG/rdtarga.o: Source/LibJPEG/rdtarga.c.o
 
 # target to build an object file
 Source/LibJPEG/rdtarga.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.o
 .PHONY : Source/LibJPEG/rdtarga.c.o
 
 Source/LibJPEG/rdtarga.i: Source/LibJPEG/rdtarga.c.i
@@ -3128,7 +3128,7 @@ Source/LibJPEG/rdtarga.i: Source/LibJPEG/rdtarga.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/rdtarga.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.i
 .PHONY : Source/LibJPEG/rdtarga.c.i
 
 Source/LibJPEG/rdtarga.s: Source/LibJPEG/rdtarga.c.s
@@ -3136,7 +3136,7 @@ Source/LibJPEG/rdtarga.s: Source/LibJPEG/rdtarga.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/rdtarga.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/rdtarga.c.s
 .PHONY : Source/LibJPEG/rdtarga.c.s
 
 Source/LibJPEG/transupp.o: Source/LibJPEG/transupp.c.o
@@ -3144,7 +3144,7 @@ Source/LibJPEG/transupp.o: Source/LibJPEG/transupp.c.o
 
 # target to build an object file
 Source/LibJPEG/transupp.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.o
 .PHONY : Source/LibJPEG/transupp.c.o
 
 Source/LibJPEG/transupp.i: Source/LibJPEG/transupp.c.i
@@ -3152,7 +3152,7 @@ Source/LibJPEG/transupp.i: Source/LibJPEG/transupp.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/transupp.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.i
 .PHONY : Source/LibJPEG/transupp.c.i
 
 Source/LibJPEG/transupp.s: Source/LibJPEG/transupp.c.s
@@ -3160,7 +3160,7 @@ Source/LibJPEG/transupp.s: Source/LibJPEG/transupp.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/transupp.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/transupp.c.s
 .PHONY : Source/LibJPEG/transupp.c.s
 
 Source/LibJPEG/wrbmp.o: Source/LibJPEG/wrbmp.c.o
@@ -3168,7 +3168,7 @@ Source/LibJPEG/wrbmp.o: Source/LibJPEG/wrbmp.c.o
 
 # target to build an object file
 Source/LibJPEG/wrbmp.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.o
 .PHONY : Source/LibJPEG/wrbmp.c.o
 
 Source/LibJPEG/wrbmp.i: Source/LibJPEG/wrbmp.c.i
@@ -3176,7 +3176,7 @@ Source/LibJPEG/wrbmp.i: Source/LibJPEG/wrbmp.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/wrbmp.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.i
 .PHONY : Source/LibJPEG/wrbmp.c.i
 
 Source/LibJPEG/wrbmp.s: Source/LibJPEG/wrbmp.c.s
@@ -3184,7 +3184,7 @@ Source/LibJPEG/wrbmp.s: Source/LibJPEG/wrbmp.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/wrbmp.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrbmp.c.s
 .PHONY : Source/LibJPEG/wrbmp.c.s
 
 Source/LibJPEG/wrgif.o: Source/LibJPEG/wrgif.c.o
@@ -3192,7 +3192,7 @@ Source/LibJPEG/wrgif.o: Source/LibJPEG/wrgif.c.o
 
 # target to build an object file
 Source/LibJPEG/wrgif.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.o
 .PHONY : Source/LibJPEG/wrgif.c.o
 
 Source/LibJPEG/wrgif.i: Source/LibJPEG/wrgif.c.i
@@ -3200,7 +3200,7 @@ Source/LibJPEG/wrgif.i: Source/LibJPEG/wrgif.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/wrgif.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.i
 .PHONY : Source/LibJPEG/wrgif.c.i
 
 Source/LibJPEG/wrgif.s: Source/LibJPEG/wrgif.c.s
@@ -3208,7 +3208,7 @@ Source/LibJPEG/wrgif.s: Source/LibJPEG/wrgif.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/wrgif.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrgif.c.s
 .PHONY : Source/LibJPEG/wrgif.c.s
 
 Source/LibJPEG/wrppm.o: Source/LibJPEG/wrppm.c.o
@@ -3216,7 +3216,7 @@ Source/LibJPEG/wrppm.o: Source/LibJPEG/wrppm.c.o
 
 # target to build an object file
 Source/LibJPEG/wrppm.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.o
 .PHONY : Source/LibJPEG/wrppm.c.o
 
 Source/LibJPEG/wrppm.i: Source/LibJPEG/wrppm.c.i
@@ -3224,7 +3224,7 @@ Source/LibJPEG/wrppm.i: Source/LibJPEG/wrppm.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/wrppm.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.i
 .PHONY : Source/LibJPEG/wrppm.c.i
 
 Source/LibJPEG/wrppm.s: Source/LibJPEG/wrppm.c.s
@@ -3232,7 +3232,7 @@ Source/LibJPEG/wrppm.s: Source/LibJPEG/wrppm.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/wrppm.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrppm.c.s
 .PHONY : Source/LibJPEG/wrppm.c.s
 
 Source/LibJPEG/wrrle.o: Source/LibJPEG/wrrle.c.o
@@ -3240,7 +3240,7 @@ Source/LibJPEG/wrrle.o: Source/LibJPEG/wrrle.c.o
 
 # target to build an object file
 Source/LibJPEG/wrrle.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.o
 .PHONY : Source/LibJPEG/wrrle.c.o
 
 Source/LibJPEG/wrrle.i: Source/LibJPEG/wrrle.c.i
@@ -3248,7 +3248,7 @@ Source/LibJPEG/wrrle.i: Source/LibJPEG/wrrle.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/wrrle.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.i
 .PHONY : Source/LibJPEG/wrrle.c.i
 
 Source/LibJPEG/wrrle.s: Source/LibJPEG/wrrle.c.s
@@ -3256,7 +3256,7 @@ Source/LibJPEG/wrrle.s: Source/LibJPEG/wrrle.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/wrrle.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrrle.c.s
 .PHONY : Source/LibJPEG/wrrle.c.s
 
 Source/LibJPEG/wrtarga.o: Source/LibJPEG/wrtarga.c.o
@@ -3264,7 +3264,7 @@ Source/LibJPEG/wrtarga.o: Source/LibJPEG/wrtarga.c.o
 
 # target to build an object file
 Source/LibJPEG/wrtarga.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.o
 .PHONY : Source/LibJPEG/wrtarga.c.o
 
 Source/LibJPEG/wrtarga.i: Source/LibJPEG/wrtarga.c.i
@@ -3272,7 +3272,7 @@ Source/LibJPEG/wrtarga.i: Source/LibJPEG/wrtarga.c.i
 
 # target to preprocess a source file
 Source/LibJPEG/wrtarga.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.i
 .PHONY : Source/LibJPEG/wrtarga.c.i
 
 Source/LibJPEG/wrtarga.s: Source/LibJPEG/wrtarga.c.s
@@ -3280,7 +3280,7 @@ Source/LibJPEG/wrtarga.s: Source/LibJPEG/wrtarga.c.s
 
 # target to generate assembly for a file
 Source/LibJPEG/wrtarga.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibJPEG/wrtarga.c.s
 .PHONY : Source/LibJPEG/wrtarga.c.s
 
 Source/LibMNG/libmng_callback_xs.o: Source/LibMNG/libmng_callback_xs.c.o
@@ -3288,7 +3288,7 @@ Source/LibMNG/libmng_callback_xs.o: Source/LibMNG/libmng_callback_xs.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_callback_xs.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.o
 .PHONY : Source/LibMNG/libmng_callback_xs.c.o
 
 Source/LibMNG/libmng_callback_xs.i: Source/LibMNG/libmng_callback_xs.c.i
@@ -3296,7 +3296,7 @@ Source/LibMNG/libmng_callback_xs.i: Source/LibMNG/libmng_callback_xs.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_callback_xs.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.i
 .PHONY : Source/LibMNG/libmng_callback_xs.c.i
 
 Source/LibMNG/libmng_callback_xs.s: Source/LibMNG/libmng_callback_xs.c.s
@@ -3304,7 +3304,7 @@ Source/LibMNG/libmng_callback_xs.s: Source/LibMNG/libmng_callback_xs.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_callback_xs.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_callback_xs.c.s
 .PHONY : Source/LibMNG/libmng_callback_xs.c.s
 
 Source/LibMNG/libmng_chunk_descr.o: Source/LibMNG/libmng_chunk_descr.c.o
@@ -3312,7 +3312,7 @@ Source/LibMNG/libmng_chunk_descr.o: Source/LibMNG/libmng_chunk_descr.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_chunk_descr.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.o
 .PHONY : Source/LibMNG/libmng_chunk_descr.c.o
 
 Source/LibMNG/libmng_chunk_descr.i: Source/LibMNG/libmng_chunk_descr.c.i
@@ -3320,7 +3320,7 @@ Source/LibMNG/libmng_chunk_descr.i: Source/LibMNG/libmng_chunk_descr.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_chunk_descr.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.i
 .PHONY : Source/LibMNG/libmng_chunk_descr.c.i
 
 Source/LibMNG/libmng_chunk_descr.s: Source/LibMNG/libmng_chunk_descr.c.s
@@ -3328,7 +3328,7 @@ Source/LibMNG/libmng_chunk_descr.s: Source/LibMNG/libmng_chunk_descr.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_chunk_descr.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_descr.c.s
 .PHONY : Source/LibMNG/libmng_chunk_descr.c.s
 
 Source/LibMNG/libmng_chunk_io.o: Source/LibMNG/libmng_chunk_io.c.o
@@ -3336,7 +3336,7 @@ Source/LibMNG/libmng_chunk_io.o: Source/LibMNG/libmng_chunk_io.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_chunk_io.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.o
 .PHONY : Source/LibMNG/libmng_chunk_io.c.o
 
 Source/LibMNG/libmng_chunk_io.i: Source/LibMNG/libmng_chunk_io.c.i
@@ -3344,7 +3344,7 @@ Source/LibMNG/libmng_chunk_io.i: Source/LibMNG/libmng_chunk_io.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_chunk_io.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.i
 .PHONY : Source/LibMNG/libmng_chunk_io.c.i
 
 Source/LibMNG/libmng_chunk_io.s: Source/LibMNG/libmng_chunk_io.c.s
@@ -3352,7 +3352,7 @@ Source/LibMNG/libmng_chunk_io.s: Source/LibMNG/libmng_chunk_io.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_chunk_io.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_io.c.s
 .PHONY : Source/LibMNG/libmng_chunk_io.c.s
 
 Source/LibMNG/libmng_chunk_prc.o: Source/LibMNG/libmng_chunk_prc.c.o
@@ -3360,7 +3360,7 @@ Source/LibMNG/libmng_chunk_prc.o: Source/LibMNG/libmng_chunk_prc.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_chunk_prc.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.o
 .PHONY : Source/LibMNG/libmng_chunk_prc.c.o
 
 Source/LibMNG/libmng_chunk_prc.i: Source/LibMNG/libmng_chunk_prc.c.i
@@ -3368,7 +3368,7 @@ Source/LibMNG/libmng_chunk_prc.i: Source/LibMNG/libmng_chunk_prc.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_chunk_prc.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.i
 .PHONY : Source/LibMNG/libmng_chunk_prc.c.i
 
 Source/LibMNG/libmng_chunk_prc.s: Source/LibMNG/libmng_chunk_prc.c.s
@@ -3376,7 +3376,7 @@ Source/LibMNG/libmng_chunk_prc.s: Source/LibMNG/libmng_chunk_prc.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_chunk_prc.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_prc.c.s
 .PHONY : Source/LibMNG/libmng_chunk_prc.c.s
 
 Source/LibMNG/libmng_chunk_xs.o: Source/LibMNG/libmng_chunk_xs.c.o
@@ -3384,7 +3384,7 @@ Source/LibMNG/libmng_chunk_xs.o: Source/LibMNG/libmng_chunk_xs.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_chunk_xs.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.o
 .PHONY : Source/LibMNG/libmng_chunk_xs.c.o
 
 Source/LibMNG/libmng_chunk_xs.i: Source/LibMNG/libmng_chunk_xs.c.i
@@ -3392,7 +3392,7 @@ Source/LibMNG/libmng_chunk_xs.i: Source/LibMNG/libmng_chunk_xs.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_chunk_xs.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.i
 .PHONY : Source/LibMNG/libmng_chunk_xs.c.i
 
 Source/LibMNG/libmng_chunk_xs.s: Source/LibMNG/libmng_chunk_xs.c.s
@@ -3400,7 +3400,7 @@ Source/LibMNG/libmng_chunk_xs.s: Source/LibMNG/libmng_chunk_xs.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_chunk_xs.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_chunk_xs.c.s
 .PHONY : Source/LibMNG/libmng_chunk_xs.c.s
 
 Source/LibMNG/libmng_cms.o: Source/LibMNG/libmng_cms.c.o
@@ -3408,7 +3408,7 @@ Source/LibMNG/libmng_cms.o: Source/LibMNG/libmng_cms.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_cms.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.o
 .PHONY : Source/LibMNG/libmng_cms.c.o
 
 Source/LibMNG/libmng_cms.i: Source/LibMNG/libmng_cms.c.i
@@ -3416,7 +3416,7 @@ Source/LibMNG/libmng_cms.i: Source/LibMNG/libmng_cms.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_cms.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.i
 .PHONY : Source/LibMNG/libmng_cms.c.i
 
 Source/LibMNG/libmng_cms.s: Source/LibMNG/libmng_cms.c.s
@@ -3424,7 +3424,7 @@ Source/LibMNG/libmng_cms.s: Source/LibMNG/libmng_cms.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_cms.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_cms.c.s
 .PHONY : Source/LibMNG/libmng_cms.c.s
 
 Source/LibMNG/libmng_display.o: Source/LibMNG/libmng_display.c.o
@@ -3432,7 +3432,7 @@ Source/LibMNG/libmng_display.o: Source/LibMNG/libmng_display.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_display.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.o
 .PHONY : Source/LibMNG/libmng_display.c.o
 
 Source/LibMNG/libmng_display.i: Source/LibMNG/libmng_display.c.i
@@ -3440,7 +3440,7 @@ Source/LibMNG/libmng_display.i: Source/LibMNG/libmng_display.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_display.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.i
 .PHONY : Source/LibMNG/libmng_display.c.i
 
 Source/LibMNG/libmng_display.s: Source/LibMNG/libmng_display.c.s
@@ -3448,7 +3448,7 @@ Source/LibMNG/libmng_display.s: Source/LibMNG/libmng_display.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_display.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_display.c.s
 .PHONY : Source/LibMNG/libmng_display.c.s
 
 Source/LibMNG/libmng_dither.o: Source/LibMNG/libmng_dither.c.o
@@ -3456,7 +3456,7 @@ Source/LibMNG/libmng_dither.o: Source/LibMNG/libmng_dither.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_dither.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.o
 .PHONY : Source/LibMNG/libmng_dither.c.o
 
 Source/LibMNG/libmng_dither.i: Source/LibMNG/libmng_dither.c.i
@@ -3464,7 +3464,7 @@ Source/LibMNG/libmng_dither.i: Source/LibMNG/libmng_dither.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_dither.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.i
 .PHONY : Source/LibMNG/libmng_dither.c.i
 
 Source/LibMNG/libmng_dither.s: Source/LibMNG/libmng_dither.c.s
@@ -3472,7 +3472,7 @@ Source/LibMNG/libmng_dither.s: Source/LibMNG/libmng_dither.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_dither.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_dither.c.s
 .PHONY : Source/LibMNG/libmng_dither.c.s
 
 Source/LibMNG/libmng_error.o: Source/LibMNG/libmng_error.c.o
@@ -3480,7 +3480,7 @@ Source/LibMNG/libmng_error.o: Source/LibMNG/libmng_error.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_error.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.o
 .PHONY : Source/LibMNG/libmng_error.c.o
 
 Source/LibMNG/libmng_error.i: Source/LibMNG/libmng_error.c.i
@@ -3488,7 +3488,7 @@ Source/LibMNG/libmng_error.i: Source/LibMNG/libmng_error.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_error.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.i
 .PHONY : Source/LibMNG/libmng_error.c.i
 
 Source/LibMNG/libmng_error.s: Source/LibMNG/libmng_error.c.s
@@ -3496,7 +3496,7 @@ Source/LibMNG/libmng_error.s: Source/LibMNG/libmng_error.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_error.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_error.c.s
 .PHONY : Source/LibMNG/libmng_error.c.s
 
 Source/LibMNG/libmng_filter.o: Source/LibMNG/libmng_filter.c.o
@@ -3504,7 +3504,7 @@ Source/LibMNG/libmng_filter.o: Source/LibMNG/libmng_filter.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_filter.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.o
 .PHONY : Source/LibMNG/libmng_filter.c.o
 
 Source/LibMNG/libmng_filter.i: Source/LibMNG/libmng_filter.c.i
@@ -3512,7 +3512,7 @@ Source/LibMNG/libmng_filter.i: Source/LibMNG/libmng_filter.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_filter.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.i
 .PHONY : Source/LibMNG/libmng_filter.c.i
 
 Source/LibMNG/libmng_filter.s: Source/LibMNG/libmng_filter.c.s
@@ -3520,7 +3520,7 @@ Source/LibMNG/libmng_filter.s: Source/LibMNG/libmng_filter.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_filter.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_filter.c.s
 .PHONY : Source/LibMNG/libmng_filter.c.s
 
 Source/LibMNG/libmng_hlapi.o: Source/LibMNG/libmng_hlapi.c.o
@@ -3528,7 +3528,7 @@ Source/LibMNG/libmng_hlapi.o: Source/LibMNG/libmng_hlapi.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_hlapi.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.o
 .PHONY : Source/LibMNG/libmng_hlapi.c.o
 
 Source/LibMNG/libmng_hlapi.i: Source/LibMNG/libmng_hlapi.c.i
@@ -3536,7 +3536,7 @@ Source/LibMNG/libmng_hlapi.i: Source/LibMNG/libmng_hlapi.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_hlapi.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.i
 .PHONY : Source/LibMNG/libmng_hlapi.c.i
 
 Source/LibMNG/libmng_hlapi.s: Source/LibMNG/libmng_hlapi.c.s
@@ -3544,7 +3544,7 @@ Source/LibMNG/libmng_hlapi.s: Source/LibMNG/libmng_hlapi.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_hlapi.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_hlapi.c.s
 .PHONY : Source/LibMNG/libmng_hlapi.c.s
 
 Source/LibMNG/libmng_jpeg.o: Source/LibMNG/libmng_jpeg.c.o
@@ -3552,7 +3552,7 @@ Source/LibMNG/libmng_jpeg.o: Source/LibMNG/libmng_jpeg.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_jpeg.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.o
 .PHONY : Source/LibMNG/libmng_jpeg.c.o
 
 Source/LibMNG/libmng_jpeg.i: Source/LibMNG/libmng_jpeg.c.i
@@ -3560,7 +3560,7 @@ Source/LibMNG/libmng_jpeg.i: Source/LibMNG/libmng_jpeg.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_jpeg.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.i
 .PHONY : Source/LibMNG/libmng_jpeg.c.i
 
 Source/LibMNG/libmng_jpeg.s: Source/LibMNG/libmng_jpeg.c.s
@@ -3568,7 +3568,7 @@ Source/LibMNG/libmng_jpeg.s: Source/LibMNG/libmng_jpeg.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_jpeg.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_jpeg.c.s
 .PHONY : Source/LibMNG/libmng_jpeg.c.s
 
 Source/LibMNG/libmng_object_prc.o: Source/LibMNG/libmng_object_prc.c.o
@@ -3576,7 +3576,7 @@ Source/LibMNG/libmng_object_prc.o: Source/LibMNG/libmng_object_prc.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_object_prc.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.o
 .PHONY : Source/LibMNG/libmng_object_prc.c.o
 
 Source/LibMNG/libmng_object_prc.i: Source/LibMNG/libmng_object_prc.c.i
@@ -3584,7 +3584,7 @@ Source/LibMNG/libmng_object_prc.i: Source/LibMNG/libmng_object_prc.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_object_prc.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.i
 .PHONY : Source/LibMNG/libmng_object_prc.c.i
 
 Source/LibMNG/libmng_object_prc.s: Source/LibMNG/libmng_object_prc.c.s
@@ -3592,7 +3592,7 @@ Source/LibMNG/libmng_object_prc.s: Source/LibMNG/libmng_object_prc.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_object_prc.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_object_prc.c.s
 .PHONY : Source/LibMNG/libmng_object_prc.c.s
 
 Source/LibMNG/libmng_pixels.o: Source/LibMNG/libmng_pixels.c.o
@@ -3600,7 +3600,7 @@ Source/LibMNG/libmng_pixels.o: Source/LibMNG/libmng_pixels.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_pixels.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.o
 .PHONY : Source/LibMNG/libmng_pixels.c.o
 
 Source/LibMNG/libmng_pixels.i: Source/LibMNG/libmng_pixels.c.i
@@ -3608,7 +3608,7 @@ Source/LibMNG/libmng_pixels.i: Source/LibMNG/libmng_pixels.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_pixels.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.i
 .PHONY : Source/LibMNG/libmng_pixels.c.i
 
 Source/LibMNG/libmng_pixels.s: Source/LibMNG/libmng_pixels.c.s
@@ -3616,7 +3616,7 @@ Source/LibMNG/libmng_pixels.s: Source/LibMNG/libmng_pixels.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_pixels.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_pixels.c.s
 .PHONY : Source/LibMNG/libmng_pixels.c.s
 
 Source/LibMNG/libmng_prop_xs.o: Source/LibMNG/libmng_prop_xs.c.o
@@ -3624,7 +3624,7 @@ Source/LibMNG/libmng_prop_xs.o: Source/LibMNG/libmng_prop_xs.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_prop_xs.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.o
 .PHONY : Source/LibMNG/libmng_prop_xs.c.o
 
 Source/LibMNG/libmng_prop_xs.i: Source/LibMNG/libmng_prop_xs.c.i
@@ -3632,7 +3632,7 @@ Source/LibMNG/libmng_prop_xs.i: Source/LibMNG/libmng_prop_xs.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_prop_xs.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.i
 .PHONY : Source/LibMNG/libmng_prop_xs.c.i
 
 Source/LibMNG/libmng_prop_xs.s: Source/LibMNG/libmng_prop_xs.c.s
@@ -3640,7 +3640,7 @@ Source/LibMNG/libmng_prop_xs.s: Source/LibMNG/libmng_prop_xs.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_prop_xs.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_prop_xs.c.s
 .PHONY : Source/LibMNG/libmng_prop_xs.c.s
 
 Source/LibMNG/libmng_read.o: Source/LibMNG/libmng_read.c.o
@@ -3648,7 +3648,7 @@ Source/LibMNG/libmng_read.o: Source/LibMNG/libmng_read.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_read.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.o
 .PHONY : Source/LibMNG/libmng_read.c.o
 
 Source/LibMNG/libmng_read.i: Source/LibMNG/libmng_read.c.i
@@ -3656,7 +3656,7 @@ Source/LibMNG/libmng_read.i: Source/LibMNG/libmng_read.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_read.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.i
 .PHONY : Source/LibMNG/libmng_read.c.i
 
 Source/LibMNG/libmng_read.s: Source/LibMNG/libmng_read.c.s
@@ -3664,7 +3664,7 @@ Source/LibMNG/libmng_read.s: Source/LibMNG/libmng_read.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_read.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_read.c.s
 .PHONY : Source/LibMNG/libmng_read.c.s
 
 Source/LibMNG/libmng_trace.o: Source/LibMNG/libmng_trace.c.o
@@ -3672,7 +3672,7 @@ Source/LibMNG/libmng_trace.o: Source/LibMNG/libmng_trace.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_trace.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.o
 .PHONY : Source/LibMNG/libmng_trace.c.o
 
 Source/LibMNG/libmng_trace.i: Source/LibMNG/libmng_trace.c.i
@@ -3680,7 +3680,7 @@ Source/LibMNG/libmng_trace.i: Source/LibMNG/libmng_trace.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_trace.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.i
 .PHONY : Source/LibMNG/libmng_trace.c.i
 
 Source/LibMNG/libmng_trace.s: Source/LibMNG/libmng_trace.c.s
@@ -3688,7 +3688,7 @@ Source/LibMNG/libmng_trace.s: Source/LibMNG/libmng_trace.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_trace.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_trace.c.s
 .PHONY : Source/LibMNG/libmng_trace.c.s
 
 Source/LibMNG/libmng_write.o: Source/LibMNG/libmng_write.c.o
@@ -3696,7 +3696,7 @@ Source/LibMNG/libmng_write.o: Source/LibMNG/libmng_write.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_write.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.o
 .PHONY : Source/LibMNG/libmng_write.c.o
 
 Source/LibMNG/libmng_write.i: Source/LibMNG/libmng_write.c.i
@@ -3704,7 +3704,7 @@ Source/LibMNG/libmng_write.i: Source/LibMNG/libmng_write.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_write.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.i
 .PHONY : Source/LibMNG/libmng_write.c.i
 
 Source/LibMNG/libmng_write.s: Source/LibMNG/libmng_write.c.s
@@ -3712,7 +3712,7 @@ Source/LibMNG/libmng_write.s: Source/LibMNG/libmng_write.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_write.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_write.c.s
 .PHONY : Source/LibMNG/libmng_write.c.s
 
 Source/LibMNG/libmng_zlib.o: Source/LibMNG/libmng_zlib.c.o
@@ -3720,7 +3720,7 @@ Source/LibMNG/libmng_zlib.o: Source/LibMNG/libmng_zlib.c.o
 
 # target to build an object file
 Source/LibMNG/libmng_zlib.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.o
 .PHONY : Source/LibMNG/libmng_zlib.c.o
 
 Source/LibMNG/libmng_zlib.i: Source/LibMNG/libmng_zlib.c.i
@@ -3728,7 +3728,7 @@ Source/LibMNG/libmng_zlib.i: Source/LibMNG/libmng_zlib.c.i
 
 # target to preprocess a source file
 Source/LibMNG/libmng_zlib.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.i
 .PHONY : Source/LibMNG/libmng_zlib.c.i
 
 Source/LibMNG/libmng_zlib.s: Source/LibMNG/libmng_zlib.c.s
@@ -3736,7 +3736,7 @@ Source/LibMNG/libmng_zlib.s: Source/LibMNG/libmng_zlib.c.s
 
 # target to generate assembly for a file
 Source/LibMNG/libmng_zlib.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibMNG/libmng_zlib.c.s
 .PHONY : Source/LibMNG/libmng_zlib.c.s
 
 Source/LibOpenJPEG/bio.o: Source/LibOpenJPEG/bio.c.o
@@ -3744,7 +3744,7 @@ Source/LibOpenJPEG/bio.o: Source/LibOpenJPEG/bio.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/bio.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.o
 .PHONY : Source/LibOpenJPEG/bio.c.o
 
 Source/LibOpenJPEG/bio.i: Source/LibOpenJPEG/bio.c.i
@@ -3752,7 +3752,7 @@ Source/LibOpenJPEG/bio.i: Source/LibOpenJPEG/bio.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/bio.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.i
 .PHONY : Source/LibOpenJPEG/bio.c.i
 
 Source/LibOpenJPEG/bio.s: Source/LibOpenJPEG/bio.c.s
@@ -3760,7 +3760,7 @@ Source/LibOpenJPEG/bio.s: Source/LibOpenJPEG/bio.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/bio.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/bio.c.s
 .PHONY : Source/LibOpenJPEG/bio.c.s
 
 Source/LibOpenJPEG/cio.o: Source/LibOpenJPEG/cio.c.o
@@ -3768,7 +3768,7 @@ Source/LibOpenJPEG/cio.o: Source/LibOpenJPEG/cio.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/cio.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.o
 .PHONY : Source/LibOpenJPEG/cio.c.o
 
 Source/LibOpenJPEG/cio.i: Source/LibOpenJPEG/cio.c.i
@@ -3776,7 +3776,7 @@ Source/LibOpenJPEG/cio.i: Source/LibOpenJPEG/cio.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/cio.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.i
 .PHONY : Source/LibOpenJPEG/cio.c.i
 
 Source/LibOpenJPEG/cio.s: Source/LibOpenJPEG/cio.c.s
@@ -3784,7 +3784,7 @@ Source/LibOpenJPEG/cio.s: Source/LibOpenJPEG/cio.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/cio.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/cio.c.s
 .PHONY : Source/LibOpenJPEG/cio.c.s
 
 Source/LibOpenJPEG/dwt.o: Source/LibOpenJPEG/dwt.c.o
@@ -3792,7 +3792,7 @@ Source/LibOpenJPEG/dwt.o: Source/LibOpenJPEG/dwt.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/dwt.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.o
 .PHONY : Source/LibOpenJPEG/dwt.c.o
 
 Source/LibOpenJPEG/dwt.i: Source/LibOpenJPEG/dwt.c.i
@@ -3800,7 +3800,7 @@ Source/LibOpenJPEG/dwt.i: Source/LibOpenJPEG/dwt.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/dwt.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.i
 .PHONY : Source/LibOpenJPEG/dwt.c.i
 
 Source/LibOpenJPEG/dwt.s: Source/LibOpenJPEG/dwt.c.s
@@ -3808,7 +3808,7 @@ Source/LibOpenJPEG/dwt.s: Source/LibOpenJPEG/dwt.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/dwt.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/dwt.c.s
 .PHONY : Source/LibOpenJPEG/dwt.c.s
 
 Source/LibOpenJPEG/event.o: Source/LibOpenJPEG/event.c.o
@@ -3816,7 +3816,7 @@ Source/LibOpenJPEG/event.o: Source/LibOpenJPEG/event.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/event.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.o
 .PHONY : Source/LibOpenJPEG/event.c.o
 
 Source/LibOpenJPEG/event.i: Source/LibOpenJPEG/event.c.i
@@ -3824,7 +3824,7 @@ Source/LibOpenJPEG/event.i: Source/LibOpenJPEG/event.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/event.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.i
 .PHONY : Source/LibOpenJPEG/event.c.i
 
 Source/LibOpenJPEG/event.s: Source/LibOpenJPEG/event.c.s
@@ -3832,7 +3832,7 @@ Source/LibOpenJPEG/event.s: Source/LibOpenJPEG/event.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/event.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/event.c.s
 .PHONY : Source/LibOpenJPEG/event.c.s
 
 Source/LibOpenJPEG/image.o: Source/LibOpenJPEG/image.c.o
@@ -3840,7 +3840,7 @@ Source/LibOpenJPEG/image.o: Source/LibOpenJPEG/image.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/image.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.o
 .PHONY : Source/LibOpenJPEG/image.c.o
 
 Source/LibOpenJPEG/image.i: Source/LibOpenJPEG/image.c.i
@@ -3848,7 +3848,7 @@ Source/LibOpenJPEG/image.i: Source/LibOpenJPEG/image.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/image.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.i
 .PHONY : Source/LibOpenJPEG/image.c.i
 
 Source/LibOpenJPEG/image.s: Source/LibOpenJPEG/image.c.s
@@ -3856,7 +3856,7 @@ Source/LibOpenJPEG/image.s: Source/LibOpenJPEG/image.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/image.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/image.c.s
 .PHONY : Source/LibOpenJPEG/image.c.s
 
 Source/LibOpenJPEG/j2k.o: Source/LibOpenJPEG/j2k.c.o
@@ -3864,7 +3864,7 @@ Source/LibOpenJPEG/j2k.o: Source/LibOpenJPEG/j2k.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/j2k.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.o
 .PHONY : Source/LibOpenJPEG/j2k.c.o
 
 Source/LibOpenJPEG/j2k.i: Source/LibOpenJPEG/j2k.c.i
@@ -3872,7 +3872,7 @@ Source/LibOpenJPEG/j2k.i: Source/LibOpenJPEG/j2k.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/j2k.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.i
 .PHONY : Source/LibOpenJPEG/j2k.c.i
 
 Source/LibOpenJPEG/j2k.s: Source/LibOpenJPEG/j2k.c.s
@@ -3880,7 +3880,7 @@ Source/LibOpenJPEG/j2k.s: Source/LibOpenJPEG/j2k.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/j2k.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k.c.s
 .PHONY : Source/LibOpenJPEG/j2k.c.s
 
 Source/LibOpenJPEG/j2k_lib.o: Source/LibOpenJPEG/j2k_lib.c.o
@@ -3888,7 +3888,7 @@ Source/LibOpenJPEG/j2k_lib.o: Source/LibOpenJPEG/j2k_lib.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/j2k_lib.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.o
 .PHONY : Source/LibOpenJPEG/j2k_lib.c.o
 
 Source/LibOpenJPEG/j2k_lib.i: Source/LibOpenJPEG/j2k_lib.c.i
@@ -3896,7 +3896,7 @@ Source/LibOpenJPEG/j2k_lib.i: Source/LibOpenJPEG/j2k_lib.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/j2k_lib.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.i
 .PHONY : Source/LibOpenJPEG/j2k_lib.c.i
 
 Source/LibOpenJPEG/j2k_lib.s: Source/LibOpenJPEG/j2k_lib.c.s
@@ -3904,7 +3904,7 @@ Source/LibOpenJPEG/j2k_lib.s: Source/LibOpenJPEG/j2k_lib.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/j2k_lib.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/j2k_lib.c.s
 .PHONY : Source/LibOpenJPEG/j2k_lib.c.s
 
 Source/LibOpenJPEG/jp2.o: Source/LibOpenJPEG/jp2.c.o
@@ -3912,7 +3912,7 @@ Source/LibOpenJPEG/jp2.o: Source/LibOpenJPEG/jp2.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/jp2.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.o
 .PHONY : Source/LibOpenJPEG/jp2.c.o
 
 Source/LibOpenJPEG/jp2.i: Source/LibOpenJPEG/jp2.c.i
@@ -3920,7 +3920,7 @@ Source/LibOpenJPEG/jp2.i: Source/LibOpenJPEG/jp2.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/jp2.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.i
 .PHONY : Source/LibOpenJPEG/jp2.c.i
 
 Source/LibOpenJPEG/jp2.s: Source/LibOpenJPEG/jp2.c.s
@@ -3928,7 +3928,7 @@ Source/LibOpenJPEG/jp2.s: Source/LibOpenJPEG/jp2.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/jp2.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jp2.c.s
 .PHONY : Source/LibOpenJPEG/jp2.c.s
 
 Source/LibOpenJPEG/jpt.o: Source/LibOpenJPEG/jpt.c.o
@@ -3936,7 +3936,7 @@ Source/LibOpenJPEG/jpt.o: Source/LibOpenJPEG/jpt.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/jpt.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.o
 .PHONY : Source/LibOpenJPEG/jpt.c.o
 
 Source/LibOpenJPEG/jpt.i: Source/LibOpenJPEG/jpt.c.i
@@ -3944,7 +3944,7 @@ Source/LibOpenJPEG/jpt.i: Source/LibOpenJPEG/jpt.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/jpt.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.i
 .PHONY : Source/LibOpenJPEG/jpt.c.i
 
 Source/LibOpenJPEG/jpt.s: Source/LibOpenJPEG/jpt.c.s
@@ -3952,7 +3952,7 @@ Source/LibOpenJPEG/jpt.s: Source/LibOpenJPEG/jpt.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/jpt.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/jpt.c.s
 .PHONY : Source/LibOpenJPEG/jpt.c.s
 
 Source/LibOpenJPEG/mct.o: Source/LibOpenJPEG/mct.c.o
@@ -3960,7 +3960,7 @@ Source/LibOpenJPEG/mct.o: Source/LibOpenJPEG/mct.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/mct.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.o
 .PHONY : Source/LibOpenJPEG/mct.c.o
 
 Source/LibOpenJPEG/mct.i: Source/LibOpenJPEG/mct.c.i
@@ -3968,7 +3968,7 @@ Source/LibOpenJPEG/mct.i: Source/LibOpenJPEG/mct.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/mct.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.i
 .PHONY : Source/LibOpenJPEG/mct.c.i
 
 Source/LibOpenJPEG/mct.s: Source/LibOpenJPEG/mct.c.s
@@ -3976,7 +3976,7 @@ Source/LibOpenJPEG/mct.s: Source/LibOpenJPEG/mct.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/mct.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mct.c.s
 .PHONY : Source/LibOpenJPEG/mct.c.s
 
 Source/LibOpenJPEG/mqc.o: Source/LibOpenJPEG/mqc.c.o
@@ -3984,7 +3984,7 @@ Source/LibOpenJPEG/mqc.o: Source/LibOpenJPEG/mqc.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/mqc.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.o
 .PHONY : Source/LibOpenJPEG/mqc.c.o
 
 Source/LibOpenJPEG/mqc.i: Source/LibOpenJPEG/mqc.c.i
@@ -3992,7 +3992,7 @@ Source/LibOpenJPEG/mqc.i: Source/LibOpenJPEG/mqc.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/mqc.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.i
 .PHONY : Source/LibOpenJPEG/mqc.c.i
 
 Source/LibOpenJPEG/mqc.s: Source/LibOpenJPEG/mqc.c.s
@@ -4000,7 +4000,7 @@ Source/LibOpenJPEG/mqc.s: Source/LibOpenJPEG/mqc.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/mqc.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/mqc.c.s
 .PHONY : Source/LibOpenJPEG/mqc.c.s
 
 Source/LibOpenJPEG/openjpeg.o: Source/LibOpenJPEG/openjpeg.c.o
@@ -4008,7 +4008,7 @@ Source/LibOpenJPEG/openjpeg.o: Source/LibOpenJPEG/openjpeg.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/openjpeg.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.o
 .PHONY : Source/LibOpenJPEG/openjpeg.c.o
 
 Source/LibOpenJPEG/openjpeg.i: Source/LibOpenJPEG/openjpeg.c.i
@@ -4016,7 +4016,7 @@ Source/LibOpenJPEG/openjpeg.i: Source/LibOpenJPEG/openjpeg.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/openjpeg.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.i
 .PHONY : Source/LibOpenJPEG/openjpeg.c.i
 
 Source/LibOpenJPEG/openjpeg.s: Source/LibOpenJPEG/openjpeg.c.s
@@ -4024,7 +4024,7 @@ Source/LibOpenJPEG/openjpeg.s: Source/LibOpenJPEG/openjpeg.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/openjpeg.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/openjpeg.c.s
 .PHONY : Source/LibOpenJPEG/openjpeg.c.s
 
 Source/LibOpenJPEG/pi.o: Source/LibOpenJPEG/pi.c.o
@@ -4032,7 +4032,7 @@ Source/LibOpenJPEG/pi.o: Source/LibOpenJPEG/pi.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/pi.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.o
 .PHONY : Source/LibOpenJPEG/pi.c.o
 
 Source/LibOpenJPEG/pi.i: Source/LibOpenJPEG/pi.c.i
@@ -4040,7 +4040,7 @@ Source/LibOpenJPEG/pi.i: Source/LibOpenJPEG/pi.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/pi.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.i
 .PHONY : Source/LibOpenJPEG/pi.c.i
 
 Source/LibOpenJPEG/pi.s: Source/LibOpenJPEG/pi.c.s
@@ -4048,7 +4048,7 @@ Source/LibOpenJPEG/pi.s: Source/LibOpenJPEG/pi.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/pi.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/pi.c.s
 .PHONY : Source/LibOpenJPEG/pi.c.s
 
 Source/LibOpenJPEG/raw.o: Source/LibOpenJPEG/raw.c.o
@@ -4056,7 +4056,7 @@ Source/LibOpenJPEG/raw.o: Source/LibOpenJPEG/raw.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/raw.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.o
 .PHONY : Source/LibOpenJPEG/raw.c.o
 
 Source/LibOpenJPEG/raw.i: Source/LibOpenJPEG/raw.c.i
@@ -4064,7 +4064,7 @@ Source/LibOpenJPEG/raw.i: Source/LibOpenJPEG/raw.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/raw.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.i
 .PHONY : Source/LibOpenJPEG/raw.c.i
 
 Source/LibOpenJPEG/raw.s: Source/LibOpenJPEG/raw.c.s
@@ -4072,7 +4072,7 @@ Source/LibOpenJPEG/raw.s: Source/LibOpenJPEG/raw.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/raw.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/raw.c.s
 .PHONY : Source/LibOpenJPEG/raw.c.s
 
 Source/LibOpenJPEG/t1.o: Source/LibOpenJPEG/t1.c.o
@@ -4080,7 +4080,7 @@ Source/LibOpenJPEG/t1.o: Source/LibOpenJPEG/t1.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/t1.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.o
 .PHONY : Source/LibOpenJPEG/t1.c.o
 
 Source/LibOpenJPEG/t1.i: Source/LibOpenJPEG/t1.c.i
@@ -4088,7 +4088,7 @@ Source/LibOpenJPEG/t1.i: Source/LibOpenJPEG/t1.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/t1.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.i
 .PHONY : Source/LibOpenJPEG/t1.c.i
 
 Source/LibOpenJPEG/t1.s: Source/LibOpenJPEG/t1.c.s
@@ -4096,7 +4096,7 @@ Source/LibOpenJPEG/t1.s: Source/LibOpenJPEG/t1.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/t1.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t1.c.s
 .PHONY : Source/LibOpenJPEG/t1.c.s
 
 Source/LibOpenJPEG/t2.o: Source/LibOpenJPEG/t2.c.o
@@ -4104,7 +4104,7 @@ Source/LibOpenJPEG/t2.o: Source/LibOpenJPEG/t2.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/t2.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.o
 .PHONY : Source/LibOpenJPEG/t2.c.o
 
 Source/LibOpenJPEG/t2.i: Source/LibOpenJPEG/t2.c.i
@@ -4112,7 +4112,7 @@ Source/LibOpenJPEG/t2.i: Source/LibOpenJPEG/t2.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/t2.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.i
 .PHONY : Source/LibOpenJPEG/t2.c.i
 
 Source/LibOpenJPEG/t2.s: Source/LibOpenJPEG/t2.c.s
@@ -4120,7 +4120,7 @@ Source/LibOpenJPEG/t2.s: Source/LibOpenJPEG/t2.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/t2.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/t2.c.s
 .PHONY : Source/LibOpenJPEG/t2.c.s
 
 Source/LibOpenJPEG/tcd.o: Source/LibOpenJPEG/tcd.c.o
@@ -4128,7 +4128,7 @@ Source/LibOpenJPEG/tcd.o: Source/LibOpenJPEG/tcd.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/tcd.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.o
 .PHONY : Source/LibOpenJPEG/tcd.c.o
 
 Source/LibOpenJPEG/tcd.i: Source/LibOpenJPEG/tcd.c.i
@@ -4136,7 +4136,7 @@ Source/LibOpenJPEG/tcd.i: Source/LibOpenJPEG/tcd.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/tcd.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.i
 .PHONY : Source/LibOpenJPEG/tcd.c.i
 
 Source/LibOpenJPEG/tcd.s: Source/LibOpenJPEG/tcd.c.s
@@ -4144,7 +4144,7 @@ Source/LibOpenJPEG/tcd.s: Source/LibOpenJPEG/tcd.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/tcd.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tcd.c.s
 .PHONY : Source/LibOpenJPEG/tcd.c.s
 
 Source/LibOpenJPEG/tgt.o: Source/LibOpenJPEG/tgt.c.o
@@ -4152,7 +4152,7 @@ Source/LibOpenJPEG/tgt.o: Source/LibOpenJPEG/tgt.c.o
 
 # target to build an object file
 Source/LibOpenJPEG/tgt.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.o
 .PHONY : Source/LibOpenJPEG/tgt.c.o
 
 Source/LibOpenJPEG/tgt.i: Source/LibOpenJPEG/tgt.c.i
@@ -4160,7 +4160,7 @@ Source/LibOpenJPEG/tgt.i: Source/LibOpenJPEG/tgt.c.i
 
 # target to preprocess a source file
 Source/LibOpenJPEG/tgt.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.i
 .PHONY : Source/LibOpenJPEG/tgt.c.i
 
 Source/LibOpenJPEG/tgt.s: Source/LibOpenJPEG/tgt.c.s
@@ -4168,7 +4168,7 @@ Source/LibOpenJPEG/tgt.s: Source/LibOpenJPEG/tgt.c.s
 
 # target to generate assembly for a file
 Source/LibOpenJPEG/tgt.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibOpenJPEG/tgt.c.s
 .PHONY : Source/LibOpenJPEG/tgt.c.s
 
 Source/LibPNG/png.o: Source/LibPNG/png.c.o
@@ -4176,7 +4176,7 @@ Source/LibPNG/png.o: Source/LibPNG/png.c.o
 
 # target to build an object file
 Source/LibPNG/png.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.o
 .PHONY : Source/LibPNG/png.c.o
 
 Source/LibPNG/png.i: Source/LibPNG/png.c.i
@@ -4184,7 +4184,7 @@ Source/LibPNG/png.i: Source/LibPNG/png.c.i
 
 # target to preprocess a source file
 Source/LibPNG/png.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.i
 .PHONY : Source/LibPNG/png.c.i
 
 Source/LibPNG/png.s: Source/LibPNG/png.c.s
@@ -4192,7 +4192,7 @@ Source/LibPNG/png.s: Source/LibPNG/png.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/png.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/png.c.s
 .PHONY : Source/LibPNG/png.c.s
 
 Source/LibPNG/pngerror.o: Source/LibPNG/pngerror.c.o
@@ -4200,7 +4200,7 @@ Source/LibPNG/pngerror.o: Source/LibPNG/pngerror.c.o
 
 # target to build an object file
 Source/LibPNG/pngerror.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.o
 .PHONY : Source/LibPNG/pngerror.c.o
 
 Source/LibPNG/pngerror.i: Source/LibPNG/pngerror.c.i
@@ -4208,7 +4208,7 @@ Source/LibPNG/pngerror.i: Source/LibPNG/pngerror.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngerror.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.i
 .PHONY : Source/LibPNG/pngerror.c.i
 
 Source/LibPNG/pngerror.s: Source/LibPNG/pngerror.c.s
@@ -4216,7 +4216,7 @@ Source/LibPNG/pngerror.s: Source/LibPNG/pngerror.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngerror.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngerror.c.s
 .PHONY : Source/LibPNG/pngerror.c.s
 
 Source/LibPNG/pngget.o: Source/LibPNG/pngget.c.o
@@ -4224,7 +4224,7 @@ Source/LibPNG/pngget.o: Source/LibPNG/pngget.c.o
 
 # target to build an object file
 Source/LibPNG/pngget.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.o
 .PHONY : Source/LibPNG/pngget.c.o
 
 Source/LibPNG/pngget.i: Source/LibPNG/pngget.c.i
@@ -4232,7 +4232,7 @@ Source/LibPNG/pngget.i: Source/LibPNG/pngget.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngget.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.i
 .PHONY : Source/LibPNG/pngget.c.i
 
 Source/LibPNG/pngget.s: Source/LibPNG/pngget.c.s
@@ -4240,7 +4240,7 @@ Source/LibPNG/pngget.s: Source/LibPNG/pngget.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngget.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngget.c.s
 .PHONY : Source/LibPNG/pngget.c.s
 
 Source/LibPNG/pngmem.o: Source/LibPNG/pngmem.c.o
@@ -4248,7 +4248,7 @@ Source/LibPNG/pngmem.o: Source/LibPNG/pngmem.c.o
 
 # target to build an object file
 Source/LibPNG/pngmem.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.o
 .PHONY : Source/LibPNG/pngmem.c.o
 
 Source/LibPNG/pngmem.i: Source/LibPNG/pngmem.c.i
@@ -4256,7 +4256,7 @@ Source/LibPNG/pngmem.i: Source/LibPNG/pngmem.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngmem.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.i
 .PHONY : Source/LibPNG/pngmem.c.i
 
 Source/LibPNG/pngmem.s: Source/LibPNG/pngmem.c.s
@@ -4264,7 +4264,7 @@ Source/LibPNG/pngmem.s: Source/LibPNG/pngmem.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngmem.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngmem.c.s
 .PHONY : Source/LibPNG/pngmem.c.s
 
 Source/LibPNG/pngpread.o: Source/LibPNG/pngpread.c.o
@@ -4272,7 +4272,7 @@ Source/LibPNG/pngpread.o: Source/LibPNG/pngpread.c.o
 
 # target to build an object file
 Source/LibPNG/pngpread.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.o
 .PHONY : Source/LibPNG/pngpread.c.o
 
 Source/LibPNG/pngpread.i: Source/LibPNG/pngpread.c.i
@@ -4280,7 +4280,7 @@ Source/LibPNG/pngpread.i: Source/LibPNG/pngpread.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngpread.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.i
 .PHONY : Source/LibPNG/pngpread.c.i
 
 Source/LibPNG/pngpread.s: Source/LibPNG/pngpread.c.s
@@ -4288,7 +4288,7 @@ Source/LibPNG/pngpread.s: Source/LibPNG/pngpread.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngpread.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngpread.c.s
 .PHONY : Source/LibPNG/pngpread.c.s
 
 Source/LibPNG/pngread.o: Source/LibPNG/pngread.c.o
@@ -4296,7 +4296,7 @@ Source/LibPNG/pngread.o: Source/LibPNG/pngread.c.o
 
 # target to build an object file
 Source/LibPNG/pngread.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.o
 .PHONY : Source/LibPNG/pngread.c.o
 
 Source/LibPNG/pngread.i: Source/LibPNG/pngread.c.i
@@ -4304,7 +4304,7 @@ Source/LibPNG/pngread.i: Source/LibPNG/pngread.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngread.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.i
 .PHONY : Source/LibPNG/pngread.c.i
 
 Source/LibPNG/pngread.s: Source/LibPNG/pngread.c.s
@@ -4312,7 +4312,7 @@ Source/LibPNG/pngread.s: Source/LibPNG/pngread.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngread.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngread.c.s
 .PHONY : Source/LibPNG/pngread.c.s
 
 Source/LibPNG/pngrio.o: Source/LibPNG/pngrio.c.o
@@ -4320,7 +4320,7 @@ Source/LibPNG/pngrio.o: Source/LibPNG/pngrio.c.o
 
 # target to build an object file
 Source/LibPNG/pngrio.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.o
 .PHONY : Source/LibPNG/pngrio.c.o
 
 Source/LibPNG/pngrio.i: Source/LibPNG/pngrio.c.i
@@ -4328,7 +4328,7 @@ Source/LibPNG/pngrio.i: Source/LibPNG/pngrio.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngrio.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.i
 .PHONY : Source/LibPNG/pngrio.c.i
 
 Source/LibPNG/pngrio.s: Source/LibPNG/pngrio.c.s
@@ -4336,7 +4336,7 @@ Source/LibPNG/pngrio.s: Source/LibPNG/pngrio.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngrio.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrio.c.s
 .PHONY : Source/LibPNG/pngrio.c.s
 
 Source/LibPNG/pngrtran.o: Source/LibPNG/pngrtran.c.o
@@ -4344,7 +4344,7 @@ Source/LibPNG/pngrtran.o: Source/LibPNG/pngrtran.c.o
 
 # target to build an object file
 Source/LibPNG/pngrtran.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.o
 .PHONY : Source/LibPNG/pngrtran.c.o
 
 Source/LibPNG/pngrtran.i: Source/LibPNG/pngrtran.c.i
@@ -4352,7 +4352,7 @@ Source/LibPNG/pngrtran.i: Source/LibPNG/pngrtran.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngrtran.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.i
 .PHONY : Source/LibPNG/pngrtran.c.i
 
 Source/LibPNG/pngrtran.s: Source/LibPNG/pngrtran.c.s
@@ -4360,7 +4360,7 @@ Source/LibPNG/pngrtran.s: Source/LibPNG/pngrtran.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngrtran.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrtran.c.s
 .PHONY : Source/LibPNG/pngrtran.c.s
 
 Source/LibPNG/pngrutil.o: Source/LibPNG/pngrutil.c.o
@@ -4368,7 +4368,7 @@ Source/LibPNG/pngrutil.o: Source/LibPNG/pngrutil.c.o
 
 # target to build an object file
 Source/LibPNG/pngrutil.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.o
 .PHONY : Source/LibPNG/pngrutil.c.o
 
 Source/LibPNG/pngrutil.i: Source/LibPNG/pngrutil.c.i
@@ -4376,7 +4376,7 @@ Source/LibPNG/pngrutil.i: Source/LibPNG/pngrutil.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngrutil.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.i
 .PHONY : Source/LibPNG/pngrutil.c.i
 
 Source/LibPNG/pngrutil.s: Source/LibPNG/pngrutil.c.s
@@ -4384,7 +4384,7 @@ Source/LibPNG/pngrutil.s: Source/LibPNG/pngrutil.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngrutil.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngrutil.c.s
 .PHONY : Source/LibPNG/pngrutil.c.s
 
 Source/LibPNG/pngset.o: Source/LibPNG/pngset.c.o
@@ -4392,7 +4392,7 @@ Source/LibPNG/pngset.o: Source/LibPNG/pngset.c.o
 
 # target to build an object file
 Source/LibPNG/pngset.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.o
 .PHONY : Source/LibPNG/pngset.c.o
 
 Source/LibPNG/pngset.i: Source/LibPNG/pngset.c.i
@@ -4400,7 +4400,7 @@ Source/LibPNG/pngset.i: Source/LibPNG/pngset.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngset.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.i
 .PHONY : Source/LibPNG/pngset.c.i
 
 Source/LibPNG/pngset.s: Source/LibPNG/pngset.c.s
@@ -4408,7 +4408,7 @@ Source/LibPNG/pngset.s: Source/LibPNG/pngset.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngset.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngset.c.s
 .PHONY : Source/LibPNG/pngset.c.s
 
 Source/LibPNG/pngtrans.o: Source/LibPNG/pngtrans.c.o
@@ -4416,7 +4416,7 @@ Source/LibPNG/pngtrans.o: Source/LibPNG/pngtrans.c.o
 
 # target to build an object file
 Source/LibPNG/pngtrans.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.o
 .PHONY : Source/LibPNG/pngtrans.c.o
 
 Source/LibPNG/pngtrans.i: Source/LibPNG/pngtrans.c.i
@@ -4424,7 +4424,7 @@ Source/LibPNG/pngtrans.i: Source/LibPNG/pngtrans.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngtrans.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.i
 .PHONY : Source/LibPNG/pngtrans.c.i
 
 Source/LibPNG/pngtrans.s: Source/LibPNG/pngtrans.c.s
@@ -4432,7 +4432,7 @@ Source/LibPNG/pngtrans.s: Source/LibPNG/pngtrans.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngtrans.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngtrans.c.s
 .PHONY : Source/LibPNG/pngtrans.c.s
 
 Source/LibPNG/pngwio.o: Source/LibPNG/pngwio.c.o
@@ -4440,7 +4440,7 @@ Source/LibPNG/pngwio.o: Source/LibPNG/pngwio.c.o
 
 # target to build an object file
 Source/LibPNG/pngwio.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.o
 .PHONY : Source/LibPNG/pngwio.c.o
 
 Source/LibPNG/pngwio.i: Source/LibPNG/pngwio.c.i
@@ -4448,7 +4448,7 @@ Source/LibPNG/pngwio.i: Source/LibPNG/pngwio.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngwio.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.i
 .PHONY : Source/LibPNG/pngwio.c.i
 
 Source/LibPNG/pngwio.s: Source/LibPNG/pngwio.c.s
@@ -4456,7 +4456,7 @@ Source/LibPNG/pngwio.s: Source/LibPNG/pngwio.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngwio.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwio.c.s
 .PHONY : Source/LibPNG/pngwio.c.s
 
 Source/LibPNG/pngwrite.o: Source/LibPNG/pngwrite.c.o
@@ -4464,7 +4464,7 @@ Source/LibPNG/pngwrite.o: Source/LibPNG/pngwrite.c.o
 
 # target to build an object file
 Source/LibPNG/pngwrite.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.o
 .PHONY : Source/LibPNG/pngwrite.c.o
 
 Source/LibPNG/pngwrite.i: Source/LibPNG/pngwrite.c.i
@@ -4472,7 +4472,7 @@ Source/LibPNG/pngwrite.i: Source/LibPNG/pngwrite.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngwrite.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.i
 .PHONY : Source/LibPNG/pngwrite.c.i
 
 Source/LibPNG/pngwrite.s: Source/LibPNG/pngwrite.c.s
@@ -4480,7 +4480,7 @@ Source/LibPNG/pngwrite.s: Source/LibPNG/pngwrite.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngwrite.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwrite.c.s
 .PHONY : Source/LibPNG/pngwrite.c.s
 
 Source/LibPNG/pngwtran.o: Source/LibPNG/pngwtran.c.o
@@ -4488,7 +4488,7 @@ Source/LibPNG/pngwtran.o: Source/LibPNG/pngwtran.c.o
 
 # target to build an object file
 Source/LibPNG/pngwtran.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.o
 .PHONY : Source/LibPNG/pngwtran.c.o
 
 Source/LibPNG/pngwtran.i: Source/LibPNG/pngwtran.c.i
@@ -4496,7 +4496,7 @@ Source/LibPNG/pngwtran.i: Source/LibPNG/pngwtran.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngwtran.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.i
 .PHONY : Source/LibPNG/pngwtran.c.i
 
 Source/LibPNG/pngwtran.s: Source/LibPNG/pngwtran.c.s
@@ -4504,7 +4504,7 @@ Source/LibPNG/pngwtran.s: Source/LibPNG/pngwtran.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngwtran.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwtran.c.s
 .PHONY : Source/LibPNG/pngwtran.c.s
 
 Source/LibPNG/pngwutil.o: Source/LibPNG/pngwutil.c.o
@@ -4512,7 +4512,7 @@ Source/LibPNG/pngwutil.o: Source/LibPNG/pngwutil.c.o
 
 # target to build an object file
 Source/LibPNG/pngwutil.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.o
 .PHONY : Source/LibPNG/pngwutil.c.o
 
 Source/LibPNG/pngwutil.i: Source/LibPNG/pngwutil.c.i
@@ -4520,7 +4520,7 @@ Source/LibPNG/pngwutil.i: Source/LibPNG/pngwutil.c.i
 
 # target to preprocess a source file
 Source/LibPNG/pngwutil.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.i
 .PHONY : Source/LibPNG/pngwutil.c.i
 
 Source/LibPNG/pngwutil.s: Source/LibPNG/pngwutil.c.s
@@ -4528,7 +4528,7 @@ Source/LibPNG/pngwutil.s: Source/LibPNG/pngwutil.c.s
 
 # target to generate assembly for a file
 Source/LibPNG/pngwutil.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibPNG/pngwutil.c.s
 .PHONY : Source/LibPNG/pngwutil.c.s
 
 Source/LibRawLite/internal/dcraw_common.o: Source/LibRawLite/internal/dcraw_common.cpp.o
@@ -4536,7 +4536,7 @@ Source/LibRawLite/internal/dcraw_common.o: Source/LibRawLite/internal/dcraw_comm
 
 # target to build an object file
 Source/LibRawLite/internal/dcraw_common.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.o
 .PHONY : Source/LibRawLite/internal/dcraw_common.cpp.o
 
 Source/LibRawLite/internal/dcraw_common.i: Source/LibRawLite/internal/dcraw_common.cpp.i
@@ -4544,7 +4544,7 @@ Source/LibRawLite/internal/dcraw_common.i: Source/LibRawLite/internal/dcraw_comm
 
 # target to preprocess a source file
 Source/LibRawLite/internal/dcraw_common.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.i
 .PHONY : Source/LibRawLite/internal/dcraw_common.cpp.i
 
 Source/LibRawLite/internal/dcraw_common.s: Source/LibRawLite/internal/dcraw_common.cpp.s
@@ -4552,7 +4552,7 @@ Source/LibRawLite/internal/dcraw_common.s: Source/LibRawLite/internal/dcraw_comm
 
 # target to generate assembly for a file
 Source/LibRawLite/internal/dcraw_common.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_common.cpp.s
 .PHONY : Source/LibRawLite/internal/dcraw_common.cpp.s
 
 Source/LibRawLite/internal/dcraw_fileio.o: Source/LibRawLite/internal/dcraw_fileio.cpp.o
@@ -4560,7 +4560,7 @@ Source/LibRawLite/internal/dcraw_fileio.o: Source/LibRawLite/internal/dcraw_file
 
 # target to build an object file
 Source/LibRawLite/internal/dcraw_fileio.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.o
 .PHONY : Source/LibRawLite/internal/dcraw_fileio.cpp.o
 
 Source/LibRawLite/internal/dcraw_fileio.i: Source/LibRawLite/internal/dcraw_fileio.cpp.i
@@ -4568,7 +4568,7 @@ Source/LibRawLite/internal/dcraw_fileio.i: Source/LibRawLite/internal/dcraw_file
 
 # target to preprocess a source file
 Source/LibRawLite/internal/dcraw_fileio.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.i
 .PHONY : Source/LibRawLite/internal/dcraw_fileio.cpp.i
 
 Source/LibRawLite/internal/dcraw_fileio.s: Source/LibRawLite/internal/dcraw_fileio.cpp.s
@@ -4576,7 +4576,7 @@ Source/LibRawLite/internal/dcraw_fileio.s: Source/LibRawLite/internal/dcraw_file
 
 # target to generate assembly for a file
 Source/LibRawLite/internal/dcraw_fileio.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/dcraw_fileio.cpp.s
 .PHONY : Source/LibRawLite/internal/dcraw_fileio.cpp.s
 
 Source/LibRawLite/internal/demosaic_packs.o: Source/LibRawLite/internal/demosaic_packs.cpp.o
@@ -4584,7 +4584,7 @@ Source/LibRawLite/internal/demosaic_packs.o: Source/LibRawLite/internal/demosaic
 
 # target to build an object file
 Source/LibRawLite/internal/demosaic_packs.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.o
 .PHONY : Source/LibRawLite/internal/demosaic_packs.cpp.o
 
 Source/LibRawLite/internal/demosaic_packs.i: Source/LibRawLite/internal/demosaic_packs.cpp.i
@@ -4592,7 +4592,7 @@ Source/LibRawLite/internal/demosaic_packs.i: Source/LibRawLite/internal/demosaic
 
 # target to preprocess a source file
 Source/LibRawLite/internal/demosaic_packs.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.i
 .PHONY : Source/LibRawLite/internal/demosaic_packs.cpp.i
 
 Source/LibRawLite/internal/demosaic_packs.s: Source/LibRawLite/internal/demosaic_packs.cpp.s
@@ -4600,7 +4600,7 @@ Source/LibRawLite/internal/demosaic_packs.s: Source/LibRawLite/internal/demosaic
 
 # target to generate assembly for a file
 Source/LibRawLite/internal/demosaic_packs.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/internal/demosaic_packs.cpp.s
 .PHONY : Source/LibRawLite/internal/demosaic_packs.cpp.s
 
 Source/LibRawLite/src/libraw_c_api.o: Source/LibRawLite/src/libraw_c_api.cpp.o
@@ -4608,7 +4608,7 @@ Source/LibRawLite/src/libraw_c_api.o: Source/LibRawLite/src/libraw_c_api.cpp.o
 
 # target to build an object file
 Source/LibRawLite/src/libraw_c_api.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.o
 .PHONY : Source/LibRawLite/src/libraw_c_api.cpp.o
 
 Source/LibRawLite/src/libraw_c_api.i: Source/LibRawLite/src/libraw_c_api.cpp.i
@@ -4616,7 +4616,7 @@ Source/LibRawLite/src/libraw_c_api.i: Source/LibRawLite/src/libraw_c_api.cpp.i
 
 # target to preprocess a source file
 Source/LibRawLite/src/libraw_c_api.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.i
 .PHONY : Source/LibRawLite/src/libraw_c_api.cpp.i
 
 Source/LibRawLite/src/libraw_c_api.s: Source/LibRawLite/src/libraw_c_api.cpp.s
@@ -4624,7 +4624,7 @@ Source/LibRawLite/src/libraw_c_api.s: Source/LibRawLite/src/libraw_c_api.cpp.s
 
 # target to generate assembly for a file
 Source/LibRawLite/src/libraw_c_api.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_c_api.cpp.s
 .PHONY : Source/LibRawLite/src/libraw_c_api.cpp.s
 
 Source/LibRawLite/src/libraw_cxx.o: Source/LibRawLite/src/libraw_cxx.cpp.o
@@ -4632,7 +4632,7 @@ Source/LibRawLite/src/libraw_cxx.o: Source/LibRawLite/src/libraw_cxx.cpp.o
 
 # target to build an object file
 Source/LibRawLite/src/libraw_cxx.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.o
 .PHONY : Source/LibRawLite/src/libraw_cxx.cpp.o
 
 Source/LibRawLite/src/libraw_cxx.i: Source/LibRawLite/src/libraw_cxx.cpp.i
@@ -4640,7 +4640,7 @@ Source/LibRawLite/src/libraw_cxx.i: Source/LibRawLite/src/libraw_cxx.cpp.i
 
 # target to preprocess a source file
 Source/LibRawLite/src/libraw_cxx.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.i
 .PHONY : Source/LibRawLite/src/libraw_cxx.cpp.i
 
 Source/LibRawLite/src/libraw_cxx.s: Source/LibRawLite/src/libraw_cxx.cpp.s
@@ -4648,7 +4648,7 @@ Source/LibRawLite/src/libraw_cxx.s: Source/LibRawLite/src/libraw_cxx.cpp.s
 
 # target to generate assembly for a file
 Source/LibRawLite/src/libraw_cxx.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibRawLite/src/libraw_cxx.cpp.s
 .PHONY : Source/LibRawLite/src/libraw_cxx.cpp.s
 
 Source/LibTIFF/tif_aux.o: Source/LibTIFF/tif_aux.c.o
@@ -4656,7 +4656,7 @@ Source/LibTIFF/tif_aux.o: Source/LibTIFF/tif_aux.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_aux.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.o
 .PHONY : Source/LibTIFF/tif_aux.c.o
 
 Source/LibTIFF/tif_aux.i: Source/LibTIFF/tif_aux.c.i
@@ -4664,7 +4664,7 @@ Source/LibTIFF/tif_aux.i: Source/LibTIFF/tif_aux.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_aux.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.i
 .PHONY : Source/LibTIFF/tif_aux.c.i
 
 Source/LibTIFF/tif_aux.s: Source/LibTIFF/tif_aux.c.s
@@ -4672,7 +4672,7 @@ Source/LibTIFF/tif_aux.s: Source/LibTIFF/tif_aux.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_aux.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_aux.c.s
 .PHONY : Source/LibTIFF/tif_aux.c.s
 
 Source/LibTIFF/tif_close.o: Source/LibTIFF/tif_close.c.o
@@ -4680,7 +4680,7 @@ Source/LibTIFF/tif_close.o: Source/LibTIFF/tif_close.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_close.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.o
 .PHONY : Source/LibTIFF/tif_close.c.o
 
 Source/LibTIFF/tif_close.i: Source/LibTIFF/tif_close.c.i
@@ -4688,7 +4688,7 @@ Source/LibTIFF/tif_close.i: Source/LibTIFF/tif_close.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_close.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.i
 .PHONY : Source/LibTIFF/tif_close.c.i
 
 Source/LibTIFF/tif_close.s: Source/LibTIFF/tif_close.c.s
@@ -4696,7 +4696,7 @@ Source/LibTIFF/tif_close.s: Source/LibTIFF/tif_close.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_close.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_close.c.s
 .PHONY : Source/LibTIFF/tif_close.c.s
 
 Source/LibTIFF/tif_codec.o: Source/LibTIFF/tif_codec.c.o
@@ -4704,7 +4704,7 @@ Source/LibTIFF/tif_codec.o: Source/LibTIFF/tif_codec.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_codec.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.o
 .PHONY : Source/LibTIFF/tif_codec.c.o
 
 Source/LibTIFF/tif_codec.i: Source/LibTIFF/tif_codec.c.i
@@ -4712,7 +4712,7 @@ Source/LibTIFF/tif_codec.i: Source/LibTIFF/tif_codec.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_codec.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.i
 .PHONY : Source/LibTIFF/tif_codec.c.i
 
 Source/LibTIFF/tif_codec.s: Source/LibTIFF/tif_codec.c.s
@@ -4720,7 +4720,7 @@ Source/LibTIFF/tif_codec.s: Source/LibTIFF/tif_codec.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_codec.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_codec.c.s
 .PHONY : Source/LibTIFF/tif_codec.c.s
 
 Source/LibTIFF/tif_color.o: Source/LibTIFF/tif_color.c.o
@@ -4728,7 +4728,7 @@ Source/LibTIFF/tif_color.o: Source/LibTIFF/tif_color.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_color.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.o
 .PHONY : Source/LibTIFF/tif_color.c.o
 
 Source/LibTIFF/tif_color.i: Source/LibTIFF/tif_color.c.i
@@ -4736,7 +4736,7 @@ Source/LibTIFF/tif_color.i: Source/LibTIFF/tif_color.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_color.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.i
 .PHONY : Source/LibTIFF/tif_color.c.i
 
 Source/LibTIFF/tif_color.s: Source/LibTIFF/tif_color.c.s
@@ -4744,7 +4744,7 @@ Source/LibTIFF/tif_color.s: Source/LibTIFF/tif_color.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_color.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_color.c.s
 .PHONY : Source/LibTIFF/tif_color.c.s
 
 Source/LibTIFF/tif_compress.o: Source/LibTIFF/tif_compress.c.o
@@ -4752,7 +4752,7 @@ Source/LibTIFF/tif_compress.o: Source/LibTIFF/tif_compress.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_compress.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.o
 .PHONY : Source/LibTIFF/tif_compress.c.o
 
 Source/LibTIFF/tif_compress.i: Source/LibTIFF/tif_compress.c.i
@@ -4760,7 +4760,7 @@ Source/LibTIFF/tif_compress.i: Source/LibTIFF/tif_compress.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_compress.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.i
 .PHONY : Source/LibTIFF/tif_compress.c.i
 
 Source/LibTIFF/tif_compress.s: Source/LibTIFF/tif_compress.c.s
@@ -4768,7 +4768,7 @@ Source/LibTIFF/tif_compress.s: Source/LibTIFF/tif_compress.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_compress.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_compress.c.s
 .PHONY : Source/LibTIFF/tif_compress.c.s
 
 Source/LibTIFF/tif_dir.o: Source/LibTIFF/tif_dir.c.o
@@ -4776,7 +4776,7 @@ Source/LibTIFF/tif_dir.o: Source/LibTIFF/tif_dir.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_dir.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.o
 .PHONY : Source/LibTIFF/tif_dir.c.o
 
 Source/LibTIFF/tif_dir.i: Source/LibTIFF/tif_dir.c.i
@@ -4784,7 +4784,7 @@ Source/LibTIFF/tif_dir.i: Source/LibTIFF/tif_dir.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_dir.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.i
 .PHONY : Source/LibTIFF/tif_dir.c.i
 
 Source/LibTIFF/tif_dir.s: Source/LibTIFF/tif_dir.c.s
@@ -4792,7 +4792,7 @@ Source/LibTIFF/tif_dir.s: Source/LibTIFF/tif_dir.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_dir.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dir.c.s
 .PHONY : Source/LibTIFF/tif_dir.c.s
 
 Source/LibTIFF/tif_dirinfo.o: Source/LibTIFF/tif_dirinfo.c.o
@@ -4800,7 +4800,7 @@ Source/LibTIFF/tif_dirinfo.o: Source/LibTIFF/tif_dirinfo.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_dirinfo.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.o
 .PHONY : Source/LibTIFF/tif_dirinfo.c.o
 
 Source/LibTIFF/tif_dirinfo.i: Source/LibTIFF/tif_dirinfo.c.i
@@ -4808,7 +4808,7 @@ Source/LibTIFF/tif_dirinfo.i: Source/LibTIFF/tif_dirinfo.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_dirinfo.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.i
 .PHONY : Source/LibTIFF/tif_dirinfo.c.i
 
 Source/LibTIFF/tif_dirinfo.s: Source/LibTIFF/tif_dirinfo.c.s
@@ -4816,7 +4816,7 @@ Source/LibTIFF/tif_dirinfo.s: Source/LibTIFF/tif_dirinfo.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_dirinfo.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirinfo.c.s
 .PHONY : Source/LibTIFF/tif_dirinfo.c.s
 
 Source/LibTIFF/tif_dirread.o: Source/LibTIFF/tif_dirread.c.o
@@ -4824,7 +4824,7 @@ Source/LibTIFF/tif_dirread.o: Source/LibTIFF/tif_dirread.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_dirread.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.o
 .PHONY : Source/LibTIFF/tif_dirread.c.o
 
 Source/LibTIFF/tif_dirread.i: Source/LibTIFF/tif_dirread.c.i
@@ -4832,7 +4832,7 @@ Source/LibTIFF/tif_dirread.i: Source/LibTIFF/tif_dirread.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_dirread.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.i
 .PHONY : Source/LibTIFF/tif_dirread.c.i
 
 Source/LibTIFF/tif_dirread.s: Source/LibTIFF/tif_dirread.c.s
@@ -4840,7 +4840,7 @@ Source/LibTIFF/tif_dirread.s: Source/LibTIFF/tif_dirread.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_dirread.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirread.c.s
 .PHONY : Source/LibTIFF/tif_dirread.c.s
 
 Source/LibTIFF/tif_dirwrite.o: Source/LibTIFF/tif_dirwrite.c.o
@@ -4848,7 +4848,7 @@ Source/LibTIFF/tif_dirwrite.o: Source/LibTIFF/tif_dirwrite.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_dirwrite.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.o
 .PHONY : Source/LibTIFF/tif_dirwrite.c.o
 
 Source/LibTIFF/tif_dirwrite.i: Source/LibTIFF/tif_dirwrite.c.i
@@ -4856,7 +4856,7 @@ Source/LibTIFF/tif_dirwrite.i: Source/LibTIFF/tif_dirwrite.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_dirwrite.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.i
 .PHONY : Source/LibTIFF/tif_dirwrite.c.i
 
 Source/LibTIFF/tif_dirwrite.s: Source/LibTIFF/tif_dirwrite.c.s
@@ -4864,7 +4864,7 @@ Source/LibTIFF/tif_dirwrite.s: Source/LibTIFF/tif_dirwrite.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_dirwrite.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dirwrite.c.s
 .PHONY : Source/LibTIFF/tif_dirwrite.c.s
 
 Source/LibTIFF/tif_dumpmode.o: Source/LibTIFF/tif_dumpmode.c.o
@@ -4872,7 +4872,7 @@ Source/LibTIFF/tif_dumpmode.o: Source/LibTIFF/tif_dumpmode.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_dumpmode.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.o
 .PHONY : Source/LibTIFF/tif_dumpmode.c.o
 
 Source/LibTIFF/tif_dumpmode.i: Source/LibTIFF/tif_dumpmode.c.i
@@ -4880,7 +4880,7 @@ Source/LibTIFF/tif_dumpmode.i: Source/LibTIFF/tif_dumpmode.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_dumpmode.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.i
 .PHONY : Source/LibTIFF/tif_dumpmode.c.i
 
 Source/LibTIFF/tif_dumpmode.s: Source/LibTIFF/tif_dumpmode.c.s
@@ -4888,7 +4888,7 @@ Source/LibTIFF/tif_dumpmode.s: Source/LibTIFF/tif_dumpmode.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_dumpmode.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_dumpmode.c.s
 .PHONY : Source/LibTIFF/tif_dumpmode.c.s
 
 Source/LibTIFF/tif_error.o: Source/LibTIFF/tif_error.c.o
@@ -4896,7 +4896,7 @@ Source/LibTIFF/tif_error.o: Source/LibTIFF/tif_error.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_error.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.o
 .PHONY : Source/LibTIFF/tif_error.c.o
 
 Source/LibTIFF/tif_error.i: Source/LibTIFF/tif_error.c.i
@@ -4904,7 +4904,7 @@ Source/LibTIFF/tif_error.i: Source/LibTIFF/tif_error.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_error.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.i
 .PHONY : Source/LibTIFF/tif_error.c.i
 
 Source/LibTIFF/tif_error.s: Source/LibTIFF/tif_error.c.s
@@ -4912,7 +4912,7 @@ Source/LibTIFF/tif_error.s: Source/LibTIFF/tif_error.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_error.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_error.c.s
 .PHONY : Source/LibTIFF/tif_error.c.s
 
 Source/LibTIFF/tif_extension.o: Source/LibTIFF/tif_extension.c.o
@@ -4920,7 +4920,7 @@ Source/LibTIFF/tif_extension.o: Source/LibTIFF/tif_extension.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_extension.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.o
 .PHONY : Source/LibTIFF/tif_extension.c.o
 
 Source/LibTIFF/tif_extension.i: Source/LibTIFF/tif_extension.c.i
@@ -4928,7 +4928,7 @@ Source/LibTIFF/tif_extension.i: Source/LibTIFF/tif_extension.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_extension.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.i
 .PHONY : Source/LibTIFF/tif_extension.c.i
 
 Source/LibTIFF/tif_extension.s: Source/LibTIFF/tif_extension.c.s
@@ -4936,7 +4936,7 @@ Source/LibTIFF/tif_extension.s: Source/LibTIFF/tif_extension.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_extension.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_extension.c.s
 .PHONY : Source/LibTIFF/tif_extension.c.s
 
 Source/LibTIFF/tif_fax3.o: Source/LibTIFF/tif_fax3.c.o
@@ -4944,7 +4944,7 @@ Source/LibTIFF/tif_fax3.o: Source/LibTIFF/tif_fax3.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_fax3.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.o
 .PHONY : Source/LibTIFF/tif_fax3.c.o
 
 Source/LibTIFF/tif_fax3.i: Source/LibTIFF/tif_fax3.c.i
@@ -4952,7 +4952,7 @@ Source/LibTIFF/tif_fax3.i: Source/LibTIFF/tif_fax3.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_fax3.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.i
 .PHONY : Source/LibTIFF/tif_fax3.c.i
 
 Source/LibTIFF/tif_fax3.s: Source/LibTIFF/tif_fax3.c.s
@@ -4960,7 +4960,7 @@ Source/LibTIFF/tif_fax3.s: Source/LibTIFF/tif_fax3.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_fax3.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3.c.s
 .PHONY : Source/LibTIFF/tif_fax3.c.s
 
 Source/LibTIFF/tif_fax3sm.o: Source/LibTIFF/tif_fax3sm.c.o
@@ -4968,7 +4968,7 @@ Source/LibTIFF/tif_fax3sm.o: Source/LibTIFF/tif_fax3sm.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_fax3sm.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.o
 .PHONY : Source/LibTIFF/tif_fax3sm.c.o
 
 Source/LibTIFF/tif_fax3sm.i: Source/LibTIFF/tif_fax3sm.c.i
@@ -4976,7 +4976,7 @@ Source/LibTIFF/tif_fax3sm.i: Source/LibTIFF/tif_fax3sm.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_fax3sm.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.i
 .PHONY : Source/LibTIFF/tif_fax3sm.c.i
 
 Source/LibTIFF/tif_fax3sm.s: Source/LibTIFF/tif_fax3sm.c.s
@@ -4984,7 +4984,7 @@ Source/LibTIFF/tif_fax3sm.s: Source/LibTIFF/tif_fax3sm.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_fax3sm.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_fax3sm.c.s
 .PHONY : Source/LibTIFF/tif_fax3sm.c.s
 
 Source/LibTIFF/tif_flush.o: Source/LibTIFF/tif_flush.c.o
@@ -4992,7 +4992,7 @@ Source/LibTIFF/tif_flush.o: Source/LibTIFF/tif_flush.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_flush.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.o
 .PHONY : Source/LibTIFF/tif_flush.c.o
 
 Source/LibTIFF/tif_flush.i: Source/LibTIFF/tif_flush.c.i
@@ -5000,7 +5000,7 @@ Source/LibTIFF/tif_flush.i: Source/LibTIFF/tif_flush.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_flush.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.i
 .PHONY : Source/LibTIFF/tif_flush.c.i
 
 Source/LibTIFF/tif_flush.s: Source/LibTIFF/tif_flush.c.s
@@ -5008,7 +5008,7 @@ Source/LibTIFF/tif_flush.s: Source/LibTIFF/tif_flush.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_flush.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_flush.c.s
 .PHONY : Source/LibTIFF/tif_flush.c.s
 
 Source/LibTIFF/tif_getimage.o: Source/LibTIFF/tif_getimage.c.o
@@ -5016,7 +5016,7 @@ Source/LibTIFF/tif_getimage.o: Source/LibTIFF/tif_getimage.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_getimage.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.o
 .PHONY : Source/LibTIFF/tif_getimage.c.o
 
 Source/LibTIFF/tif_getimage.i: Source/LibTIFF/tif_getimage.c.i
@@ -5024,7 +5024,7 @@ Source/LibTIFF/tif_getimage.i: Source/LibTIFF/tif_getimage.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_getimage.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.i
 .PHONY : Source/LibTIFF/tif_getimage.c.i
 
 Source/LibTIFF/tif_getimage.s: Source/LibTIFF/tif_getimage.c.s
@@ -5032,7 +5032,7 @@ Source/LibTIFF/tif_getimage.s: Source/LibTIFF/tif_getimage.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_getimage.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_getimage.c.s
 .PHONY : Source/LibTIFF/tif_getimage.c.s
 
 Source/LibTIFF/tif_jbig.o: Source/LibTIFF/tif_jbig.c.o
@@ -5040,7 +5040,7 @@ Source/LibTIFF/tif_jbig.o: Source/LibTIFF/tif_jbig.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_jbig.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.o
 .PHONY : Source/LibTIFF/tif_jbig.c.o
 
 Source/LibTIFF/tif_jbig.i: Source/LibTIFF/tif_jbig.c.i
@@ -5048,7 +5048,7 @@ Source/LibTIFF/tif_jbig.i: Source/LibTIFF/tif_jbig.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_jbig.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.i
 .PHONY : Source/LibTIFF/tif_jbig.c.i
 
 Source/LibTIFF/tif_jbig.s: Source/LibTIFF/tif_jbig.c.s
@@ -5056,7 +5056,7 @@ Source/LibTIFF/tif_jbig.s: Source/LibTIFF/tif_jbig.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_jbig.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jbig.c.s
 .PHONY : Source/LibTIFF/tif_jbig.c.s
 
 Source/LibTIFF/tif_jpeg.o: Source/LibTIFF/tif_jpeg.c.o
@@ -5064,7 +5064,7 @@ Source/LibTIFF/tif_jpeg.o: Source/LibTIFF/tif_jpeg.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_jpeg.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.o
 .PHONY : Source/LibTIFF/tif_jpeg.c.o
 
 Source/LibTIFF/tif_jpeg.i: Source/LibTIFF/tif_jpeg.c.i
@@ -5072,7 +5072,7 @@ Source/LibTIFF/tif_jpeg.i: Source/LibTIFF/tif_jpeg.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_jpeg.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.i
 .PHONY : Source/LibTIFF/tif_jpeg.c.i
 
 Source/LibTIFF/tif_jpeg.s: Source/LibTIFF/tif_jpeg.c.s
@@ -5080,7 +5080,7 @@ Source/LibTIFF/tif_jpeg.s: Source/LibTIFF/tif_jpeg.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_jpeg.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_jpeg.c.s
 .PHONY : Source/LibTIFF/tif_jpeg.c.s
 
 Source/LibTIFF/tif_luv.o: Source/LibTIFF/tif_luv.c.o
@@ -5088,7 +5088,7 @@ Source/LibTIFF/tif_luv.o: Source/LibTIFF/tif_luv.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_luv.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.o
 .PHONY : Source/LibTIFF/tif_luv.c.o
 
 Source/LibTIFF/tif_luv.i: Source/LibTIFF/tif_luv.c.i
@@ -5096,7 +5096,7 @@ Source/LibTIFF/tif_luv.i: Source/LibTIFF/tif_luv.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_luv.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.i
 .PHONY : Source/LibTIFF/tif_luv.c.i
 
 Source/LibTIFF/tif_luv.s: Source/LibTIFF/tif_luv.c.s
@@ -5104,7 +5104,7 @@ Source/LibTIFF/tif_luv.s: Source/LibTIFF/tif_luv.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_luv.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_luv.c.s
 .PHONY : Source/LibTIFF/tif_luv.c.s
 
 Source/LibTIFF/tif_lzw.o: Source/LibTIFF/tif_lzw.c.o
@@ -5112,7 +5112,7 @@ Source/LibTIFF/tif_lzw.o: Source/LibTIFF/tif_lzw.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_lzw.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.o
 .PHONY : Source/LibTIFF/tif_lzw.c.o
 
 Source/LibTIFF/tif_lzw.i: Source/LibTIFF/tif_lzw.c.i
@@ -5120,7 +5120,7 @@ Source/LibTIFF/tif_lzw.i: Source/LibTIFF/tif_lzw.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_lzw.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.i
 .PHONY : Source/LibTIFF/tif_lzw.c.i
 
 Source/LibTIFF/tif_lzw.s: Source/LibTIFF/tif_lzw.c.s
@@ -5128,7 +5128,7 @@ Source/LibTIFF/tif_lzw.s: Source/LibTIFF/tif_lzw.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_lzw.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_lzw.c.s
 .PHONY : Source/LibTIFF/tif_lzw.c.s
 
 Source/LibTIFF/tif_next.o: Source/LibTIFF/tif_next.c.o
@@ -5136,7 +5136,7 @@ Source/LibTIFF/tif_next.o: Source/LibTIFF/tif_next.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_next.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.o
 .PHONY : Source/LibTIFF/tif_next.c.o
 
 Source/LibTIFF/tif_next.i: Source/LibTIFF/tif_next.c.i
@@ -5144,7 +5144,7 @@ Source/LibTIFF/tif_next.i: Source/LibTIFF/tif_next.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_next.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.i
 .PHONY : Source/LibTIFF/tif_next.c.i
 
 Source/LibTIFF/tif_next.s: Source/LibTIFF/tif_next.c.s
@@ -5152,7 +5152,7 @@ Source/LibTIFF/tif_next.s: Source/LibTIFF/tif_next.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_next.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_next.c.s
 .PHONY : Source/LibTIFF/tif_next.c.s
 
 Source/LibTIFF/tif_ojpeg.o: Source/LibTIFF/tif_ojpeg.c.o
@@ -5160,7 +5160,7 @@ Source/LibTIFF/tif_ojpeg.o: Source/LibTIFF/tif_ojpeg.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_ojpeg.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.o
 .PHONY : Source/LibTIFF/tif_ojpeg.c.o
 
 Source/LibTIFF/tif_ojpeg.i: Source/LibTIFF/tif_ojpeg.c.i
@@ -5168,7 +5168,7 @@ Source/LibTIFF/tif_ojpeg.i: Source/LibTIFF/tif_ojpeg.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_ojpeg.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.i
 .PHONY : Source/LibTIFF/tif_ojpeg.c.i
 
 Source/LibTIFF/tif_ojpeg.s: Source/LibTIFF/tif_ojpeg.c.s
@@ -5176,7 +5176,7 @@ Source/LibTIFF/tif_ojpeg.s: Source/LibTIFF/tif_ojpeg.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_ojpeg.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_ojpeg.c.s
 .PHONY : Source/LibTIFF/tif_ojpeg.c.s
 
 Source/LibTIFF/tif_open.o: Source/LibTIFF/tif_open.c.o
@@ -5184,7 +5184,7 @@ Source/LibTIFF/tif_open.o: Source/LibTIFF/tif_open.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_open.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.o
 .PHONY : Source/LibTIFF/tif_open.c.o
 
 Source/LibTIFF/tif_open.i: Source/LibTIFF/tif_open.c.i
@@ -5192,7 +5192,7 @@ Source/LibTIFF/tif_open.i: Source/LibTIFF/tif_open.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_open.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.i
 .PHONY : Source/LibTIFF/tif_open.c.i
 
 Source/LibTIFF/tif_open.s: Source/LibTIFF/tif_open.c.s
@@ -5200,7 +5200,7 @@ Source/LibTIFF/tif_open.s: Source/LibTIFF/tif_open.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_open.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_open.c.s
 .PHONY : Source/LibTIFF/tif_open.c.s
 
 Source/LibTIFF/tif_packbits.o: Source/LibTIFF/tif_packbits.c.o
@@ -5208,7 +5208,7 @@ Source/LibTIFF/tif_packbits.o: Source/LibTIFF/tif_packbits.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_packbits.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.o
 .PHONY : Source/LibTIFF/tif_packbits.c.o
 
 Source/LibTIFF/tif_packbits.i: Source/LibTIFF/tif_packbits.c.i
@@ -5216,7 +5216,7 @@ Source/LibTIFF/tif_packbits.i: Source/LibTIFF/tif_packbits.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_packbits.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.i
 .PHONY : Source/LibTIFF/tif_packbits.c.i
 
 Source/LibTIFF/tif_packbits.s: Source/LibTIFF/tif_packbits.c.s
@@ -5224,7 +5224,7 @@ Source/LibTIFF/tif_packbits.s: Source/LibTIFF/tif_packbits.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_packbits.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_packbits.c.s
 .PHONY : Source/LibTIFF/tif_packbits.c.s
 
 Source/LibTIFF/tif_pixarlog.o: Source/LibTIFF/tif_pixarlog.c.o
@@ -5232,7 +5232,7 @@ Source/LibTIFF/tif_pixarlog.o: Source/LibTIFF/tif_pixarlog.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_pixarlog.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.o
 .PHONY : Source/LibTIFF/tif_pixarlog.c.o
 
 Source/LibTIFF/tif_pixarlog.i: Source/LibTIFF/tif_pixarlog.c.i
@@ -5240,7 +5240,7 @@ Source/LibTIFF/tif_pixarlog.i: Source/LibTIFF/tif_pixarlog.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_pixarlog.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.i
 .PHONY : Source/LibTIFF/tif_pixarlog.c.i
 
 Source/LibTIFF/tif_pixarlog.s: Source/LibTIFF/tif_pixarlog.c.s
@@ -5248,7 +5248,7 @@ Source/LibTIFF/tif_pixarlog.s: Source/LibTIFF/tif_pixarlog.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_pixarlog.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_pixarlog.c.s
 .PHONY : Source/LibTIFF/tif_pixarlog.c.s
 
 Source/LibTIFF/tif_predict.o: Source/LibTIFF/tif_predict.c.o
@@ -5256,7 +5256,7 @@ Source/LibTIFF/tif_predict.o: Source/LibTIFF/tif_predict.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_predict.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.o
 .PHONY : Source/LibTIFF/tif_predict.c.o
 
 Source/LibTIFF/tif_predict.i: Source/LibTIFF/tif_predict.c.i
@@ -5264,7 +5264,7 @@ Source/LibTIFF/tif_predict.i: Source/LibTIFF/tif_predict.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_predict.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.i
 .PHONY : Source/LibTIFF/tif_predict.c.i
 
 Source/LibTIFF/tif_predict.s: Source/LibTIFF/tif_predict.c.s
@@ -5272,7 +5272,7 @@ Source/LibTIFF/tif_predict.s: Source/LibTIFF/tif_predict.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_predict.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_predict.c.s
 .PHONY : Source/LibTIFF/tif_predict.c.s
 
 Source/LibTIFF/tif_print.o: Source/LibTIFF/tif_print.c.o
@@ -5280,7 +5280,7 @@ Source/LibTIFF/tif_print.o: Source/LibTIFF/tif_print.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_print.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.o
 .PHONY : Source/LibTIFF/tif_print.c.o
 
 Source/LibTIFF/tif_print.i: Source/LibTIFF/tif_print.c.i
@@ -5288,7 +5288,7 @@ Source/LibTIFF/tif_print.i: Source/LibTIFF/tif_print.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_print.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.i
 .PHONY : Source/LibTIFF/tif_print.c.i
 
 Source/LibTIFF/tif_print.s: Source/LibTIFF/tif_print.c.s
@@ -5296,7 +5296,7 @@ Source/LibTIFF/tif_print.s: Source/LibTIFF/tif_print.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_print.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_print.c.s
 .PHONY : Source/LibTIFF/tif_print.c.s
 
 Source/LibTIFF/tif_read.o: Source/LibTIFF/tif_read.c.o
@@ -5304,7 +5304,7 @@ Source/LibTIFF/tif_read.o: Source/LibTIFF/tif_read.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_read.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.o
 .PHONY : Source/LibTIFF/tif_read.c.o
 
 Source/LibTIFF/tif_read.i: Source/LibTIFF/tif_read.c.i
@@ -5312,7 +5312,7 @@ Source/LibTIFF/tif_read.i: Source/LibTIFF/tif_read.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_read.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.i
 .PHONY : Source/LibTIFF/tif_read.c.i
 
 Source/LibTIFF/tif_read.s: Source/LibTIFF/tif_read.c.s
@@ -5320,7 +5320,7 @@ Source/LibTIFF/tif_read.s: Source/LibTIFF/tif_read.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_read.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_read.c.s
 .PHONY : Source/LibTIFF/tif_read.c.s
 
 Source/LibTIFF/tif_strip.o: Source/LibTIFF/tif_strip.c.o
@@ -5328,7 +5328,7 @@ Source/LibTIFF/tif_strip.o: Source/LibTIFF/tif_strip.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_strip.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.o
 .PHONY : Source/LibTIFF/tif_strip.c.o
 
 Source/LibTIFF/tif_strip.i: Source/LibTIFF/tif_strip.c.i
@@ -5336,7 +5336,7 @@ Source/LibTIFF/tif_strip.i: Source/LibTIFF/tif_strip.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_strip.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.i
 .PHONY : Source/LibTIFF/tif_strip.c.i
 
 Source/LibTIFF/tif_strip.s: Source/LibTIFF/tif_strip.c.s
@@ -5344,7 +5344,7 @@ Source/LibTIFF/tif_strip.s: Source/LibTIFF/tif_strip.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_strip.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_strip.c.s
 .PHONY : Source/LibTIFF/tif_strip.c.s
 
 Source/LibTIFF/tif_swab.o: Source/LibTIFF/tif_swab.c.o
@@ -5352,7 +5352,7 @@ Source/LibTIFF/tif_swab.o: Source/LibTIFF/tif_swab.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_swab.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.o
 .PHONY : Source/LibTIFF/tif_swab.c.o
 
 Source/LibTIFF/tif_swab.i: Source/LibTIFF/tif_swab.c.i
@@ -5360,7 +5360,7 @@ Source/LibTIFF/tif_swab.i: Source/LibTIFF/tif_swab.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_swab.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.i
 .PHONY : Source/LibTIFF/tif_swab.c.i
 
 Source/LibTIFF/tif_swab.s: Source/LibTIFF/tif_swab.c.s
@@ -5368,7 +5368,7 @@ Source/LibTIFF/tif_swab.s: Source/LibTIFF/tif_swab.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_swab.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_swab.c.s
 .PHONY : Source/LibTIFF/tif_swab.c.s
 
 Source/LibTIFF/tif_thunder.o: Source/LibTIFF/tif_thunder.c.o
@@ -5376,7 +5376,7 @@ Source/LibTIFF/tif_thunder.o: Source/LibTIFF/tif_thunder.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_thunder.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.o
 .PHONY : Source/LibTIFF/tif_thunder.c.o
 
 Source/LibTIFF/tif_thunder.i: Source/LibTIFF/tif_thunder.c.i
@@ -5384,7 +5384,7 @@ Source/LibTIFF/tif_thunder.i: Source/LibTIFF/tif_thunder.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_thunder.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.i
 .PHONY : Source/LibTIFF/tif_thunder.c.i
 
 Source/LibTIFF/tif_thunder.s: Source/LibTIFF/tif_thunder.c.s
@@ -5392,7 +5392,7 @@ Source/LibTIFF/tif_thunder.s: Source/LibTIFF/tif_thunder.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_thunder.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_thunder.c.s
 .PHONY : Source/LibTIFF/tif_thunder.c.s
 
 Source/LibTIFF/tif_tile.o: Source/LibTIFF/tif_tile.c.o
@@ -5400,7 +5400,7 @@ Source/LibTIFF/tif_tile.o: Source/LibTIFF/tif_tile.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_tile.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.o
 .PHONY : Source/LibTIFF/tif_tile.c.o
 
 Source/LibTIFF/tif_tile.i: Source/LibTIFF/tif_tile.c.i
@@ -5408,7 +5408,7 @@ Source/LibTIFF/tif_tile.i: Source/LibTIFF/tif_tile.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_tile.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.i
 .PHONY : Source/LibTIFF/tif_tile.c.i
 
 Source/LibTIFF/tif_tile.s: Source/LibTIFF/tif_tile.c.s
@@ -5416,7 +5416,7 @@ Source/LibTIFF/tif_tile.s: Source/LibTIFF/tif_tile.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_tile.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_tile.c.s
 .PHONY : Source/LibTIFF/tif_tile.c.s
 
 Source/LibTIFF/tif_version.o: Source/LibTIFF/tif_version.c.o
@@ -5424,7 +5424,7 @@ Source/LibTIFF/tif_version.o: Source/LibTIFF/tif_version.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_version.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.o
 .PHONY : Source/LibTIFF/tif_version.c.o
 
 Source/LibTIFF/tif_version.i: Source/LibTIFF/tif_version.c.i
@@ -5432,7 +5432,7 @@ Source/LibTIFF/tif_version.i: Source/LibTIFF/tif_version.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_version.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.i
 .PHONY : Source/LibTIFF/tif_version.c.i
 
 Source/LibTIFF/tif_version.s: Source/LibTIFF/tif_version.c.s
@@ -5440,7 +5440,7 @@ Source/LibTIFF/tif_version.s: Source/LibTIFF/tif_version.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_version.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_version.c.s
 .PHONY : Source/LibTIFF/tif_version.c.s
 
 Source/LibTIFF/tif_warning.o: Source/LibTIFF/tif_warning.c.o
@@ -5448,7 +5448,7 @@ Source/LibTIFF/tif_warning.o: Source/LibTIFF/tif_warning.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_warning.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.o
 .PHONY : Source/LibTIFF/tif_warning.c.o
 
 Source/LibTIFF/tif_warning.i: Source/LibTIFF/tif_warning.c.i
@@ -5456,7 +5456,7 @@ Source/LibTIFF/tif_warning.i: Source/LibTIFF/tif_warning.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_warning.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.i
 .PHONY : Source/LibTIFF/tif_warning.c.i
 
 Source/LibTIFF/tif_warning.s: Source/LibTIFF/tif_warning.c.s
@@ -5464,7 +5464,7 @@ Source/LibTIFF/tif_warning.s: Source/LibTIFF/tif_warning.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_warning.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_warning.c.s
 .PHONY : Source/LibTIFF/tif_warning.c.s
 
 Source/LibTIFF/tif_write.o: Source/LibTIFF/tif_write.c.o
@@ -5472,7 +5472,7 @@ Source/LibTIFF/tif_write.o: Source/LibTIFF/tif_write.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_write.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.o
 .PHONY : Source/LibTIFF/tif_write.c.o
 
 Source/LibTIFF/tif_write.i: Source/LibTIFF/tif_write.c.i
@@ -5480,7 +5480,7 @@ Source/LibTIFF/tif_write.i: Source/LibTIFF/tif_write.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_write.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.i
 .PHONY : Source/LibTIFF/tif_write.c.i
 
 Source/LibTIFF/tif_write.s: Source/LibTIFF/tif_write.c.s
@@ -5488,7 +5488,7 @@ Source/LibTIFF/tif_write.s: Source/LibTIFF/tif_write.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_write.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_write.c.s
 .PHONY : Source/LibTIFF/tif_write.c.s
 
 Source/LibTIFF/tif_zip.o: Source/LibTIFF/tif_zip.c.o
@@ -5496,7 +5496,7 @@ Source/LibTIFF/tif_zip.o: Source/LibTIFF/tif_zip.c.o
 
 # target to build an object file
 Source/LibTIFF/tif_zip.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.o
 .PHONY : Source/LibTIFF/tif_zip.c.o
 
 Source/LibTIFF/tif_zip.i: Source/LibTIFF/tif_zip.c.i
@@ -5504,7 +5504,7 @@ Source/LibTIFF/tif_zip.i: Source/LibTIFF/tif_zip.c.i
 
 # target to preprocess a source file
 Source/LibTIFF/tif_zip.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.i
 .PHONY : Source/LibTIFF/tif_zip.c.i
 
 Source/LibTIFF/tif_zip.s: Source/LibTIFF/tif_zip.c.s
@@ -5512,7 +5512,7 @@ Source/LibTIFF/tif_zip.s: Source/LibTIFF/tif_zip.c.s
 
 # target to generate assembly for a file
 Source/LibTIFF/tif_zip.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/LibTIFF/tif_zip.c.s
 .PHONY : Source/LibTIFF/tif_zip.c.s
 
 Source/Metadata/Exif.o: Source/Metadata/Exif.cpp.o
@@ -5520,7 +5520,7 @@ Source/Metadata/Exif.o: Source/Metadata/Exif.cpp.o
 
 # target to build an object file
 Source/Metadata/Exif.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.o
 .PHONY : Source/Metadata/Exif.cpp.o
 
 Source/Metadata/Exif.i: Source/Metadata/Exif.cpp.i
@@ -5528,7 +5528,7 @@ Source/Metadata/Exif.i: Source/Metadata/Exif.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/Exif.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.i
 .PHONY : Source/Metadata/Exif.cpp.i
 
 Source/Metadata/Exif.s: Source/Metadata/Exif.cpp.s
@@ -5536,7 +5536,7 @@ Source/Metadata/Exif.s: Source/Metadata/Exif.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/Exif.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/Exif.cpp.s
 .PHONY : Source/Metadata/Exif.cpp.s
 
 Source/Metadata/FIRational.o: Source/Metadata/FIRational.cpp.o
@@ -5544,7 +5544,7 @@ Source/Metadata/FIRational.o: Source/Metadata/FIRational.cpp.o
 
 # target to build an object file
 Source/Metadata/FIRational.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.o
 .PHONY : Source/Metadata/FIRational.cpp.o
 
 Source/Metadata/FIRational.i: Source/Metadata/FIRational.cpp.i
@@ -5552,7 +5552,7 @@ Source/Metadata/FIRational.i: Source/Metadata/FIRational.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/FIRational.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.i
 .PHONY : Source/Metadata/FIRational.cpp.i
 
 Source/Metadata/FIRational.s: Source/Metadata/FIRational.cpp.s
@@ -5560,7 +5560,7 @@ Source/Metadata/FIRational.s: Source/Metadata/FIRational.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/FIRational.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FIRational.cpp.s
 .PHONY : Source/Metadata/FIRational.cpp.s
 
 Source/Metadata/FreeImageTag.o: Source/Metadata/FreeImageTag.cpp.o
@@ -5568,7 +5568,7 @@ Source/Metadata/FreeImageTag.o: Source/Metadata/FreeImageTag.cpp.o
 
 # target to build an object file
 Source/Metadata/FreeImageTag.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.o
 .PHONY : Source/Metadata/FreeImageTag.cpp.o
 
 Source/Metadata/FreeImageTag.i: Source/Metadata/FreeImageTag.cpp.i
@@ -5576,7 +5576,7 @@ Source/Metadata/FreeImageTag.i: Source/Metadata/FreeImageTag.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/FreeImageTag.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.i
 .PHONY : Source/Metadata/FreeImageTag.cpp.i
 
 Source/Metadata/FreeImageTag.s: Source/Metadata/FreeImageTag.cpp.s
@@ -5584,7 +5584,7 @@ Source/Metadata/FreeImageTag.s: Source/Metadata/FreeImageTag.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/FreeImageTag.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/FreeImageTag.cpp.s
 .PHONY : Source/Metadata/FreeImageTag.cpp.s
 
 Source/Metadata/IPTC.o: Source/Metadata/IPTC.cpp.o
@@ -5592,7 +5592,7 @@ Source/Metadata/IPTC.o: Source/Metadata/IPTC.cpp.o
 
 # target to build an object file
 Source/Metadata/IPTC.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.o
 .PHONY : Source/Metadata/IPTC.cpp.o
 
 Source/Metadata/IPTC.i: Source/Metadata/IPTC.cpp.i
@@ -5600,7 +5600,7 @@ Source/Metadata/IPTC.i: Source/Metadata/IPTC.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/IPTC.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.i
 .PHONY : Source/Metadata/IPTC.cpp.i
 
 Source/Metadata/IPTC.s: Source/Metadata/IPTC.cpp.s
@@ -5608,7 +5608,7 @@ Source/Metadata/IPTC.s: Source/Metadata/IPTC.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/IPTC.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/IPTC.cpp.s
 .PHONY : Source/Metadata/IPTC.cpp.s
 
 Source/Metadata/TagConversion.o: Source/Metadata/TagConversion.cpp.o
@@ -5616,7 +5616,7 @@ Source/Metadata/TagConversion.o: Source/Metadata/TagConversion.cpp.o
 
 # target to build an object file
 Source/Metadata/TagConversion.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.o
 .PHONY : Source/Metadata/TagConversion.cpp.o
 
 Source/Metadata/TagConversion.i: Source/Metadata/TagConversion.cpp.i
@@ -5624,7 +5624,7 @@ Source/Metadata/TagConversion.i: Source/Metadata/TagConversion.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/TagConversion.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.i
 .PHONY : Source/Metadata/TagConversion.cpp.i
 
 Source/Metadata/TagConversion.s: Source/Metadata/TagConversion.cpp.s
@@ -5632,7 +5632,7 @@ Source/Metadata/TagConversion.s: Source/Metadata/TagConversion.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/TagConversion.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagConversion.cpp.s
 .PHONY : Source/Metadata/TagConversion.cpp.s
 
 Source/Metadata/TagLib.o: Source/Metadata/TagLib.cpp.o
@@ -5640,7 +5640,7 @@ Source/Metadata/TagLib.o: Source/Metadata/TagLib.cpp.o
 
 # target to build an object file
 Source/Metadata/TagLib.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.o
 .PHONY : Source/Metadata/TagLib.cpp.o
 
 Source/Metadata/TagLib.i: Source/Metadata/TagLib.cpp.i
@@ -5648,7 +5648,7 @@ Source/Metadata/TagLib.i: Source/Metadata/TagLib.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/TagLib.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.i
 .PHONY : Source/Metadata/TagLib.cpp.i
 
 Source/Metadata/TagLib.s: Source/Metadata/TagLib.cpp.s
@@ -5656,7 +5656,7 @@ Source/Metadata/TagLib.s: Source/Metadata/TagLib.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/TagLib.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/TagLib.cpp.s
 .PHONY : Source/Metadata/TagLib.cpp.s
 
 Source/Metadata/XTIFF.o: Source/Metadata/XTIFF.cpp.o
@@ -5664,7 +5664,7 @@ Source/Metadata/XTIFF.o: Source/Metadata/XTIFF.cpp.o
 
 # target to build an object file
 Source/Metadata/XTIFF.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.o
 .PHONY : Source/Metadata/XTIFF.cpp.o
 
 Source/Metadata/XTIFF.i: Source/Metadata/XTIFF.cpp.i
@@ -5672,7 +5672,7 @@ Source/Metadata/XTIFF.i: Source/Metadata/XTIFF.cpp.i
 
 # target to preprocess a source file
 Source/Metadata/XTIFF.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.i
 .PHONY : Source/Metadata/XTIFF.cpp.i
 
 Source/Metadata/XTIFF.s: Source/Metadata/XTIFF.cpp.s
@@ -5680,7 +5680,7 @@ Source/Metadata/XTIFF.s: Source/Metadata/XTIFF.cpp.s
 
 # target to generate assembly for a file
 Source/Metadata/XTIFF.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/Metadata/XTIFF.cpp.s
 .PHONY : Source/Metadata/XTIFF.cpp.s
 
 Source/OpenEXR/Half/half.o: Source/OpenEXR/Half/half.cpp.o
@@ -5688,7 +5688,7 @@ Source/OpenEXR/Half/half.o: Source/OpenEXR/Half/half.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Half/half.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.o
 .PHONY : Source/OpenEXR/Half/half.cpp.o
 
 Source/OpenEXR/Half/half.i: Source/OpenEXR/Half/half.cpp.i
@@ -5696,7 +5696,7 @@ Source/OpenEXR/Half/half.i: Source/OpenEXR/Half/half.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Half/half.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.i
 .PHONY : Source/OpenEXR/Half/half.cpp.i
 
 Source/OpenEXR/Half/half.s: Source/OpenEXR/Half/half.cpp.s
@@ -5704,7 +5704,7 @@ Source/OpenEXR/Half/half.s: Source/OpenEXR/Half/half.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Half/half.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Half/half.cpp.s
 .PHONY : Source/OpenEXR/Half/half.cpp.s
 
 Source/OpenEXR/Iex/IexBaseExc.o: Source/OpenEXR/Iex/IexBaseExc.cpp.o
@@ -5712,7 +5712,7 @@ Source/OpenEXR/Iex/IexBaseExc.o: Source/OpenEXR/Iex/IexBaseExc.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Iex/IexBaseExc.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.o
 .PHONY : Source/OpenEXR/Iex/IexBaseExc.cpp.o
 
 Source/OpenEXR/Iex/IexBaseExc.i: Source/OpenEXR/Iex/IexBaseExc.cpp.i
@@ -5720,7 +5720,7 @@ Source/OpenEXR/Iex/IexBaseExc.i: Source/OpenEXR/Iex/IexBaseExc.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Iex/IexBaseExc.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.i
 .PHONY : Source/OpenEXR/Iex/IexBaseExc.cpp.i
 
 Source/OpenEXR/Iex/IexBaseExc.s: Source/OpenEXR/Iex/IexBaseExc.cpp.s
@@ -5728,7 +5728,7 @@ Source/OpenEXR/Iex/IexBaseExc.s: Source/OpenEXR/Iex/IexBaseExc.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Iex/IexBaseExc.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexBaseExc.cpp.s
 .PHONY : Source/OpenEXR/Iex/IexBaseExc.cpp.s
 
 Source/OpenEXR/Iex/IexThrowErrnoExc.o: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o
@@ -5736,7 +5736,7 @@ Source/OpenEXR/Iex/IexThrowErrnoExc.o: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o
 .PHONY : Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.o
 
 Source/OpenEXR/Iex/IexThrowErrnoExc.i: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i
@@ -5744,7 +5744,7 @@ Source/OpenEXR/Iex/IexThrowErrnoExc.i: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i
 .PHONY : Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.i
 
 Source/OpenEXR/Iex/IexThrowErrnoExc.s: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s
@@ -5752,7 +5752,7 @@ Source/OpenEXR/Iex/IexThrowErrnoExc.s: Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s
 .PHONY : Source/OpenEXR/Iex/IexThrowErrnoExc.cpp.s
 
 Source/OpenEXR/IlmImf/ImfAttribute.o: Source/OpenEXR/IlmImf/ImfAttribute.cpp.o
@@ -5760,7 +5760,7 @@ Source/OpenEXR/IlmImf/ImfAttribute.o: Source/OpenEXR/IlmImf/ImfAttribute.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfAttribute.i: Source/OpenEXR/IlmImf/ImfAttribute.cpp.i
@@ -5768,7 +5768,7 @@ Source/OpenEXR/IlmImf/ImfAttribute.i: Source/OpenEXR/IlmImf/ImfAttribute.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfAttribute.s: Source/OpenEXR/IlmImf/ImfAttribute.cpp.s
@@ -5776,7 +5776,7 @@ Source/OpenEXR/IlmImf/ImfAttribute.s: Source/OpenEXR/IlmImf/ImfAttribute.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfB44Compressor.o: Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.o
@@ -5784,7 +5784,7 @@ Source/OpenEXR/IlmImf/ImfB44Compressor.o: Source/OpenEXR/IlmImf/ImfB44Compressor
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfB44Compressor.i: Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.i
@@ -5792,7 +5792,7 @@ Source/OpenEXR/IlmImf/ImfB44Compressor.i: Source/OpenEXR/IlmImf/ImfB44Compressor
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfB44Compressor.s: Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.s
@@ -5800,7 +5800,7 @@ Source/OpenEXR/IlmImf/ImfB44Compressor.s: Source/OpenEXR/IlmImf/ImfB44Compressor
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfB44Compressor.cpp.s
 
 Source/OpenEXR/IlmImf/ImfBoxAttribute.o: Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.o
@@ -5808,7 +5808,7 @@ Source/OpenEXR/IlmImf/ImfBoxAttribute.o: Source/OpenEXR/IlmImf/ImfBoxAttribute.c
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfBoxAttribute.i: Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i
@@ -5816,7 +5816,7 @@ Source/OpenEXR/IlmImf/ImfBoxAttribute.i: Source/OpenEXR/IlmImf/ImfBoxAttribute.c
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfBoxAttribute.s: Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.s
@@ -5824,7 +5824,7 @@ Source/OpenEXR/IlmImf/ImfBoxAttribute.s: Source/OpenEXR/IlmImf/ImfBoxAttribute.c
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfCRgbaFile.o: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o
@@ -5832,7 +5832,7 @@ Source/OpenEXR/IlmImf/ImfCRgbaFile.o: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfCRgbaFile.i: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i
@@ -5840,7 +5840,7 @@ Source/OpenEXR/IlmImf/ImfCRgbaFile.i: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfCRgbaFile.s: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s
@@ -5848,7 +5848,7 @@ Source/OpenEXR/IlmImf/ImfCRgbaFile.s: Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfChannelList.o: Source/OpenEXR/IlmImf/ImfChannelList.cpp.o
@@ -5856,7 +5856,7 @@ Source/OpenEXR/IlmImf/ImfChannelList.o: Source/OpenEXR/IlmImf/ImfChannelList.cpp
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfChannelList.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelList.cpp.o
 
 Source/OpenEXR/IlmImf/ImfChannelList.i: Source/OpenEXR/IlmImf/ImfChannelList.cpp.i
@@ -5864,7 +5864,7 @@ Source/OpenEXR/IlmImf/ImfChannelList.i: Source/OpenEXR/IlmImf/ImfChannelList.cpp
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfChannelList.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelList.cpp.i
 
 Source/OpenEXR/IlmImf/ImfChannelList.s: Source/OpenEXR/IlmImf/ImfChannelList.cpp.s
@@ -5872,7 +5872,7 @@ Source/OpenEXR/IlmImf/ImfChannelList.s: Source/OpenEXR/IlmImf/ImfChannelList.cpp
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfChannelList.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelList.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelList.cpp.s
 
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.o: Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.o
@@ -5880,7 +5880,7 @@ Source/OpenEXR/IlmImf/ImfChannelListAttribute.o: Source/OpenEXR/IlmImf/ImfChanne
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.i: Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i
@@ -5888,7 +5888,7 @@ Source/OpenEXR/IlmImf/ImfChannelListAttribute.i: Source/OpenEXR/IlmImf/ImfChanne
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.s: Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.s
@@ -5896,7 +5896,7 @@ Source/OpenEXR/IlmImf/ImfChannelListAttribute.s: Source/OpenEXR/IlmImf/ImfChanne
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfChromaticities.o: Source/OpenEXR/IlmImf/ImfChromaticities.cpp.o
@@ -5904,7 +5904,7 @@ Source/OpenEXR/IlmImf/ImfChromaticities.o: Source/OpenEXR/IlmImf/ImfChromaticiti
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfChromaticities.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticities.cpp.o
 
 Source/OpenEXR/IlmImf/ImfChromaticities.i: Source/OpenEXR/IlmImf/ImfChromaticities.cpp.i
@@ -5912,7 +5912,7 @@ Source/OpenEXR/IlmImf/ImfChromaticities.i: Source/OpenEXR/IlmImf/ImfChromaticiti
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfChromaticities.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticities.cpp.i
 
 Source/OpenEXR/IlmImf/ImfChromaticities.s: Source/OpenEXR/IlmImf/ImfChromaticities.cpp.s
@@ -5920,7 +5920,7 @@ Source/OpenEXR/IlmImf/ImfChromaticities.s: Source/OpenEXR/IlmImf/ImfChromaticiti
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfChromaticities.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticities.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticities.cpp.s
 
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.o: Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.o
@@ -5928,7 +5928,7 @@ Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.o: Source/OpenEXR/IlmImf/ImfChr
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.i: Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i
@@ -5936,7 +5936,7 @@ Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.i: Source/OpenEXR/IlmImf/ImfChr
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.s: Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.s
@@ -5944,7 +5944,7 @@ Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.s: Source/OpenEXR/IlmImf/ImfChr
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.o: Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.o
@@ -5952,7 +5952,7 @@ Source/OpenEXR/IlmImf/ImfCompressionAttribute.o: Source/OpenEXR/IlmImf/ImfCompre
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.i: Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i
@@ -5960,7 +5960,7 @@ Source/OpenEXR/IlmImf/ImfCompressionAttribute.i: Source/OpenEXR/IlmImf/ImfCompre
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.s: Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.s
@@ -5968,7 +5968,7 @@ Source/OpenEXR/IlmImf/ImfCompressionAttribute.s: Source/OpenEXR/IlmImf/ImfCompre
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfCompressor.o: Source/OpenEXR/IlmImf/ImfCompressor.cpp.o
@@ -5976,7 +5976,7 @@ Source/OpenEXR/IlmImf/ImfCompressor.o: Source/OpenEXR/IlmImf/ImfCompressor.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfCompressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfCompressor.i: Source/OpenEXR/IlmImf/ImfCompressor.cpp.i
@@ -5984,7 +5984,7 @@ Source/OpenEXR/IlmImf/ImfCompressor.i: Source/OpenEXR/IlmImf/ImfCompressor.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfCompressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfCompressor.s: Source/OpenEXR/IlmImf/ImfCompressor.cpp.s
@@ -5992,7 +5992,7 @@ Source/OpenEXR/IlmImf/ImfCompressor.s: Source/OpenEXR/IlmImf/ImfCompressor.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfCompressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfCompressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfCompressor.cpp.s
 
 Source/OpenEXR/IlmImf/ImfConvert.o: Source/OpenEXR/IlmImf/ImfConvert.cpp.o
@@ -6000,7 +6000,7 @@ Source/OpenEXR/IlmImf/ImfConvert.o: Source/OpenEXR/IlmImf/ImfConvert.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfConvert.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfConvert.cpp.o
 
 Source/OpenEXR/IlmImf/ImfConvert.i: Source/OpenEXR/IlmImf/ImfConvert.cpp.i
@@ -6008,7 +6008,7 @@ Source/OpenEXR/IlmImf/ImfConvert.i: Source/OpenEXR/IlmImf/ImfConvert.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfConvert.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfConvert.cpp.i
 
 Source/OpenEXR/IlmImf/ImfConvert.s: Source/OpenEXR/IlmImf/ImfConvert.cpp.s
@@ -6016,7 +6016,7 @@ Source/OpenEXR/IlmImf/ImfConvert.s: Source/OpenEXR/IlmImf/ImfConvert.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfConvert.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfConvert.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfConvert.cpp.s
 
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.o: Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.o
@@ -6024,7 +6024,7 @@ Source/OpenEXR/IlmImf/ImfDoubleAttribute.o: Source/OpenEXR/IlmImf/ImfDoubleAttri
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.i: Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i
@@ -6032,7 +6032,7 @@ Source/OpenEXR/IlmImf/ImfDoubleAttribute.i: Source/OpenEXR/IlmImf/ImfDoubleAttri
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.s: Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.s
@@ -6040,7 +6040,7 @@ Source/OpenEXR/IlmImf/ImfDoubleAttribute.s: Source/OpenEXR/IlmImf/ImfDoubleAttri
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfEnvmap.o: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o
@@ -6048,7 +6048,7 @@ Source/OpenEXR/IlmImf/ImfEnvmap.o: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmap.cpp.o
 
 Source/OpenEXR/IlmImf/ImfEnvmap.i: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i
@@ -6056,7 +6056,7 @@ Source/OpenEXR/IlmImf/ImfEnvmap.i: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmap.cpp.i
 
 Source/OpenEXR/IlmImf/ImfEnvmap.s: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s
@@ -6064,7 +6064,7 @@ Source/OpenEXR/IlmImf/ImfEnvmap.s: Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmap.cpp.s
 
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.o: Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.o
@@ -6072,7 +6072,7 @@ Source/OpenEXR/IlmImf/ImfEnvmapAttribute.o: Source/OpenEXR/IlmImf/ImfEnvmapAttri
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.i: Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i
@@ -6080,7 +6080,7 @@ Source/OpenEXR/IlmImf/ImfEnvmapAttribute.i: Source/OpenEXR/IlmImf/ImfEnvmapAttri
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.s: Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.s
@@ -6088,7 +6088,7 @@ Source/OpenEXR/IlmImf/ImfEnvmapAttribute.s: Source/OpenEXR/IlmImf/ImfEnvmapAttri
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfFloatAttribute.o: Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.o
@@ -6096,7 +6096,7 @@ Source/OpenEXR/IlmImf/ImfFloatAttribute.o: Source/OpenEXR/IlmImf/ImfFloatAttribu
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfFloatAttribute.i: Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i
@@ -6104,7 +6104,7 @@ Source/OpenEXR/IlmImf/ImfFloatAttribute.i: Source/OpenEXR/IlmImf/ImfFloatAttribu
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfFloatAttribute.s: Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.s
@@ -6112,7 +6112,7 @@ Source/OpenEXR/IlmImf/ImfFloatAttribute.s: Source/OpenEXR/IlmImf/ImfFloatAttribu
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfFrameBuffer.o: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.o
@@ -6120,7 +6120,7 @@ Source/OpenEXR/IlmImf/ImfFrameBuffer.o: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.o
 
 Source/OpenEXR/IlmImf/ImfFrameBuffer.i: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i
@@ -6128,7 +6128,7 @@ Source/OpenEXR/IlmImf/ImfFrameBuffer.i: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.i
 
 Source/OpenEXR/IlmImf/ImfFrameBuffer.s: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.s
@@ -6136,7 +6136,7 @@ Source/OpenEXR/IlmImf/ImfFrameBuffer.s: Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp.s
 
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.o: Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.o
@@ -6144,7 +6144,7 @@ Source/OpenEXR/IlmImf/ImfFramesPerSecond.o: Source/OpenEXR/IlmImf/ImfFramesPerSe
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.o
 
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.i: Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i
@@ -6152,7 +6152,7 @@ Source/OpenEXR/IlmImf/ImfFramesPerSecond.i: Source/OpenEXR/IlmImf/ImfFramesPerSe
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.i
 
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.s: Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.s
@@ -6160,7 +6160,7 @@ Source/OpenEXR/IlmImf/ImfFramesPerSecond.s: Source/OpenEXR/IlmImf/ImfFramesPerSe
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp.s
 
 Source/OpenEXR/IlmImf/ImfHeader.o: Source/OpenEXR/IlmImf/ImfHeader.cpp.o
@@ -6168,7 +6168,7 @@ Source/OpenEXR/IlmImf/ImfHeader.o: Source/OpenEXR/IlmImf/ImfHeader.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfHeader.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfHeader.cpp.o
 
 Source/OpenEXR/IlmImf/ImfHeader.i: Source/OpenEXR/IlmImf/ImfHeader.cpp.i
@@ -6176,7 +6176,7 @@ Source/OpenEXR/IlmImf/ImfHeader.i: Source/OpenEXR/IlmImf/ImfHeader.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfHeader.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfHeader.cpp.i
 
 Source/OpenEXR/IlmImf/ImfHeader.s: Source/OpenEXR/IlmImf/ImfHeader.cpp.s
@@ -6184,7 +6184,7 @@ Source/OpenEXR/IlmImf/ImfHeader.s: Source/OpenEXR/IlmImf/ImfHeader.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfHeader.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHeader.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfHeader.cpp.s
 
 Source/OpenEXR/IlmImf/ImfHuf.o: Source/OpenEXR/IlmImf/ImfHuf.cpp.o
@@ -6192,7 +6192,7 @@ Source/OpenEXR/IlmImf/ImfHuf.o: Source/OpenEXR/IlmImf/ImfHuf.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfHuf.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfHuf.cpp.o
 
 Source/OpenEXR/IlmImf/ImfHuf.i: Source/OpenEXR/IlmImf/ImfHuf.cpp.i
@@ -6200,7 +6200,7 @@ Source/OpenEXR/IlmImf/ImfHuf.i: Source/OpenEXR/IlmImf/ImfHuf.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfHuf.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfHuf.cpp.i
 
 Source/OpenEXR/IlmImf/ImfHuf.s: Source/OpenEXR/IlmImf/ImfHuf.cpp.s
@@ -6208,7 +6208,7 @@ Source/OpenEXR/IlmImf/ImfHuf.s: Source/OpenEXR/IlmImf/ImfHuf.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfHuf.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfHuf.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfHuf.cpp.s
 
 Source/OpenEXR/IlmImf/ImfIO.o: Source/OpenEXR/IlmImf/ImfIO.cpp.o
@@ -6216,7 +6216,7 @@ Source/OpenEXR/IlmImf/ImfIO.o: Source/OpenEXR/IlmImf/ImfIO.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfIO.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfIO.cpp.o
 
 Source/OpenEXR/IlmImf/ImfIO.i: Source/OpenEXR/IlmImf/ImfIO.cpp.i
@@ -6224,7 +6224,7 @@ Source/OpenEXR/IlmImf/ImfIO.i: Source/OpenEXR/IlmImf/ImfIO.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfIO.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfIO.cpp.i
 
 Source/OpenEXR/IlmImf/ImfIO.s: Source/OpenEXR/IlmImf/ImfIO.cpp.s
@@ -6232,7 +6232,7 @@ Source/OpenEXR/IlmImf/ImfIO.s: Source/OpenEXR/IlmImf/ImfIO.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfIO.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIO.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfIO.cpp.s
 
 Source/OpenEXR/IlmImf/ImfInputFile.o: Source/OpenEXR/IlmImf/ImfInputFile.cpp.o
@@ -6240,7 +6240,7 @@ Source/OpenEXR/IlmImf/ImfInputFile.o: Source/OpenEXR/IlmImf/ImfInputFile.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfInputFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfInputFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfInputFile.i: Source/OpenEXR/IlmImf/ImfInputFile.cpp.i
@@ -6248,7 +6248,7 @@ Source/OpenEXR/IlmImf/ImfInputFile.i: Source/OpenEXR/IlmImf/ImfInputFile.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfInputFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfInputFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfInputFile.s: Source/OpenEXR/IlmImf/ImfInputFile.cpp.s
@@ -6256,7 +6256,7 @@ Source/OpenEXR/IlmImf/ImfInputFile.s: Source/OpenEXR/IlmImf/ImfInputFile.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfInputFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfInputFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfInputFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfIntAttribute.o: Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.o
@@ -6264,7 +6264,7 @@ Source/OpenEXR/IlmImf/ImfIntAttribute.o: Source/OpenEXR/IlmImf/ImfIntAttribute.c
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfIntAttribute.i: Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.i
@@ -6272,7 +6272,7 @@ Source/OpenEXR/IlmImf/ImfIntAttribute.i: Source/OpenEXR/IlmImf/ImfIntAttribute.c
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfIntAttribute.s: Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.s
@@ -6280,7 +6280,7 @@ Source/OpenEXR/IlmImf/ImfIntAttribute.s: Source/OpenEXR/IlmImf/ImfIntAttribute.c
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfIntAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfKeyCode.o: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o
@@ -6288,7 +6288,7 @@ Source/OpenEXR/IlmImf/ImfKeyCode.o: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCode.cpp.o
 
 Source/OpenEXR/IlmImf/ImfKeyCode.i: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i
@@ -6296,7 +6296,7 @@ Source/OpenEXR/IlmImf/ImfKeyCode.i: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCode.cpp.i
 
 Source/OpenEXR/IlmImf/ImfKeyCode.s: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s
@@ -6304,7 +6304,7 @@ Source/OpenEXR/IlmImf/ImfKeyCode.s: Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCode.cpp.s
 
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.o: Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.o
@@ -6312,7 +6312,7 @@ Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.o: Source/OpenEXR/IlmImf/ImfKeyCodeAtt
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.i: Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i
@@ -6320,7 +6320,7 @@ Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.i: Source/OpenEXR/IlmImf/ImfKeyCodeAtt
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.s: Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.s
@@ -6328,7 +6328,7 @@ Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.s: Source/OpenEXR/IlmImf/ImfKeyCodeAtt
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.o: Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.o
@@ -6336,7 +6336,7 @@ Source/OpenEXR/IlmImf/ImfLineOrderAttribute.o: Source/OpenEXR/IlmImf/ImfLineOrde
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.i: Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i
@@ -6344,7 +6344,7 @@ Source/OpenEXR/IlmImf/ImfLineOrderAttribute.i: Source/OpenEXR/IlmImf/ImfLineOrde
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.s: Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.s
@@ -6352,7 +6352,7 @@ Source/OpenEXR/IlmImf/ImfLineOrderAttribute.s: Source/OpenEXR/IlmImf/ImfLineOrde
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfLut.o: Source/OpenEXR/IlmImf/ImfLut.cpp.o
@@ -6360,7 +6360,7 @@ Source/OpenEXR/IlmImf/ImfLut.o: Source/OpenEXR/IlmImf/ImfLut.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfLut.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfLut.cpp.o
 
 Source/OpenEXR/IlmImf/ImfLut.i: Source/OpenEXR/IlmImf/ImfLut.cpp.i
@@ -6368,7 +6368,7 @@ Source/OpenEXR/IlmImf/ImfLut.i: Source/OpenEXR/IlmImf/ImfLut.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfLut.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfLut.cpp.i
 
 Source/OpenEXR/IlmImf/ImfLut.s: Source/OpenEXR/IlmImf/ImfLut.cpp.s
@@ -6376,7 +6376,7 @@ Source/OpenEXR/IlmImf/ImfLut.s: Source/OpenEXR/IlmImf/ImfLut.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfLut.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfLut.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfLut.cpp.s
 
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.o: Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.o
@@ -6384,7 +6384,7 @@ Source/OpenEXR/IlmImf/ImfMatrixAttribute.o: Source/OpenEXR/IlmImf/ImfMatrixAttri
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.i: Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i
@@ -6392,7 +6392,7 @@ Source/OpenEXR/IlmImf/ImfMatrixAttribute.i: Source/OpenEXR/IlmImf/ImfMatrixAttri
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.s: Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.s
@@ -6400,7 +6400,7 @@ Source/OpenEXR/IlmImf/ImfMatrixAttribute.s: Source/OpenEXR/IlmImf/ImfMatrixAttri
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfMisc.o: Source/OpenEXR/IlmImf/ImfMisc.cpp.o
@@ -6408,7 +6408,7 @@ Source/OpenEXR/IlmImf/ImfMisc.o: Source/OpenEXR/IlmImf/ImfMisc.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfMisc.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfMisc.cpp.o
 
 Source/OpenEXR/IlmImf/ImfMisc.i: Source/OpenEXR/IlmImf/ImfMisc.cpp.i
@@ -6416,7 +6416,7 @@ Source/OpenEXR/IlmImf/ImfMisc.i: Source/OpenEXR/IlmImf/ImfMisc.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfMisc.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfMisc.cpp.i
 
 Source/OpenEXR/IlmImf/ImfMisc.s: Source/OpenEXR/IlmImf/ImfMisc.cpp.s
@@ -6424,7 +6424,7 @@ Source/OpenEXR/IlmImf/ImfMisc.s: Source/OpenEXR/IlmImf/ImfMisc.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfMisc.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMisc.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfMisc.cpp.s
 
 Source/OpenEXR/IlmImf/ImfMultiView.o: Source/OpenEXR/IlmImf/ImfMultiView.cpp.o
@@ -6432,7 +6432,7 @@ Source/OpenEXR/IlmImf/ImfMultiView.o: Source/OpenEXR/IlmImf/ImfMultiView.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfMultiView.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfMultiView.cpp.o
 
 Source/OpenEXR/IlmImf/ImfMultiView.i: Source/OpenEXR/IlmImf/ImfMultiView.cpp.i
@@ -6440,7 +6440,7 @@ Source/OpenEXR/IlmImf/ImfMultiView.i: Source/OpenEXR/IlmImf/ImfMultiView.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfMultiView.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfMultiView.cpp.i
 
 Source/OpenEXR/IlmImf/ImfMultiView.s: Source/OpenEXR/IlmImf/ImfMultiView.cpp.s
@@ -6448,7 +6448,7 @@ Source/OpenEXR/IlmImf/ImfMultiView.s: Source/OpenEXR/IlmImf/ImfMultiView.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfMultiView.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfMultiView.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfMultiView.cpp.s
 
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.o: Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.o
@@ -6456,7 +6456,7 @@ Source/OpenEXR/IlmImf/ImfOpaqueAttribute.o: Source/OpenEXR/IlmImf/ImfOpaqueAttri
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.i: Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i
@@ -6464,7 +6464,7 @@ Source/OpenEXR/IlmImf/ImfOpaqueAttribute.i: Source/OpenEXR/IlmImf/ImfOpaqueAttri
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.s: Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.s
@@ -6472,7 +6472,7 @@ Source/OpenEXR/IlmImf/ImfOpaqueAttribute.s: Source/OpenEXR/IlmImf/ImfOpaqueAttri
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfOutputFile.o: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o
@@ -6480,7 +6480,7 @@ Source/OpenEXR/IlmImf/ImfOutputFile.o: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfOutputFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfOutputFile.i: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i
@@ -6488,7 +6488,7 @@ Source/OpenEXR/IlmImf/ImfOutputFile.i: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfOutputFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfOutputFile.s: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s
@@ -6496,7 +6496,7 @@ Source/OpenEXR/IlmImf/ImfOutputFile.s: Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfOutputFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfPizCompressor.o: Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.o
@@ -6504,7 +6504,7 @@ Source/OpenEXR/IlmImf/ImfPizCompressor.o: Source/OpenEXR/IlmImf/ImfPizCompressor
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfPizCompressor.i: Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.i
@@ -6512,7 +6512,7 @@ Source/OpenEXR/IlmImf/ImfPizCompressor.i: Source/OpenEXR/IlmImf/ImfPizCompressor
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfPizCompressor.s: Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.s
@@ -6520,7 +6520,7 @@ Source/OpenEXR/IlmImf/ImfPizCompressor.s: Source/OpenEXR/IlmImf/ImfPizCompressor
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfPizCompressor.cpp.s
 
 Source/OpenEXR/IlmImf/ImfPreviewImage.o: Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.o
@@ -6528,7 +6528,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImage.o: Source/OpenEXR/IlmImf/ImfPreviewImage.c
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.o
 
 Source/OpenEXR/IlmImf/ImfPreviewImage.i: Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.i
@@ -6536,7 +6536,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImage.i: Source/OpenEXR/IlmImf/ImfPreviewImage.c
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.i
 
 Source/OpenEXR/IlmImf/ImfPreviewImage.s: Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.s
@@ -6544,7 +6544,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImage.s: Source/OpenEXR/IlmImf/ImfPreviewImage.c
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImage.cpp.s
 
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.o: Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.o
@@ -6552,7 +6552,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.o: Source/OpenEXR/IlmImf/ImfPrevi
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.i: Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i
@@ -6560,7 +6560,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.i: Source/OpenEXR/IlmImf/ImfPrevi
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.s: Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.s
@@ -6568,7 +6568,7 @@ Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.s: Source/OpenEXR/IlmImf/ImfPrevi
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.o: Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.o
@@ -6576,7 +6576,7 @@ Source/OpenEXR/IlmImf/ImfPxr24Compressor.o: Source/OpenEXR/IlmImf/ImfPxr24Compre
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.i: Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i
@@ -6584,7 +6584,7 @@ Source/OpenEXR/IlmImf/ImfPxr24Compressor.i: Source/OpenEXR/IlmImf/ImfPxr24Compre
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.s: Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.s
@@ -6592,7 +6592,7 @@ Source/OpenEXR/IlmImf/ImfPxr24Compressor.s: Source/OpenEXR/IlmImf/ImfPxr24Compre
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp.s
 
 Source/OpenEXR/IlmImf/ImfRational.o: Source/OpenEXR/IlmImf/ImfRational.cpp.o
@@ -6600,7 +6600,7 @@ Source/OpenEXR/IlmImf/ImfRational.o: Source/OpenEXR/IlmImf/ImfRational.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfRational.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfRational.cpp.o
 
 Source/OpenEXR/IlmImf/ImfRational.i: Source/OpenEXR/IlmImf/ImfRational.cpp.i
@@ -6608,7 +6608,7 @@ Source/OpenEXR/IlmImf/ImfRational.i: Source/OpenEXR/IlmImf/ImfRational.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfRational.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfRational.cpp.i
 
 Source/OpenEXR/IlmImf/ImfRational.s: Source/OpenEXR/IlmImf/ImfRational.cpp.s
@@ -6616,7 +6616,7 @@ Source/OpenEXR/IlmImf/ImfRational.s: Source/OpenEXR/IlmImf/ImfRational.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfRational.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRational.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfRational.cpp.s
 
 Source/OpenEXR/IlmImf/ImfRationalAttribute.o: Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.o
@@ -6624,7 +6624,7 @@ Source/OpenEXR/IlmImf/ImfRationalAttribute.o: Source/OpenEXR/IlmImf/ImfRationalA
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfRationalAttribute.i: Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i
@@ -6632,7 +6632,7 @@ Source/OpenEXR/IlmImf/ImfRationalAttribute.i: Source/OpenEXR/IlmImf/ImfRationalA
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfRationalAttribute.s: Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.s
@@ -6640,7 +6640,7 @@ Source/OpenEXR/IlmImf/ImfRationalAttribute.s: Source/OpenEXR/IlmImf/ImfRationalA
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfRgbaFile.o: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o
@@ -6648,7 +6648,7 @@ Source/OpenEXR/IlmImf/ImfRgbaFile.o: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfRgbaFile.i: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i
@@ -6656,7 +6656,7 @@ Source/OpenEXR/IlmImf/ImfRgbaFile.i: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfRgbaFile.s: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s
@@ -6664,7 +6664,7 @@ Source/OpenEXR/IlmImf/ImfRgbaFile.s: Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfRgbaYca.o: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o
@@ -6672,7 +6672,7 @@ Source/OpenEXR/IlmImf/ImfRgbaYca.o: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.o
 
 Source/OpenEXR/IlmImf/ImfRgbaYca.i: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i
@@ -6680,7 +6680,7 @@ Source/OpenEXR/IlmImf/ImfRgbaYca.i: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.i
 
 Source/OpenEXR/IlmImf/ImfRgbaYca.s: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s
@@ -6688,7 +6688,7 @@ Source/OpenEXR/IlmImf/ImfRgbaYca.s: Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfRgbaYca.cpp.s
 
 Source/OpenEXR/IlmImf/ImfRleCompressor.o: Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.o
@@ -6696,7 +6696,7 @@ Source/OpenEXR/IlmImf/ImfRleCompressor.o: Source/OpenEXR/IlmImf/ImfRleCompressor
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfRleCompressor.i: Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.i
@@ -6704,7 +6704,7 @@ Source/OpenEXR/IlmImf/ImfRleCompressor.i: Source/OpenEXR/IlmImf/ImfRleCompressor
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfRleCompressor.s: Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.s
@@ -6712,7 +6712,7 @@ Source/OpenEXR/IlmImf/ImfRleCompressor.s: Source/OpenEXR/IlmImf/ImfRleCompressor
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfRleCompressor.cpp.s
 
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.o: Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.o
@@ -6720,7 +6720,7 @@ Source/OpenEXR/IlmImf/ImfScanLineInputFile.o: Source/OpenEXR/IlmImf/ImfScanLineI
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.i: Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i
@@ -6728,7 +6728,7 @@ Source/OpenEXR/IlmImf/ImfScanLineInputFile.i: Source/OpenEXR/IlmImf/ImfScanLineI
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.s: Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.s
@@ -6736,7 +6736,7 @@ Source/OpenEXR/IlmImf/ImfScanLineInputFile.s: Source/OpenEXR/IlmImf/ImfScanLineI
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfStandardAttributes.o: Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.o
@@ -6744,7 +6744,7 @@ Source/OpenEXR/IlmImf/ImfStandardAttributes.o: Source/OpenEXR/IlmImf/ImfStandard
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.o
 
 Source/OpenEXR/IlmImf/ImfStandardAttributes.i: Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i
@@ -6752,7 +6752,7 @@ Source/OpenEXR/IlmImf/ImfStandardAttributes.i: Source/OpenEXR/IlmImf/ImfStandard
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.i
 
 Source/OpenEXR/IlmImf/ImfStandardAttributes.s: Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.s
@@ -6760,7 +6760,7 @@ Source/OpenEXR/IlmImf/ImfStandardAttributes.s: Source/OpenEXR/IlmImf/ImfStandard
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp.s
 
 Source/OpenEXR/IlmImf/ImfStdIO.o: Source/OpenEXR/IlmImf/ImfStdIO.cpp.o
@@ -6768,7 +6768,7 @@ Source/OpenEXR/IlmImf/ImfStdIO.o: Source/OpenEXR/IlmImf/ImfStdIO.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfStdIO.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfStdIO.cpp.o
 
 Source/OpenEXR/IlmImf/ImfStdIO.i: Source/OpenEXR/IlmImf/ImfStdIO.cpp.i
@@ -6776,7 +6776,7 @@ Source/OpenEXR/IlmImf/ImfStdIO.i: Source/OpenEXR/IlmImf/ImfStdIO.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfStdIO.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfStdIO.cpp.i
 
 Source/OpenEXR/IlmImf/ImfStdIO.s: Source/OpenEXR/IlmImf/ImfStdIO.cpp.s
@@ -6784,7 +6784,7 @@ Source/OpenEXR/IlmImf/ImfStdIO.s: Source/OpenEXR/IlmImf/ImfStdIO.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfStdIO.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStdIO.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfStdIO.cpp.s
 
 Source/OpenEXR/IlmImf/ImfStringAttribute.o: Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.o
@@ -6792,7 +6792,7 @@ Source/OpenEXR/IlmImf/ImfStringAttribute.o: Source/OpenEXR/IlmImf/ImfStringAttri
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfStringAttribute.i: Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.i
@@ -6800,7 +6800,7 @@ Source/OpenEXR/IlmImf/ImfStringAttribute.i: Source/OpenEXR/IlmImf/ImfStringAttri
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfStringAttribute.s: Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.s
@@ -6808,7 +6808,7 @@ Source/OpenEXR/IlmImf/ImfStringAttribute.s: Source/OpenEXR/IlmImf/ImfStringAttri
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfStringAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.o: Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.o
@@ -6816,7 +6816,7 @@ Source/OpenEXR/IlmImf/ImfStringVectorAttribute.o: Source/OpenEXR/IlmImf/ImfStrin
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.i: Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i
@@ -6824,7 +6824,7 @@ Source/OpenEXR/IlmImf/ImfStringVectorAttribute.i: Source/OpenEXR/IlmImf/ImfStrin
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.s: Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.s
@@ -6832,7 +6832,7 @@ Source/OpenEXR/IlmImf/ImfStringVectorAttribute.s: Source/OpenEXR/IlmImf/ImfStrin
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTestFile.o: Source/OpenEXR/IlmImf/ImfTestFile.cpp.o
@@ -6840,7 +6840,7 @@ Source/OpenEXR/IlmImf/ImfTestFile.o: Source/OpenEXR/IlmImf/ImfTestFile.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTestFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTestFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTestFile.i: Source/OpenEXR/IlmImf/ImfTestFile.cpp.i
@@ -6848,7 +6848,7 @@ Source/OpenEXR/IlmImf/ImfTestFile.i: Source/OpenEXR/IlmImf/ImfTestFile.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTestFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTestFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTestFile.s: Source/OpenEXR/IlmImf/ImfTestFile.cpp.s
@@ -6856,7 +6856,7 @@ Source/OpenEXR/IlmImf/ImfTestFile.s: Source/OpenEXR/IlmImf/ImfTestFile.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTestFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTestFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTestFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfThreading.o: Source/OpenEXR/IlmImf/ImfThreading.cpp.o
@@ -6864,7 +6864,7 @@ Source/OpenEXR/IlmImf/ImfThreading.o: Source/OpenEXR/IlmImf/ImfThreading.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfThreading.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfThreading.cpp.o
 
 Source/OpenEXR/IlmImf/ImfThreading.i: Source/OpenEXR/IlmImf/ImfThreading.cpp.i
@@ -6872,7 +6872,7 @@ Source/OpenEXR/IlmImf/ImfThreading.i: Source/OpenEXR/IlmImf/ImfThreading.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfThreading.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfThreading.cpp.i
 
 Source/OpenEXR/IlmImf/ImfThreading.s: Source/OpenEXR/IlmImf/ImfThreading.cpp.s
@@ -6880,7 +6880,7 @@ Source/OpenEXR/IlmImf/ImfThreading.s: Source/OpenEXR/IlmImf/ImfThreading.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfThreading.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfThreading.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfThreading.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.o: Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.o
@@ -6888,7 +6888,7 @@ Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.o: Source/OpenEXR/IlmImf/ImfTi
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.i: Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i
@@ -6896,7 +6896,7 @@ Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.i: Source/OpenEXR/IlmImf/ImfTi
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.s: Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.s
@@ -6904,7 +6904,7 @@ Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.s: Source/OpenEXR/IlmImf/ImfTi
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTileOffsets.o: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.o
@@ -6912,7 +6912,7 @@ Source/OpenEXR/IlmImf/ImfTileOffsets.o: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTileOffsets.i: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.i
@@ -6920,7 +6920,7 @@ Source/OpenEXR/IlmImf/ImfTileOffsets.i: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTileOffsets.s: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.s
@@ -6928,7 +6928,7 @@ Source/OpenEXR/IlmImf/ImfTileOffsets.s: Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTileOffsets.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTiledInputFile.o: Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.o
@@ -6936,7 +6936,7 @@ Source/OpenEXR/IlmImf/ImfTiledInputFile.o: Source/OpenEXR/IlmImf/ImfTiledInputFi
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTiledInputFile.i: Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i
@@ -6944,7 +6944,7 @@ Source/OpenEXR/IlmImf/ImfTiledInputFile.i: Source/OpenEXR/IlmImf/ImfTiledInputFi
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTiledInputFile.s: Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.s
@@ -6952,7 +6952,7 @@ Source/OpenEXR/IlmImf/ImfTiledInputFile.s: Source/OpenEXR/IlmImf/ImfTiledInputFi
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTiledMisc.o: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o
@@ -6960,7 +6960,7 @@ Source/OpenEXR/IlmImf/ImfTiledMisc.o: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTiledMisc.i: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i
@@ -6968,7 +6968,7 @@ Source/OpenEXR/IlmImf/ImfTiledMisc.i: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTiledMisc.s: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s
@@ -6976,7 +6976,7 @@ Source/OpenEXR/IlmImf/ImfTiledMisc.s: Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledMisc.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.o: Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.o
@@ -6984,7 +6984,7 @@ Source/OpenEXR/IlmImf/ImfTiledOutputFile.o: Source/OpenEXR/IlmImf/ImfTiledOutput
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.i: Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i
@@ -6992,7 +6992,7 @@ Source/OpenEXR/IlmImf/ImfTiledOutputFile.i: Source/OpenEXR/IlmImf/ImfTiledOutput
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.s: Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.s
@@ -7000,7 +7000,7 @@ Source/OpenEXR/IlmImf/ImfTiledOutputFile.s: Source/OpenEXR/IlmImf/ImfTiledOutput
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.o: Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.o
@@ -7008,7 +7008,7 @@ Source/OpenEXR/IlmImf/ImfTiledRgbaFile.o: Source/OpenEXR/IlmImf/ImfTiledRgbaFile
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.i: Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i
@@ -7016,7 +7016,7 @@ Source/OpenEXR/IlmImf/ImfTiledRgbaFile.i: Source/OpenEXR/IlmImf/ImfTiledRgbaFile
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.s: Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.s
@@ -7024,7 +7024,7 @@ Source/OpenEXR/IlmImf/ImfTiledRgbaFile.s: Source/OpenEXR/IlmImf/ImfTiledRgbaFile
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTimeCode.o: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o
@@ -7032,7 +7032,7 @@ Source/OpenEXR/IlmImf/ImfTimeCode.o: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCode.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTimeCode.i: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i
@@ -7040,7 +7040,7 @@ Source/OpenEXR/IlmImf/ImfTimeCode.i: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCode.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTimeCode.s: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s
@@ -7048,7 +7048,7 @@ Source/OpenEXR/IlmImf/ImfTimeCode.s: Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCode.cpp.s
 
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.o: Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.o
@@ -7056,7 +7056,7 @@ Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.o: Source/OpenEXR/IlmImf/ImfTimeCodeA
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.i: Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i
@@ -7064,7 +7064,7 @@ Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.i: Source/OpenEXR/IlmImf/ImfTimeCodeA
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.s: Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.s
@@ -7072,7 +7072,7 @@ Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.s: Source/OpenEXR/IlmImf/ImfTimeCodeA
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfVecAttribute.o: Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.o
@@ -7080,7 +7080,7 @@ Source/OpenEXR/IlmImf/ImfVecAttribute.o: Source/OpenEXR/IlmImf/ImfVecAttribute.c
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.o
 
 Source/OpenEXR/IlmImf/ImfVecAttribute.i: Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.i
@@ -7088,7 +7088,7 @@ Source/OpenEXR/IlmImf/ImfVecAttribute.i: Source/OpenEXR/IlmImf/ImfVecAttribute.c
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.i
 
 Source/OpenEXR/IlmImf/ImfVecAttribute.s: Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.s
@@ -7096,7 +7096,7 @@ Source/OpenEXR/IlmImf/ImfVecAttribute.s: Source/OpenEXR/IlmImf/ImfVecAttribute.c
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfVecAttribute.cpp.s
 
 Source/OpenEXR/IlmImf/ImfVersion.o: Source/OpenEXR/IlmImf/ImfVersion.cpp.o
@@ -7104,7 +7104,7 @@ Source/OpenEXR/IlmImf/ImfVersion.o: Source/OpenEXR/IlmImf/ImfVersion.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfVersion.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfVersion.cpp.o
 
 Source/OpenEXR/IlmImf/ImfVersion.i: Source/OpenEXR/IlmImf/ImfVersion.cpp.i
@@ -7112,7 +7112,7 @@ Source/OpenEXR/IlmImf/ImfVersion.i: Source/OpenEXR/IlmImf/ImfVersion.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfVersion.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfVersion.cpp.i
 
 Source/OpenEXR/IlmImf/ImfVersion.s: Source/OpenEXR/IlmImf/ImfVersion.cpp.s
@@ -7120,7 +7120,7 @@ Source/OpenEXR/IlmImf/ImfVersion.s: Source/OpenEXR/IlmImf/ImfVersion.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfVersion.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfVersion.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfVersion.cpp.s
 
 Source/OpenEXR/IlmImf/ImfWav.o: Source/OpenEXR/IlmImf/ImfWav.cpp.o
@@ -7128,7 +7128,7 @@ Source/OpenEXR/IlmImf/ImfWav.o: Source/OpenEXR/IlmImf/ImfWav.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfWav.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfWav.cpp.o
 
 Source/OpenEXR/IlmImf/ImfWav.i: Source/OpenEXR/IlmImf/ImfWav.cpp.i
@@ -7136,7 +7136,7 @@ Source/OpenEXR/IlmImf/ImfWav.i: Source/OpenEXR/IlmImf/ImfWav.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfWav.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfWav.cpp.i
 
 Source/OpenEXR/IlmImf/ImfWav.s: Source/OpenEXR/IlmImf/ImfWav.cpp.s
@@ -7144,7 +7144,7 @@ Source/OpenEXR/IlmImf/ImfWav.s: Source/OpenEXR/IlmImf/ImfWav.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfWav.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfWav.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfWav.cpp.s
 
 Source/OpenEXR/IlmImf/ImfZipCompressor.o: Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.o
@@ -7152,7 +7152,7 @@ Source/OpenEXR/IlmImf/ImfZipCompressor.o: Source/OpenEXR/IlmImf/ImfZipCompressor
 
 # target to build an object file
 Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.o
 .PHONY : Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.o
 
 Source/OpenEXR/IlmImf/ImfZipCompressor.i: Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.i
@@ -7160,7 +7160,7 @@ Source/OpenEXR/IlmImf/ImfZipCompressor.i: Source/OpenEXR/IlmImf/ImfZipCompressor
 
 # target to preprocess a source file
 Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.i
 .PHONY : Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.i
 
 Source/OpenEXR/IlmImf/ImfZipCompressor.s: Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.s
@@ -7168,7 +7168,7 @@ Source/OpenEXR/IlmImf/ImfZipCompressor.s: Source/OpenEXR/IlmImf/ImfZipCompressor
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.s
 .PHONY : Source/OpenEXR/IlmImf/ImfZipCompressor.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThread.o: Source/OpenEXR/IlmThread/IlmThread.cpp.o
@@ -7176,7 +7176,7 @@ Source/OpenEXR/IlmThread/IlmThread.o: Source/OpenEXR/IlmThread/IlmThread.cpp.o
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThread.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThread.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThread.i: Source/OpenEXR/IlmThread/IlmThread.cpp.i
@@ -7184,7 +7184,7 @@ Source/OpenEXR/IlmThread/IlmThread.i: Source/OpenEXR/IlmThread/IlmThread.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThread.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThread.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThread.s: Source/OpenEXR/IlmThread/IlmThread.cpp.s
@@ -7192,7 +7192,7 @@ Source/OpenEXR/IlmThread/IlmThread.s: Source/OpenEXR/IlmThread/IlmThread.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThread.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThread.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThread.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadMutex.o: Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.o
@@ -7200,7 +7200,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutex.o: Source/OpenEXR/IlmThread/IlmThreadMut
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadMutex.i: Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.i
@@ -7208,7 +7208,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutex.i: Source/OpenEXR/IlmThread/IlmThreadMut
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadMutex.s: Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.s
@@ -7216,7 +7216,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutex.s: Source/OpenEXR/IlmThread/IlmThreadMut
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutex.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.o: Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.o
@@ -7224,7 +7224,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutexPosix.o: Source/OpenEXR/IlmThread/IlmThre
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.i: Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.i
@@ -7232,7 +7232,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutexPosix.i: Source/OpenEXR/IlmThread/IlmThre
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.s: Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.s
@@ -7240,7 +7240,7 @@ Source/OpenEXR/IlmThread/IlmThreadMutexPosix.s: Source/OpenEXR/IlmThread/IlmThre
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadPool.o: Source/OpenEXR/IlmThread/IlmThreadPool.cpp.o
@@ -7248,7 +7248,7 @@ Source/OpenEXR/IlmThread/IlmThreadPool.o: Source/OpenEXR/IlmThread/IlmThreadPool
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadPool.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPool.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadPool.i: Source/OpenEXR/IlmThread/IlmThreadPool.cpp.i
@@ -7256,7 +7256,7 @@ Source/OpenEXR/IlmThread/IlmThreadPool.i: Source/OpenEXR/IlmThread/IlmThreadPool
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadPool.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPool.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadPool.s: Source/OpenEXR/IlmThread/IlmThreadPool.cpp.s
@@ -7264,7 +7264,7 @@ Source/OpenEXR/IlmThread/IlmThreadPool.s: Source/OpenEXR/IlmThread/IlmThreadPool
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadPool.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPool.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPool.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadPosix.o: Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.o
@@ -7272,7 +7272,7 @@ Source/OpenEXR/IlmThread/IlmThreadPosix.o: Source/OpenEXR/IlmThread/IlmThreadPos
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadPosix.i: Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.i
@@ -7280,7 +7280,7 @@ Source/OpenEXR/IlmThread/IlmThreadPosix.i: Source/OpenEXR/IlmThread/IlmThreadPos
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadPosix.s: Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.s
@@ -7288,7 +7288,7 @@ Source/OpenEXR/IlmThread/IlmThreadPosix.s: Source/OpenEXR/IlmThread/IlmThreadPos
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadPosix.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.o: Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.o
@@ -7296,7 +7296,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphore.o: Source/OpenEXR/IlmThread/IlmThrea
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.i: Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i
@@ -7304,7 +7304,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphore.i: Source/OpenEXR/IlmThread/IlmThrea
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.s: Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.s
@@ -7312,7 +7312,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphore.s: Source/OpenEXR/IlmThread/IlmThrea
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.o: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.o
@@ -7320,7 +7320,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.o: Source/OpenEXR/IlmThread/Ilm
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.i: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.i
@@ -7328,7 +7328,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.i: Source/OpenEXR/IlmThread/Ilm
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.s: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.s
@@ -7336,7 +7336,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.s: Source/OpenEXR/IlmThread/Ilm
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp.s
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.o: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o
@@ -7344,7 +7344,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.o: Source/OpenEXR/IlmThre
 
 # target to build an object file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.i: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.i
@@ -7352,7 +7352,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.i: Source/OpenEXR/IlmThre
 
 # target to preprocess a source file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.i
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.i
 
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.s: Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.s
@@ -7360,7 +7360,7 @@ Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.s: Source/OpenEXR/IlmThre
 
 # target to generate assembly for a file
 Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.s
 .PHONY : Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp.s
 
 Source/OpenEXR/Imath/ImathBox.o: Source/OpenEXR/Imath/ImathBox.cpp.o
@@ -7368,7 +7368,7 @@ Source/OpenEXR/Imath/ImathBox.o: Source/OpenEXR/Imath/ImathBox.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathBox.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathBox.cpp.o
 
 Source/OpenEXR/Imath/ImathBox.i: Source/OpenEXR/Imath/ImathBox.cpp.i
@@ -7376,7 +7376,7 @@ Source/OpenEXR/Imath/ImathBox.i: Source/OpenEXR/Imath/ImathBox.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathBox.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathBox.cpp.i
 
 Source/OpenEXR/Imath/ImathBox.s: Source/OpenEXR/Imath/ImathBox.cpp.s
@@ -7384,7 +7384,7 @@ Source/OpenEXR/Imath/ImathBox.s: Source/OpenEXR/Imath/ImathBox.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathBox.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathBox.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathBox.cpp.s
 
 Source/OpenEXR/Imath/ImathColorAlgo.o: Source/OpenEXR/Imath/ImathColorAlgo.cpp.o
@@ -7392,7 +7392,7 @@ Source/OpenEXR/Imath/ImathColorAlgo.o: Source/OpenEXR/Imath/ImathColorAlgo.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathColorAlgo.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathColorAlgo.cpp.o
 
 Source/OpenEXR/Imath/ImathColorAlgo.i: Source/OpenEXR/Imath/ImathColorAlgo.cpp.i
@@ -7400,7 +7400,7 @@ Source/OpenEXR/Imath/ImathColorAlgo.i: Source/OpenEXR/Imath/ImathColorAlgo.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathColorAlgo.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathColorAlgo.cpp.i
 
 Source/OpenEXR/Imath/ImathColorAlgo.s: Source/OpenEXR/Imath/ImathColorAlgo.cpp.s
@@ -7408,7 +7408,7 @@ Source/OpenEXR/Imath/ImathColorAlgo.s: Source/OpenEXR/Imath/ImathColorAlgo.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathColorAlgo.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathColorAlgo.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathColorAlgo.cpp.s
 
 Source/OpenEXR/Imath/ImathFun.o: Source/OpenEXR/Imath/ImathFun.cpp.o
@@ -7416,7 +7416,7 @@ Source/OpenEXR/Imath/ImathFun.o: Source/OpenEXR/Imath/ImathFun.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathFun.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathFun.cpp.o
 
 Source/OpenEXR/Imath/ImathFun.i: Source/OpenEXR/Imath/ImathFun.cpp.i
@@ -7424,7 +7424,7 @@ Source/OpenEXR/Imath/ImathFun.i: Source/OpenEXR/Imath/ImathFun.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathFun.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathFun.cpp.i
 
 Source/OpenEXR/Imath/ImathFun.s: Source/OpenEXR/Imath/ImathFun.cpp.s
@@ -7432,7 +7432,7 @@ Source/OpenEXR/Imath/ImathFun.s: Source/OpenEXR/Imath/ImathFun.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathFun.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathFun.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathFun.cpp.s
 
 Source/OpenEXR/Imath/ImathMatrixAlgo.o: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.o
@@ -7440,7 +7440,7 @@ Source/OpenEXR/Imath/ImathMatrixAlgo.o: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.o
 
 Source/OpenEXR/Imath/ImathMatrixAlgo.i: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.i
@@ -7448,7 +7448,7 @@ Source/OpenEXR/Imath/ImathMatrixAlgo.i: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.i
 
 Source/OpenEXR/Imath/ImathMatrixAlgo.s: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.s
@@ -7456,7 +7456,7 @@ Source/OpenEXR/Imath/ImathMatrixAlgo.s: Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathMatrixAlgo.cpp.s
 
 Source/OpenEXR/Imath/ImathRandom.o: Source/OpenEXR/Imath/ImathRandom.cpp.o
@@ -7464,7 +7464,7 @@ Source/OpenEXR/Imath/ImathRandom.o: Source/OpenEXR/Imath/ImathRandom.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathRandom.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathRandom.cpp.o
 
 Source/OpenEXR/Imath/ImathRandom.i: Source/OpenEXR/Imath/ImathRandom.cpp.i
@@ -7472,7 +7472,7 @@ Source/OpenEXR/Imath/ImathRandom.i: Source/OpenEXR/Imath/ImathRandom.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathRandom.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathRandom.cpp.i
 
 Source/OpenEXR/Imath/ImathRandom.s: Source/OpenEXR/Imath/ImathRandom.cpp.s
@@ -7480,7 +7480,7 @@ Source/OpenEXR/Imath/ImathRandom.s: Source/OpenEXR/Imath/ImathRandom.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathRandom.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathRandom.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathRandom.cpp.s
 
 Source/OpenEXR/Imath/ImathShear.o: Source/OpenEXR/Imath/ImathShear.cpp.o
@@ -7488,7 +7488,7 @@ Source/OpenEXR/Imath/ImathShear.o: Source/OpenEXR/Imath/ImathShear.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathShear.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathShear.cpp.o
 
 Source/OpenEXR/Imath/ImathShear.i: Source/OpenEXR/Imath/ImathShear.cpp.i
@@ -7496,7 +7496,7 @@ Source/OpenEXR/Imath/ImathShear.i: Source/OpenEXR/Imath/ImathShear.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathShear.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathShear.cpp.i
 
 Source/OpenEXR/Imath/ImathShear.s: Source/OpenEXR/Imath/ImathShear.cpp.s
@@ -7504,7 +7504,7 @@ Source/OpenEXR/Imath/ImathShear.s: Source/OpenEXR/Imath/ImathShear.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathShear.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathShear.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathShear.cpp.s
 
 Source/OpenEXR/Imath/ImathVec.o: Source/OpenEXR/Imath/ImathVec.cpp.o
@@ -7512,7 +7512,7 @@ Source/OpenEXR/Imath/ImathVec.o: Source/OpenEXR/Imath/ImathVec.cpp.o
 
 # target to build an object file
 Source/OpenEXR/Imath/ImathVec.cpp.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.o
 .PHONY : Source/OpenEXR/Imath/ImathVec.cpp.o
 
 Source/OpenEXR/Imath/ImathVec.i: Source/OpenEXR/Imath/ImathVec.cpp.i
@@ -7520,7 +7520,7 @@ Source/OpenEXR/Imath/ImathVec.i: Source/OpenEXR/Imath/ImathVec.cpp.i
 
 # target to preprocess a source file
 Source/OpenEXR/Imath/ImathVec.cpp.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.i
 .PHONY : Source/OpenEXR/Imath/ImathVec.cpp.i
 
 Source/OpenEXR/Imath/ImathVec.s: Source/OpenEXR/Imath/ImathVec.cpp.s
@@ -7528,7 +7528,7 @@ Source/OpenEXR/Imath/ImathVec.s: Source/OpenEXR/Imath/ImathVec.cpp.s
 
 # target to generate assembly for a file
 Source/OpenEXR/Imath/ImathVec.cpp.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/OpenEXR/Imath/ImathVec.cpp.s
 .PHONY : Source/OpenEXR/Imath/ImathVec.cpp.s
 
 Source/ZLib/adler32.o: Source/ZLib/adler32.c.o
@@ -7536,7 +7536,7 @@ Source/ZLib/adler32.o: Source/ZLib/adler32.c.o
 
 # target to build an object file
 Source/ZLib/adler32.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.o
 .PHONY : Source/ZLib/adler32.c.o
 
 Source/ZLib/adler32.i: Source/ZLib/adler32.c.i
@@ -7544,7 +7544,7 @@ Source/ZLib/adler32.i: Source/ZLib/adler32.c.i
 
 # target to preprocess a source file
 Source/ZLib/adler32.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.i
 .PHONY : Source/ZLib/adler32.c.i
 
 Source/ZLib/adler32.s: Source/ZLib/adler32.c.s
@@ -7552,7 +7552,7 @@ Source/ZLib/adler32.s: Source/ZLib/adler32.c.s
 
 # target to generate assembly for a file
 Source/ZLib/adler32.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/adler32.c.s
 .PHONY : Source/ZLib/adler32.c.s
 
 Source/ZLib/compress.o: Source/ZLib/compress.c.o
@@ -7560,7 +7560,7 @@ Source/ZLib/compress.o: Source/ZLib/compress.c.o
 
 # target to build an object file
 Source/ZLib/compress.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.o
 .PHONY : Source/ZLib/compress.c.o
 
 Source/ZLib/compress.i: Source/ZLib/compress.c.i
@@ -7568,7 +7568,7 @@ Source/ZLib/compress.i: Source/ZLib/compress.c.i
 
 # target to preprocess a source file
 Source/ZLib/compress.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.i
 .PHONY : Source/ZLib/compress.c.i
 
 Source/ZLib/compress.s: Source/ZLib/compress.c.s
@@ -7576,7 +7576,7 @@ Source/ZLib/compress.s: Source/ZLib/compress.c.s
 
 # target to generate assembly for a file
 Source/ZLib/compress.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/compress.c.s
 .PHONY : Source/ZLib/compress.c.s
 
 Source/ZLib/crc32.o: Source/ZLib/crc32.c.o
@@ -7584,7 +7584,7 @@ Source/ZLib/crc32.o: Source/ZLib/crc32.c.o
 
 # target to build an object file
 Source/ZLib/crc32.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.o
 .PHONY : Source/ZLib/crc32.c.o
 
 Source/ZLib/crc32.i: Source/ZLib/crc32.c.i
@@ -7592,7 +7592,7 @@ Source/ZLib/crc32.i: Source/ZLib/crc32.c.i
 
 # target to preprocess a source file
 Source/ZLib/crc32.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.i
 .PHONY : Source/ZLib/crc32.c.i
 
 Source/ZLib/crc32.s: Source/ZLib/crc32.c.s
@@ -7600,7 +7600,7 @@ Source/ZLib/crc32.s: Source/ZLib/crc32.c.s
 
 # target to generate assembly for a file
 Source/ZLib/crc32.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/crc32.c.s
 .PHONY : Source/ZLib/crc32.c.s
 
 Source/ZLib/deflate.o: Source/ZLib/deflate.c.o
@@ -7608,7 +7608,7 @@ Source/ZLib/deflate.o: Source/ZLib/deflate.c.o
 
 # target to build an object file
 Source/ZLib/deflate.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.o
 .PHONY : Source/ZLib/deflate.c.o
 
 Source/ZLib/deflate.i: Source/ZLib/deflate.c.i
@@ -7616,7 +7616,7 @@ Source/ZLib/deflate.i: Source/ZLib/deflate.c.i
 
 # target to preprocess a source file
 Source/ZLib/deflate.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.i
 .PHONY : Source/ZLib/deflate.c.i
 
 Source/ZLib/deflate.s: Source/ZLib/deflate.c.s
@@ -7624,7 +7624,7 @@ Source/ZLib/deflate.s: Source/ZLib/deflate.c.s
 
 # target to generate assembly for a file
 Source/ZLib/deflate.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/deflate.c.s
 .PHONY : Source/ZLib/deflate.c.s
 
 Source/ZLib/infback.o: Source/ZLib/infback.c.o
@@ -7632,7 +7632,7 @@ Source/ZLib/infback.o: Source/ZLib/infback.c.o
 
 # target to build an object file
 Source/ZLib/infback.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.o
 .PHONY : Source/ZLib/infback.c.o
 
 Source/ZLib/infback.i: Source/ZLib/infback.c.i
@@ -7640,7 +7640,7 @@ Source/ZLib/infback.i: Source/ZLib/infback.c.i
 
 # target to preprocess a source file
 Source/ZLib/infback.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.i
 .PHONY : Source/ZLib/infback.c.i
 
 Source/ZLib/infback.s: Source/ZLib/infback.c.s
@@ -7648,7 +7648,7 @@ Source/ZLib/infback.s: Source/ZLib/infback.c.s
 
 # target to generate assembly for a file
 Source/ZLib/infback.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/infback.c.s
 .PHONY : Source/ZLib/infback.c.s
 
 Source/ZLib/inffast.o: Source/ZLib/inffast.c.o
@@ -7656,7 +7656,7 @@ Source/ZLib/inffast.o: Source/ZLib/inffast.c.o
 
 # target to build an object file
 Source/ZLib/inffast.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.o
 .PHONY : Source/ZLib/inffast.c.o
 
 Source/ZLib/inffast.i: Source/ZLib/inffast.c.i
@@ -7664,7 +7664,7 @@ Source/ZLib/inffast.i: Source/ZLib/inffast.c.i
 
 # target to preprocess a source file
 Source/ZLib/inffast.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.i
 .PHONY : Source/ZLib/inffast.c.i
 
 Source/ZLib/inffast.s: Source/ZLib/inffast.c.s
@@ -7672,7 +7672,7 @@ Source/ZLib/inffast.s: Source/ZLib/inffast.c.s
 
 # target to generate assembly for a file
 Source/ZLib/inffast.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inffast.c.s
 .PHONY : Source/ZLib/inffast.c.s
 
 Source/ZLib/inflate.o: Source/ZLib/inflate.c.o
@@ -7680,7 +7680,7 @@ Source/ZLib/inflate.o: Source/ZLib/inflate.c.o
 
 # target to build an object file
 Source/ZLib/inflate.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.o
 .PHONY : Source/ZLib/inflate.c.o
 
 Source/ZLib/inflate.i: Source/ZLib/inflate.c.i
@@ -7688,7 +7688,7 @@ Source/ZLib/inflate.i: Source/ZLib/inflate.c.i
 
 # target to preprocess a source file
 Source/ZLib/inflate.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.i
 .PHONY : Source/ZLib/inflate.c.i
 
 Source/ZLib/inflate.s: Source/ZLib/inflate.c.s
@@ -7696,7 +7696,7 @@ Source/ZLib/inflate.s: Source/ZLib/inflate.c.s
 
 # target to generate assembly for a file
 Source/ZLib/inflate.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inflate.c.s
 .PHONY : Source/ZLib/inflate.c.s
 
 Source/ZLib/inftrees.o: Source/ZLib/inftrees.c.o
@@ -7704,7 +7704,7 @@ Source/ZLib/inftrees.o: Source/ZLib/inftrees.c.o
 
 # target to build an object file
 Source/ZLib/inftrees.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.o
 .PHONY : Source/ZLib/inftrees.c.o
 
 Source/ZLib/inftrees.i: Source/ZLib/inftrees.c.i
@@ -7712,7 +7712,7 @@ Source/ZLib/inftrees.i: Source/ZLib/inftrees.c.i
 
 # target to preprocess a source file
 Source/ZLib/inftrees.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.i
 .PHONY : Source/ZLib/inftrees.c.i
 
 Source/ZLib/inftrees.s: Source/ZLib/inftrees.c.s
@@ -7720,7 +7720,7 @@ Source/ZLib/inftrees.s: Source/ZLib/inftrees.c.s
 
 # target to generate assembly for a file
 Source/ZLib/inftrees.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/inftrees.c.s
 .PHONY : Source/ZLib/inftrees.c.s
 
 Source/ZLib/trees.o: Source/ZLib/trees.c.o
@@ -7728,7 +7728,7 @@ Source/ZLib/trees.o: Source/ZLib/trees.c.o
 
 # target to build an object file
 Source/ZLib/trees.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.o
 .PHONY : Source/ZLib/trees.c.o
 
 Source/ZLib/trees.i: Source/ZLib/trees.c.i
@@ -7736,7 +7736,7 @@ Source/ZLib/trees.i: Source/ZLib/trees.c.i
 
 # target to preprocess a source file
 Source/ZLib/trees.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.i
 .PHONY : Source/ZLib/trees.c.i
 
 Source/ZLib/trees.s: Source/ZLib/trees.c.s
@@ -7744,7 +7744,7 @@ Source/ZLib/trees.s: Source/ZLib/trees.c.s
 
 # target to generate assembly for a file
 Source/ZLib/trees.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/trees.c.s
 .PHONY : Source/ZLib/trees.c.s
 
 Source/ZLib/uncompr.o: Source/ZLib/uncompr.c.o
@@ -7752,7 +7752,7 @@ Source/ZLib/uncompr.o: Source/ZLib/uncompr.c.o
 
 # target to build an object file
 Source/ZLib/uncompr.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.o
 .PHONY : Source/ZLib/uncompr.c.o
 
 Source/ZLib/uncompr.i: Source/ZLib/uncompr.c.i
@@ -7760,7 +7760,7 @@ Source/ZLib/uncompr.i: Source/ZLib/uncompr.c.i
 
 # target to preprocess a source file
 Source/ZLib/uncompr.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.i
 .PHONY : Source/ZLib/uncompr.c.i
 
 Source/ZLib/uncompr.s: Source/ZLib/uncompr.c.s
@@ -7768,7 +7768,7 @@ Source/ZLib/uncompr.s: Source/ZLib/uncompr.c.s
 
 # target to generate assembly for a file
 Source/ZLib/uncompr.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/uncompr.c.s
 .PHONY : Source/ZLib/uncompr.c.s
 
 Source/ZLib/zutil.o: Source/ZLib/zutil.c.o
@@ -7776,7 +7776,7 @@ Source/ZLib/zutil.o: Source/ZLib/zutil.c.o
 
 # target to build an object file
 Source/ZLib/zutil.c.o:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.o
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.o
 .PHONY : Source/ZLib/zutil.c.o
 
 Source/ZLib/zutil.i: Source/ZLib/zutil.c.i
@@ -7784,7 +7784,7 @@ Source/ZLib/zutil.i: Source/ZLib/zutil.c.i
 
 # target to preprocess a source file
 Source/ZLib/zutil.c.i:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.i
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.i
 .PHONY : Source/ZLib/zutil.c.i
 
 Source/ZLib/zutil.s: Source/ZLib/zutil.c.s
@@ -7792,7 +7792,7 @@ Source/ZLib/zutil.s: Source/ZLib/zutil.c.s
 
 # target to generate assembly for a file
 Source/ZLib/zutil.c.s:
-	cd /Users/Shea/Projects/earth/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.s
+	cd /Users/Shea/Projects/bluedot/build && $(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/Source/ZLib/zutil.c.s
 .PHONY : Source/ZLib/zutil.c.s
 
 # Help Target
@@ -8775,6 +8775,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/Shea/Projects/earth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/Shea/Projects/bluedot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

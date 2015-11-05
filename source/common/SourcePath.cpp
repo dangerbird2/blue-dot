@@ -6,4 +6,4 @@
 
 #include "SourcePath.h"
 
-std::string source_path = "/Users/Shea/Projects/earth";
+std::string source_path = "/Users/Shea/Projects/bluedot";

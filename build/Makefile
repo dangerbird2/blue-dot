@@ -42,10 +42,10 @@ RM = /usr/local/Cellar/cmake/3.2.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Shea/Projects/earth
+CMAKE_SOURCE_DIR = /Users/Shea/Projects/bluedot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Shea/Projects/earth/build
+CMAKE_BINARY_DIR = /Users/Shea/Projects/bluedot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles /Users/Shea/Projects/earth/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles /Users/Shea/Projects/bluedot/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -113,19 +113,6 @@ earth: cmake_check_build_system
 earth/fast:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/build
 .PHONY : earth/fast
-
-#=============================================================================
-# Target rules for targets named FreeImage
-
-# Build rule for target.
-FreeImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FreeImage
-.PHONY : FreeImage
-
-# fast build rule for target.
-FreeImage/fast:
-	$(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/build
-.PHONY : FreeImage/fast
 
 source/Earth.o: source/Earth.cpp.o
 .PHONY : source/Earth.o
@@ -256,7 +243,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... earth"
-	@echo "... FreeImage"
 	@echo "... source/Earth.o"
 	@echo "... source/Earth.i"
 	@echo "... source/Earth.s"

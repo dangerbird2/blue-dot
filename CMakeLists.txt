@@ -1,23 +1,25 @@
 cmake_minimum_required(VERSION 2.8)
 PROJECT(EARTH)
 SET(CMAKE_BUILD_TYPE "Release")
-SET(CMAKE_CXX_FLAGS "-Wno-deprecated")
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++1y -Wno-deprecated")
 
 SET(MY_SOURCE_PATH ${CMAKE_SOURCE_DIR})
 CONFIGURE_FILE(${CMAKE_SOURCE_DIR}/source/common/SourcePath.cpp.in ${CMAKE_SOURCE_DIR}/source/common/SourcePath.cpp)	
 	
 find_package(OpenGL)
 find_package(GLUT)
+find_package(PNG)
+find_package(JPEG)
 
 INCLUDE_DIRECTORIES(./source
 					./source/common
 					./shaders
 					${OPENGL_INCLUDE_DIR} 
-					${GLUT_INCLUDE_DIR})
+					${GLUT_INCLUDE_DIR}
+                    /extern/glm)
 					
 					
 
-SUBDIRS(${PROJECT_SOURCE_DIR}/FreeImage3151)	
 
 INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source")
 INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source/LibJPEG")
@@ -26,6 +28,7 @@ INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source/LibOpenJPEG")
 INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source/LibPNG/")
 INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source/LibRawLite")
 INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/FreeImage3151/Source/LibTIFF")
+
 
 ADD_EXECUTABLE(earth
 source/common/Angel.h
@@ -43,5 +46,8 @@ shaders/vshading_example.glsl
 shaders/fshading_example.glsl
 source/Earth.cpp)
 
-TARGET_LINK_LIBRARIES(earth ${OPENGL_LIBRARY} ${GLUT_LIBRARY} FreeImage)
+TARGET_LINK_LIBRARIES(earth 
+    ${OPENGL_LIBRARY} ${GLUT_LIBRARY}
+    ${JPEG_LIBRARY}
+    ${PNG_LIBRARY})
 

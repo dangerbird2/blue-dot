@@ -1,2 +1,1 @@
-/Users/Shea/Projects/earth/build/CMakeFiles/earth.dir
-/Users/Shea/Projects/earth/build/FreeImage3151/CMakeFiles/FreeImage.dir
+/Users/Shea/Projects/bluedot/build/CMakeFiles/earth.dir
