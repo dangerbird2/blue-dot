@@ -1,0 +1,2 @@
+/Users/Shea/Projects/earth/build/CMakeFiles/earth.dir
+/Users/Shea/Projects/earth/build/FreeImage3151/CMakeFiles/FreeImage.dir
