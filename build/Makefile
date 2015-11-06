@@ -162,6 +162,30 @@ source/common/InitShader.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/InitShader.cpp.s
 .PHONY : source/common/InitShader.cpp.s
 
+source/common/Material.o: source/common/Material.cc.o
+.PHONY : source/common/Material.o
+
+# target to build an object file
+source/common/Material.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.o
+.PHONY : source/common/Material.cc.o
+
+source/common/Material.i: source/common/Material.cc.i
+.PHONY : source/common/Material.i
+
+# target to preprocess a source file
+source/common/Material.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.i
+.PHONY : source/common/Material.cc.i
+
+source/common/Material.s: source/common/Material.cc.s
+.PHONY : source/common/Material.s
+
+# target to generate assembly for a file
+source/common/Material.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.s
+.PHONY : source/common/Material.cc.s
+
 source/common/ObjMesh.o: source/common/ObjMesh.cpp.o
 .PHONY : source/common/ObjMesh.o
 
@@ -249,6 +273,9 @@ help:
 	@echo "... source/common/InitShader.o"
 	@echo "... source/common/InitShader.i"
 	@echo "... source/common/InitShader.s"
+	@echo "... source/common/Material.o"
+	@echo "... source/common/Material.i"
+	@echo "... source/common/Material.s"
 	@echo "... source/common/ObjMesh.o"
 	@echo "... source/common/ObjMesh.i"
 	@echo "... source/common/ObjMesh.s"

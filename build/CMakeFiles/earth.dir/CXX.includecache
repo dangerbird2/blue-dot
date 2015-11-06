@@ -86,6 +86,8 @@ mat.h
 Angel.h
 /Users/Shea/Projects/bluedot/source/common/Angel.h
 
+/Users/Shea/Projects/bluedot/source/common/Material.cc
+
 /Users/Shea/Projects/bluedot/source/common/ObjMesh.cpp
 ObjMesh.h
 /Users/Shea/Projects/bluedot/source/common/ObjMesh.h

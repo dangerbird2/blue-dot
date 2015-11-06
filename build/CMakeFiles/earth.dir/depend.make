@@ -14,6 +14,8 @@ CMakeFiles/earth.dir/source/common/InitShader.cpp.o: ../source/common/InitShader
 CMakeFiles/earth.dir/source/common/InitShader.cpp.o: ../source/common/mat.h
 CMakeFiles/earth.dir/source/common/InitShader.cpp.o: ../source/common/vec.h
 
+CMakeFiles/earth.dir/source/common/Material.cc.o: ../source/common/Material.cc
+
 CMakeFiles/earth.dir/source/common/ObjMesh.cpp.o: ../source/common/Angel.h
 CMakeFiles/earth.dir/source/common/ObjMesh.cpp.o: ../source/common/ObjMesh.cpp
 CMakeFiles/earth.dir/source/common/ObjMesh.cpp.o: ../source/common/ObjMesh.h

@@ -6,8 +6,17 @@
 #include "Angel.h"
 #include <vector>
 #include <list>
+#include <glm/glm>
 
 using namespace Angel;
+
+namespace sls {
+
+struct Vertex {
+
+};
+
+}
 
 class Mesh {
 public:

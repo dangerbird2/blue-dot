@@ -164,13 +164,37 @@ CMakeFiles/earth.dir/source/Earth.cpp.o.provides: CMakeFiles/earth.dir/source/Ea
 
 CMakeFiles/earth.dir/source/Earth.cpp.o.provides.build: CMakeFiles/earth.dir/source/Earth.cpp.o
 
+CMakeFiles/earth.dir/source/common/Material.cc.o: CMakeFiles/earth.dir/flags.make
+CMakeFiles/earth.dir/source/common/Material.cc.o: ../source/common/Material.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Shea/Projects/bluedot/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/earth.dir/source/common/Material.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/earth.dir/source/common/Material.cc.o -c /Users/Shea/Projects/bluedot/source/common/Material.cc
+
+CMakeFiles/earth.dir/source/common/Material.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/earth.dir/source/common/Material.cc.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Shea/Projects/bluedot/source/common/Material.cc > CMakeFiles/earth.dir/source/common/Material.cc.i
+
+CMakeFiles/earth.dir/source/common/Material.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/earth.dir/source/common/Material.cc.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Shea/Projects/bluedot/source/common/Material.cc -o CMakeFiles/earth.dir/source/common/Material.cc.s
+
+CMakeFiles/earth.dir/source/common/Material.cc.o.requires:
+.PHONY : CMakeFiles/earth.dir/source/common/Material.cc.o.requires
+
+CMakeFiles/earth.dir/source/common/Material.cc.o.provides: CMakeFiles/earth.dir/source/common/Material.cc.o.requires
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.o.provides.build
+.PHONY : CMakeFiles/earth.dir/source/common/Material.cc.o.provides
+
+CMakeFiles/earth.dir/source/common/Material.cc.o.provides.build: CMakeFiles/earth.dir/source/common/Material.cc.o
+
 # Object files for target earth
 earth_OBJECTS = \
 "CMakeFiles/earth.dir/source/common/ObjMesh.cpp.o" \
 "CMakeFiles/earth.dir/source/common/InitShader.cpp.o" \
 "CMakeFiles/earth.dir/source/common/SourcePath.cpp.o" \
 "CMakeFiles/earth.dir/source/common/Trackball.cpp.o" \
-"CMakeFiles/earth.dir/source/Earth.cpp.o"
+"CMakeFiles/earth.dir/source/Earth.cpp.o" \
+"CMakeFiles/earth.dir/source/common/Material.cc.o"
 
 # External object files for target earth
 earth_EXTERNAL_OBJECTS =
@@ -180,6 +204,7 @@ earth: CMakeFiles/earth.dir/source/common/InitShader.cpp.o
 earth: CMakeFiles/earth.dir/source/common/SourcePath.cpp.o
 earth: CMakeFiles/earth.dir/source/common/Trackball.cpp.o
 earth: CMakeFiles/earth.dir/source/Earth.cpp.o
+earth: CMakeFiles/earth.dir/source/common/Material.cc.o
 earth: CMakeFiles/earth.dir/build.make
 earth: /usr/local/lib/libjpeg.dylib
 earth: /usr/local/lib/libpng.dylib
@@ -196,6 +221,7 @@ CMakeFiles/earth.dir/requires: CMakeFiles/earth.dir/source/common/InitShader.cpp
 CMakeFiles/earth.dir/requires: CMakeFiles/earth.dir/source/common/SourcePath.cpp.o.requires
 CMakeFiles/earth.dir/requires: CMakeFiles/earth.dir/source/common/Trackball.cpp.o.requires
 CMakeFiles/earth.dir/requires: CMakeFiles/earth.dir/source/Earth.cpp.o.requires
+CMakeFiles/earth.dir/requires: CMakeFiles/earth.dir/source/common/Material.cc.o.requires
 .PHONY : CMakeFiles/earth.dir/requires
 
 CMakeFiles/earth.dir/clean:

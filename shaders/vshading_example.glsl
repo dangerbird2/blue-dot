@@ -5,6 +5,7 @@ uniform mat4 ModelView;
 uniform mat4 Projection;
 uniform mat4 NormalMatrix;
 
+varying vec2 texCoord;
 varying vec3 pos;
 varying vec3 N;
 
