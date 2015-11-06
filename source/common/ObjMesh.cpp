@@ -93,7 +93,7 @@ bool Mesh::loadOBJ(const char* path) {
   delete[] line;
   delete[] lineHeader;
 
-  std::cout << "Read " << temp_vertices.size() << " vertices\n";
+  std::cout << "Read " << temp_vertices.size() << " _vertices\n";
   std::cout << "Read " << temp_normals.size() << " normals\n";
   std::cout << "Read " << vertexIndices.size() / 3 << " faces\n";
 
@@ -101,7 +101,7 @@ bool Mesh::loadOBJ(const char* path) {
   for (unsigned int i = 0; i < vertexIndices.size(); i++) {
     unsigned int vertexIndex = vertexIndices[i];
     vec4 vertex = vec4(temp_vertices[vertexIndex - 1], 1.0);
-    vertices.push_back(vertex);
+    _vertices.push_back(vertex);
   }
 
   if (hasUV) {
@@ -118,7 +118,7 @@ bool Mesh::loadOBJ(const char* path) {
     normals.push_back(normal);
   }
 
-  std::cout << "Total " << vertices.size() << " vertices\n";
+  std::cout << "Total " << _vertices.size() << " _vertices\n";
   std::cout << "Total " << normals.size() << " normals\n";
 
   return true;
@@ -171,26 +171,24 @@ bool Mesh::makeSphere(int steps) {
   for (unsigned int s = 0; s < steps; s++) {
     std::list<SphereTriangle> newTris;
     float l = length(tris.begin()->a);
-    for (std::list<SphereTriangle>::iterator i = tris.begin(); i != tris.end();
-         ++i) {                        // go through all triangles
-      vec3 mid = (i->a + i->b) * 0.5f; // point betwenn points A and B
+    for (auto &i: tris) {                        // go through all triangles
+      vec3 mid = (i.a + i.b) * 0.5f; // point betwenn points A and B
       mid = setLength(mid, l);         // put in on the sphere
       newTris.push_back(
-          SphereTriangle(i->b, i->c, mid)); // remember new triangles
-      newTris.push_back(SphereTriangle(i->a, i->c, mid));
+          SphereTriangle(i.b, i.c, mid)); // remember new triangles
+      newTris.push_back(SphereTriangle(i.a, i.c, mid));
     }
     tris.swap(newTris); // use new set of triangles;
   }
 
-  for (std::list<SphereTriangle>::iterator i = tris.begin(); i != tris.end();
-       ++i) {
-    vertices.push_back(vec4(normalize(i->a), 1.0));
-    vertices.push_back(vec4(normalize(i->b), 1.0));
-    vertices.push_back(vec4(normalize(i->c), 1.0));
+  for (auto &i : tris) {
+    _vertices.push_back(vec4(normalize(i.a), 1.0));
+    _vertices.push_back(vec4(normalize(i.b), 1.0));
+    _vertices.push_back(vec4(normalize(i.c), 1.0));
 
-    normals.push_back(normalize(i->a));
-    normals.push_back(normalize(i->b));
-    normals.push_back(normalize(i->c));
+    normals.push_back(normalize(i.a));
+    normals.push_back(normalize(i.b));
+    normals.push_back(normalize(i.c));
   }
 
   return true;
@@ -199,8 +197,8 @@ bool Mesh::makeSphere(int steps) {
 std::ostream& operator<<(std::ostream& os, const Mesh& v)
 {
   os << "Vertices:\n";
-  for (unsigned int i = 0; i < v.vertices.size(); i++) {
-    os << "\t\t" << v.vertices[i] << "\n";
+  for (unsigned int i = 0; i < v._vertices.size(); i++) {
+    os << "\t\t" << v._vertices[i] << "\n";
   }
   os << "Normals:\n";
   for (unsigned int i = 0; i < v.normals.size(); i++) {
