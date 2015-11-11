@@ -42,10 +42,10 @@ RM = /usr/local/Cellar/cmake/3.2.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Shea/Projects/earth
+CMAKE_SOURCE_DIR = /Users/Shea/Projects/bluedot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Shea/Projects/earth/build
+CMAKE_BINARY_DIR = /Users/Shea/Projects/bluedot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles /Users/Shea/Projects/earth/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles /Users/Shea/Projects/bluedot/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/earth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Shea/Projects/bluedot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -114,19 +114,6 @@ earth/fast:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/build
 .PHONY : earth/fast
 
-#=============================================================================
-# Target rules for targets named FreeImage
-
-# Build rule for target.
-FreeImage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 FreeImage
-.PHONY : FreeImage
-
-# fast build rule for target.
-FreeImage/fast:
-	$(MAKE) -f FreeImage3151/CMakeFiles/FreeImage.dir/build.make FreeImage3151/CMakeFiles/FreeImage.dir/build
-.PHONY : FreeImage/fast
-
 source/Earth.o: source/Earth.cpp.o
 .PHONY : source/Earth.o
 
@@ -151,6 +138,30 @@ source/Earth.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/Earth.cpp.s
 .PHONY : source/Earth.cpp.s
 
+source/EarthSystem.o: source/EarthSystem.cc.o
+.PHONY : source/EarthSystem.o
+
+# target to build an object file
+source/EarthSystem.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.o
+.PHONY : source/EarthSystem.cc.o
+
+source/EarthSystem.i: source/EarthSystem.cc.i
+.PHONY : source/EarthSystem.i
+
+# target to preprocess a source file
+source/EarthSystem.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.i
+.PHONY : source/EarthSystem.cc.i
+
+source/EarthSystem.s: source/EarthSystem.cc.s
+.PHONY : source/EarthSystem.s
+
+# target to generate assembly for a file
+source/EarthSystem.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.s
+.PHONY : source/EarthSystem.cc.s
+
 source/common/InitShader.o: source/common/InitShader.cpp.o
 .PHONY : source/common/InitShader.o
 
@@ -174,6 +185,30 @@ source/common/InitShader.s: source/common/InitShader.cpp.s
 source/common/InitShader.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/InitShader.cpp.s
 .PHONY : source/common/InitShader.cpp.s
+
+source/common/Material.o: source/common/Material.cc.o
+.PHONY : source/common/Material.o
+
+# target to build an object file
+source/common/Material.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.o
+.PHONY : source/common/Material.cc.o
+
+source/common/Material.i: source/common/Material.cc.i
+.PHONY : source/common/Material.i
+
+# target to preprocess a source file
+source/common/Material.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.i
+.PHONY : source/common/Material.cc.i
+
+source/common/Material.s: source/common/Material.cc.s
+.PHONY : source/common/Material.s
+
+# target to generate assembly for a file
+source/common/Material.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Material.cc.s
+.PHONY : source/common/Material.cc.s
 
 source/common/ObjMesh.o: source/common/ObjMesh.cpp.o
 .PHONY : source/common/ObjMesh.o
@@ -247,6 +282,30 @@ source/common/Trackball.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Trackball.cpp.s
 .PHONY : source/common/Trackball.cpp.s
 
+source/sMesh.o: source/sMesh.cc.o
+.PHONY : source/sMesh.o
+
+# target to build an object file
+source/sMesh.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.o
+.PHONY : source/sMesh.cc.o
+
+source/sMesh.i: source/sMesh.cc.i
+.PHONY : source/sMesh.i
+
+# target to preprocess a source file
+source/sMesh.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.i
+.PHONY : source/sMesh.cc.i
+
+source/sMesh.s: source/sMesh.cc.s
+.PHONY : source/sMesh.s
+
+# target to generate assembly for a file
+source/sMesh.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.s
+.PHONY : source/sMesh.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -256,13 +315,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... earth"
-	@echo "... FreeImage"
 	@echo "... source/Earth.o"
 	@echo "... source/Earth.i"
 	@echo "... source/Earth.s"
+	@echo "... source/EarthSystem.o"
+	@echo "... source/EarthSystem.i"
+	@echo "... source/EarthSystem.s"
 	@echo "... source/common/InitShader.o"
 	@echo "... source/common/InitShader.i"
 	@echo "... source/common/InitShader.s"
+	@echo "... source/common/Material.o"
+	@echo "... source/common/Material.i"
+	@echo "... source/common/Material.s"
 	@echo "... source/common/ObjMesh.o"
 	@echo "... source/common/ObjMesh.i"
 	@echo "... source/common/ObjMesh.s"
@@ -272,6 +336,9 @@ help:
 	@echo "... source/common/Trackball.o"
 	@echo "... source/common/Trackball.i"
 	@echo "... source/common/Trackball.s"
+	@echo "... source/sMesh.o"
+	@echo "... source/sMesh.i"
+	@echo "... source/sMesh.s"
 .PHONY : help
 
 

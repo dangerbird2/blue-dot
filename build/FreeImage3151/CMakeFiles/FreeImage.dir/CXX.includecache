@@ -952,183 +952,183 @@ unixio.h
 zconf.h
 ../FreeImage3151/Source/ZLib/zconf.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/DeprecationManager/DeprecationMgr.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/DeprecationManager/DeprecationMgr.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/DeprecationManager/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/DeprecationManager/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/BitmapAccess.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/BitmapAccess.cpp
 stdlib.h
 -
 malloc.h
 -
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/CacheFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/CacheFile.cpp
 CacheFile.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/CacheFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/CacheFile.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ColorLookup.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ColorLookup.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 Quantizers.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Quantizers.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Quantizers.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion16_555.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion16_555.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion16_565.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion16_565.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion24.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion24.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion32.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion32.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion4.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion4.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Conversion8.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Conversion8.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ConversionRGB16.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ConversionRGB16.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ConversionRGBF.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ConversionRGBF.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ConversionType.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ConversionType.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.cpp
 windows.h
 -
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/GetType.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/GetType.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 Plugin.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Plugin.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Plugin.h
 ../DeprecationManager/DeprecationMgr.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/DeprecationManager/DeprecationMgr.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/DeprecationManager/DeprecationMgr.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Halftoning.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Halftoning.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/J2KHelper.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/J2KHelper.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../LibOpenJPEG/openjpeg.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/MemoryIO.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/MemoryIO.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/MultiPage.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/MultiPage.cpp
 CacheFile.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/CacheFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/CacheFile.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 Plugin.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Plugin.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Plugin.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/NNQuantizer.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/NNQuantizer.cpp
 Quantizers.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Quantizers.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Quantizers.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PSDParser.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PSDParser.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 PSDParser.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PSDParser.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PSDParser.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PSDParser.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PSDParser.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PixelAccess.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PixelAccess.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Plugin.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Plugin.cpp
 windows.h
 -
 io.h
@@ -1136,413 +1136,413 @@ io.h
 ctype.h
 -
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 Plugin.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Plugin.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Plugin.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginBMP.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginBMP.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginCUT.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginCUT.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginDDS.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginDDS.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginEXR.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginEXR.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../OpenEXR/IlmImf/ImfIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.h
 ../OpenEXR/Iex/Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/Iex.h
 ../OpenEXR/IlmImf/ImfOutputFile.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.h
 ../OpenEXR/IlmImf/ImfInputFile.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.h
 ../OpenEXR/IlmImf/ImfRgbaFile.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.h
 ../OpenEXR/IlmImf/ImfChannelList.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.h
 ../OpenEXR/IlmImf/ImfRgba.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgba.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgba.h
 ../OpenEXR/IlmImf/ImfArray.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfArray.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfArray.h
 ../OpenEXR/IlmImf/ImfPreviewImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.h
 ../OpenEXR/Half/half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/half.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginG3.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginG3.cpp
 ../LibTIFF/tiffiop.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffiop.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffiop.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginGIF.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginGIF.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginHDR.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginHDR.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginICO.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginICO.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginIFF.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginIFF.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginJ2K.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginJ2K.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../LibOpenJPEG/openjpeg.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginJP2.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginJP2.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../LibOpenJPEG/openjpeg.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginJPEG.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginJPEG.cpp
 setjmp.h
 -
 ../LibJPEG/jinclude.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jinclude.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jinclude.h
 ../LibJPEG/jpeglib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpeglib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpeglib.h
 ../LibJPEG/jerror.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jerror.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jerror.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginKOALA.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginKOALA.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginMNG.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginMNG.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../LibMNG/libmng.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPCD.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPCD.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPCX.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPCX.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPFM.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPFM.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPICT.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPICT.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPNG.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPNG.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 ../ZLib/zlib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zlib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zlib.h
 ../LibPNG/png.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/png.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/png.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPNM.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPNM.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginPSD.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginPSD.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 PSDParser.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PSDParser.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PSDParser.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginRAS.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginRAS.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginRAW.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginRAW.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 ../LibRawLite/libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginSGI.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginSGI.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginTARGA.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginTARGA.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginTIFF.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginTIFF.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../LibTIFF/tiffiop.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffiop.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffiop.h
 ../Metadata/FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 ../OpenEXR/Half/half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/half.h
 FreeImageIO.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImageIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImageIO.h
 PSDParser.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PSDParser.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PSDParser.h
 sys/stat.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginWBMP.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginWBMP.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginXBM.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginXBM.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/PluginXPM.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/PluginXPM.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/TIFFLogLuv.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/TIFFLogLuv.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ToneMapping.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ToneMapping.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/WuQuantizer.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/WuQuantizer.cpp
 Quantizers.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Quantizers.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Quantizers.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ZLibInterface.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ZLibInterface.cpp
 ../ZLib/zlib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zlib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zlib.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ../ZLib/zutil.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zutil.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zutil.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/tmoColorConvert.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/tmoColorConvert.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ToneMapping.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ToneMapping.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ToneMapping.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/tmoDrago03.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/tmoDrago03.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ToneMapping.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ToneMapping.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ToneMapping.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/tmoFattal02.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/tmoFattal02.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ToneMapping.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ToneMapping.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ToneMapping.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/tmoReinhard05.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/tmoReinhard05.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/Utilities.h
 ToneMapping.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImage/ToneMapping.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImage/ToneMapping.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/BSplineRotate.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/BSplineRotate.cpp
 float.h
 -
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Background.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Background.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Channels.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Channels.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/ClassicRotate.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/ClassicRotate.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Colors.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Colors.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/CopyPaste.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/CopyPaste.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Display.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Display.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Filters.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Filters.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Flip.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Flip.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/JPEGTransform.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/JPEGTransform.cpp
 setjmp.h
 -
 ../LibJPEG/jinclude.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jinclude.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jinclude.h
 ../LibJPEG/jpeglib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpeglib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpeglib.h
 ../LibJPEG/jerror.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jerror.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jerror.h
 ../LibJPEG/transupp.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/transupp.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/transupp.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/MultigridPoissonSolver.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/MultigridPoissonSolver.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 ToneMapping.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/ToneMapping.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/ToneMapping.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Rescale.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Rescale.cpp
 Resize.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Resize.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Resize.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Resize.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Resize.cpp
 Resize.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Resize.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Resize.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Resize.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Resize.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Utilities.h
 Filters.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/FreeImageToolkit/Filters.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/FreeImageToolkit/Filters.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jconfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jconfig.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jerror.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jerror.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jinclude.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jinclude.h
 jconfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jconfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jconfig.h
 stddef.h
 -
 stdlib.h
@@ -1556,33 +1556,33 @@ strings.h
 string.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jmorecfg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jmorecfg.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpegint.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpegint.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpeglib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpeglib.h
 jconfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jconfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jconfig.h
 jmorecfg.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jmorecfg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jmorecfg.h
 jpegint.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpegint.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpegint.h
 jerror.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jerror.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jerror.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/transupp.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/transupp.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng.h
 libmng_conf.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng_conf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng_conf.h
 libmng_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng_types.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng_conf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng_conf.h
 special/mozcfg/mozlibmngconf.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/special/mozcfg/mozlibmngconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/special/mozcfg/mozlibmngconf.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibMNG/libmng_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibMNG/libmng_types.h
 zlib.h
 -
 lcms.h
@@ -1592,7 +1592,7 @@ stdio.h
 setjmp.h
 -
 ../LibJPEG/jpeglib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibJPEG/jpeglib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibJPEG/jpeglib.h
 stdlib.h
 -
 limits.h
@@ -1610,19 +1610,19 @@ string.h
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibOpenJPEG/openjpeg.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/png.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/png.h
 pnglibconf.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/pnglibconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/pnglibconf.h
 setjmp.h
 -
 time.h
 -
 pngconf.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/pngconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/pngconf.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/pngconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/pngconf.h
 limits.h
 -
 strings.h
@@ -1634,45 +1634,45 @@ stdio.h
 dos.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibPNG/pnglibconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibPNG/pnglibconf.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/./dcb_demosaicing.c
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/./dcb_demosaicing.c
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/dcraw_common.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/dcraw_common.cpp
 math.h
 -
 libraw/libraw_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
 libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
 internal/defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
 internal/var_defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/dcraw_fileio.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/dcraw_fileio.cpp
 math.h
 -
 libraw/libraw_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
 libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
 internal/defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
 internal/var_defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/demosaic_packs.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/demosaic_packs.cpp
 math.h
 -
 libraw/libraw_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw_types.h
 libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/libraw/libraw.h
 internal/defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/defines.h
 internal/var_defines.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/internal/var_defines.h
 ahd_interpolate_mod.c
 -
 lmmse_interpolate.c
@@ -1690,7 +1690,7 @@ es_median_filter.c
 median_filter_new.c
 -
 ./dcb_demosaicing.c
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/internal/./dcb_demosaicing.c
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/internal/./dcb_demosaicing.c
 amaze_demosaic_RT.cc
 -
 CA_correct_RT.cc
@@ -1704,7 +1704,7 @@ green_equi.c
 dcraw_foveon.c
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw.h
 limits.h
 -
 memory.h
@@ -1714,27 +1714,27 @@ stdio.h
 stdlib.h
 -
 libraw_datastream.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
 libraw_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
 libraw_const.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
 libraw_internal.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_internal.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_internal.h
 libraw_alloc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_alloc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_alloc.h
 internal/libraw_internal_funcs.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/internal/libraw_internal_funcs.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/internal/libraw_internal_funcs.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_alloc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_alloc.h
 stdlib.h
 -
 string.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
 stdio.h
 -
 sys/types.h
@@ -1744,21 +1744,21 @@ errno.h
 string.h
 -
 libraw_const.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
 libraw_types.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
 fstream
 -
 memory
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_internal.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_internal.h
 stdio.h
 -
 libraw_datastream.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_datastream.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_types.h
 sys/types.h
 -
 sys/time.h
@@ -1772,23 +1772,23 @@ lcms.h
 lcms2.h
 -
 libraw_const.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_const.h
 libraw_version.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_version.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_version.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/libraw/libraw_version.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/libraw/libraw_version.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/src/libraw_c_api.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/src/libraw_c_api.cpp
 math.h
 -
 errno.h
 -
 libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/src/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/src/libraw/libraw.h
 new
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/src/libraw_cxx.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/src/libraw_cxx.cpp
 math.h
 -
 errno.h
@@ -1806,23 +1806,23 @@ netinet/in.h
 winsock2.h
 -
 libraw/libraw.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibRawLite/src/libraw/libraw.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibRawLite/src/libraw/libraw.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tif_config.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tif_config.h
 limits.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tif_dir.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tif_dir.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiff.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiff.h
 tif_config.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tif_config.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tif_config.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffio.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffio.h
 tiff.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiff.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiff.h
 tiffvers.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffvers.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffvers.h
 windows.h
 -
 stdio.h
@@ -1830,9 +1830,9 @@ stdio.h
 stdarg.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffiop.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffiop.h
 tif_config.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tif_config.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tif_config.h
 fcntl.h
 -
 sys/types.h
@@ -1844,111 +1844,111 @@ assert.h
 search.h
 -
 tiffio.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffio.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffio.h
 tif_dir.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tif_dir.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tif_dir.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffvers.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffvers.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Exif.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Exif.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FIRational.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FIRational.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FIRational.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FIRational.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FIRational.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FIRational.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FIRational.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/IPTC.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/IPTC.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/TagConversion.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/TagConversion.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 FIRational.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FIRational.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FIRational.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/TagLib.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/TagLib.cpp
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/XTIFF.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/XTIFF.cpp
 ../LibTIFF/tiffiop.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/LibTIFF/tiffiop.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/LibTIFF/tiffiop.h
 FreeImage.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImage.h
 Utilities.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/Utilities.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/Utilities.h
 FreeImageTag.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FreeImageTag.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FreeImageTag.h
 FIRational.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/Metadata/FIRational.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/Metadata/FIRational.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/eLut.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/eLut.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/half.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/half.cpp
 assert.h
 -
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/half.h
 toFloat.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/toFloat.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/toFloat.h
 eLut.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/eLut.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/eLut.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/half.h
 iostream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Half/toFloat.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Half/toFloat.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/Iex.h
 IexMacros.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexMacros.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexMacros.h
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 IexMathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexMathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexMathExc.h
 IexThrowErrnoExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.cpp
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 string
 -
 exception
@@ -1956,47 +1956,47 @@ exception
 sstream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexErrnoExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexErrnoExc.h
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexMacros.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexMacros.h
 sstream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexMathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexMathExc.h
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.cpp
 IexThrowErrnoExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
 IexErrnoExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexErrnoExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexErrnoExc.h
 string.h
 -
 errno.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexThrowErrnoExc.h
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Iex/IexBaseExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfArray.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfArray.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfAttribute.cpp
 ImfAttribute.h
 -
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string.h
 -
 map
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfB44Compressor.cpp
 ImfB44Compressor.h
 -
 ImfHeader.h
@@ -2024,13 +2024,13 @@ assert.h
 algorithm
 -
 b44ExpLogTable.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/b44ExpLogTable.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/b44ExpLogTable.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfBoxAttribute.cpp
 ImfBoxAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfCRgbaFile.cpp
 ImfCRgbaFile.h
 -
 ImfRgbaFile.h
@@ -2056,17 +2056,17 @@ ImfChannelList.h
 ImfLut.h
 -
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/half.h
 string.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.cpp
 ImfChannelList.h
 -
 Iex.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelList.h
 ImfName.h
 -
 ImfPixelType.h
@@ -2078,23 +2078,23 @@ set
 string
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChannelListAttribute.cpp
 ImfChannelListAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChromaticities.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChromaticities.cpp
 ImfChromaticities.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfChromaticitiesAttribute.cpp
 ImfChromaticitiesAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfCompressionAttribute.cpp
 ImfCompressionAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfCompressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfCompressor.cpp
 ImfCompressor.h
 -
 ImfRleCompressor.h
@@ -2110,47 +2110,47 @@ ImfB44Compressor.h
 ImfCheckedArithmetic.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfConvert.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfConvert.cpp
 ImfConvert.h
 -
 limits.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfDoubleAttribute.cpp
 ImfDoubleAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfEnvmap.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfEnvmap.cpp
 ImfEnvmap.h
 -
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
 algorithm
 -
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfEnvmapAttribute.cpp
 ImfEnvmapAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfFloatAttribute.cpp
 ImfFloatAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfFrameBuffer.cpp
 ImfFrameBuffer.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfFramesPerSecond.cpp
 ImfFramesPerSecond.h
 -
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfHeader.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfHeader.cpp
 ImfHeader.h
 -
 ImfStdIO.h
@@ -2200,9 +2200,9 @@ ImfTimeCodeAttribute.h
 ImfVecAttribute.h
 -
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 sstream
 -
 stdlib.h
@@ -2210,7 +2210,7 @@ stdlib.h
 time.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfHuf.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfHuf.cpp
 ImfHuf.h
 -
 ImfInt64.h
@@ -2218,7 +2218,7 @@ ImfInt64.h
 ImfAutoArray.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string.h
 -
 assert.h
@@ -2226,19 +2226,19 @@ assert.h
 algorithm
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.cpp
 ImfIO.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfIO.h
 ImfInt64.h
 -
 string
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.cpp
 ImfInputFile.h
 -
 ImfScanLineInputFile.h
@@ -2254,19 +2254,19 @@ ImfStdIO.h
 ImfVersion.h
 -
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/half.h
 fstream
 -
 algorithm
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfInputFile.h
 ImfHeader.h
 -
 ImfFrameBuffer.h
@@ -2280,25 +2280,25 @@ fstream
 ImfThreading.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfIntAttribute.cpp
 ImfIntAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfKeyCode.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfKeyCode.cpp
 ImfKeyCode.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfKeyCodeAttribute.cpp
 ImfKeyCodeAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfLineOrderAttribute.cpp
 ImfLineOrderAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfLut.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfLut.cpp
 ImfLut.h
 -
 math.h
@@ -2306,11 +2306,11 @@ math.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfMatrixAttribute.cpp
 ImfMatrixAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfMisc.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfMisc.cpp
 ImfMisc.h
 -
 ImfHeader.h
@@ -2330,19 +2330,19 @@ ImfStdIO.h
 ImfConvert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfMultiView.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfMultiView.cpp
 ImfMultiView.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfOpaqueAttribute.cpp
 ImfOpaqueAttribute.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.cpp
 ImfOutputFile.h
 -
 ImfInputFile.h
@@ -2356,9 +2356,9 @@ ImfStdIO.h
 ImfCompressor.h
 -
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
 ImfArray.h
 -
 ImfXdr.h
@@ -2366,13 +2366,13 @@ ImfXdr.h
 ImfPreviewImageAttribute.h
 -
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string
 -
 vector
@@ -2382,7 +2382,7 @@ fstream
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfOutputFile.h
 ImfHeader.h
 -
 ImfFrameBuffer.h
@@ -2390,7 +2390,7 @@ ImfFrameBuffer.h
 ImfThreading.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPizCompressor.cpp
 ImfPizCompressor.h
 -
 ImfHeader.h
@@ -2422,21 +2422,21 @@ string.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.cpp
 ImfPreviewImage.h
 -
 ImfCheckedArithmetic.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImage.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPreviewImageAttribute.cpp
 ImfPreviewImageAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfPxr24Compressor.cpp
 ImfPxr24Compressor.h
 -
 ImfHeader.h
@@ -2460,21 +2460,21 @@ assert.h
 algorithm
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRational.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRational.cpp
 ImfRational.h
 -
 cmath
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRationalAttribute.cpp
 ImfRationalAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgba.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgba.h
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/half.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.cpp
 ImfRgbaFile.h
 -
 ImfOutputFile.h
@@ -2498,7 +2498,7 @@ string.h
 algorithm
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaFile.h
 ImfHeader.h
 -
 ImfFrameBuffer.h
@@ -2506,17 +2506,17 @@ ImfFrameBuffer.h
 ImfRgba.h
 -
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathVec.h
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/half.h
 ImfThreading.h
 -
 string
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRgbaYca.cpp
 ImfRgbaYca.h
 -
 assert.h
@@ -2524,15 +2524,15 @@ assert.h
 algorithm
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfRleCompressor.cpp
 ImfRleCompressor.h
 -
 ImfCheckedArithmetic.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfScanLineInputFile.cpp
 ImfScanLineInputFile.h
 -
 ImfChannelList.h
@@ -2544,9 +2544,9 @@ ImfStdIO.h
 ImfCompressor.h
 -
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathFun.h
 ImfXdr.h
 -
 ImfConvert.h
@@ -2554,13 +2554,13 @@ ImfConvert.h
 ImfThreading.h
 -
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string
 -
 vector
@@ -2568,27 +2568,27 @@ vector
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfStandardAttributes.cpp
 ImfStandardAttributes.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfStdIO.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfStdIO.cpp
 ImfStdIO.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 errno.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfStringAttribute.cpp
 ImfStringAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfStringVectorAttribute.cpp
 ImfStringVectorAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTestFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTestFile.cpp
 ImfTestFile.h
 -
 ImfStdIO.h
@@ -2598,15 +2598,15 @@ ImfXdr.h
 ImfVersion.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfThreading.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfThreading.cpp
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTileDescriptionAttribute.cpp
 ImfTileDescriptionAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTileOffsets.cpp
 ImfTileOffsets.h
 -
 ImfXdr.h
@@ -2614,9 +2614,9 @@ ImfXdr.h
 ImfIO.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledInputFile.cpp
 ImfTiledInputFile.h
 -
 ImfTileDescriptionAttribute.h
@@ -2632,7 +2632,7 @@ ImfStdIO.h
 ImfCompressor.h
 -
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
 ImfXdr.h
 -
 ImfConvert.h
@@ -2644,15 +2644,15 @@ ImfTileOffsets.h
 ImfThreading.h
 -
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathVec.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string
 -
 vector
@@ -2662,17 +2662,17 @@ algorithm
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledMisc.cpp
 ImfTiledMisc.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 ImfMisc.h
 -
 ImfChannelList.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledOutputFile.cpp
 ImfTiledOutputFile.h
 -
 ImfTiledInputFile.h
@@ -2694,7 +2694,7 @@ ImfStdIO.h
 ImfCompressor.h
 -
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImathBox.h
 ImfArray.h
 -
 ImfXdr.h
@@ -2706,13 +2706,13 @@ ImfTileOffsets.h
 ImfThreading.h
 -
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadPool.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadSemaphore.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 string
 -
 vector
@@ -2724,7 +2724,7 @@ assert.h
 map
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTiledRgbaFile.cpp
 ImfTiledRgbaFile.h
 -
 ImfRgbaFile.h
@@ -2744,55 +2744,55 @@ ImfRgbaYca.h
 ImfArray.h
 -
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTimeCode.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTimeCode.cpp
 ImfTimeCode.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfTimeCodeAttribute.cpp
 ImfTimeCodeAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfVecAttribute.cpp
 ImfVecAttribute.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfVersion.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfVersion.cpp
 ImfVersion.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfWav.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfWav.cpp
 ImfWav.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/ImfZipCompressor.cpp
 ImfZipCompressor.h
 -
 ImfCheckedArithmetic.h
 -
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/Iex.h
 zlib.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmImf/b44ExpLogTable.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmImf/b44ExpLogTable.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThread.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 windows.h
 -
 process.h
@@ -2800,65 +2800,65 @@ process.h
 pthread.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 windows.h
 -
 pthread.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutexPosix.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.cpp
 IlmThread.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
 IlmThreadMutex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadMutex.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
 IlmThreadPool.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 list
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPool.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadPosix.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThread.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThread.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 windows.h
 -
 pthread.h
@@ -2866,109 +2866,109 @@ pthread.h
 semaphore.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosix.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphorePosixCompat.cpp
 IlmBaseConfig.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmBaseConfig.h
 IlmThreadSemaphore.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/IlmThreadSemaphore.h
 Iex.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/IlmThread/Iex.h
 assert.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathBox.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathBox.cpp
 ImathBox.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathBox.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathBox.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathBox.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathColor.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathColor.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 half.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/half.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/half.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.cpp
 ImathColorAlgo.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathColorAlgo.h
 ImathColor.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathColor.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathColor.h
 ImathMath.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathEuler.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathEuler.h
 ImathMath.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 ImathQuat.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
 ImathMatrix.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 iostream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 IexBaseExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/IexBaseExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/IexBaseExc.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathFun.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathFun.cpp
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 ImathInt64.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
 limits.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 float.h
 -
 limits.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
 ImathPlatform.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
 ImathPlatform.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
 ImathFun.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathFun.h
 ImathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 ImathShear.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
 string.h
 -
 iostream
@@ -2976,79 +2976,79 @@ iostream
 iomanip
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.cpp
 ImathMatrixAlgo.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrixAlgo.h
 ImathMatrix.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
 ImathQuat.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
 ImathEuler.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathEuler.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathEuler.h
 ImathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathPlatform.h
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathQuat.h
 ImathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 ImathMatrix.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMatrix.h
 iostream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.cpp
 ImathRandom.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.h
 ImathInt64.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathInt64.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathRandom.h
 stdlib.h
 -
 math.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathShear.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathShear.cpp
 ImathShear.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathShear.h
 ImathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 ImathMath.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 iostream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.cpp
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.cpp
 ImathVec.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathVec.h
 ImathExc.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathExc.h
 ImathLimits.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathLimits.h
 ImathMath.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/OpenEXR/Imath/ImathMath.h
 iostream
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zconf.h
 windows.h
 -
 sys/types.h
@@ -3058,13 +3058,13 @@ unistd.h
 unixio.h
 -
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zlib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zlib.h
 zconf.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zconf.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zconf.h
 
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zutil.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zutil.h
 zlib.h
-/Users/Shea/Projects/earth/FreeImage3151/Source/ZLib/zlib.h
+/Users/Shea/Projects/bluedot/FreeImage3151/Source/ZLib/zlib.h
 stddef.h
 -
 string.h
