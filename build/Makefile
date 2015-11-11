@@ -138,6 +138,30 @@ source/Earth.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/Earth.cpp.s
 .PHONY : source/Earth.cpp.s
 
+source/EarthSystem.o: source/EarthSystem.cc.o
+.PHONY : source/EarthSystem.o
+
+# target to build an object file
+source/EarthSystem.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.o
+.PHONY : source/EarthSystem.cc.o
+
+source/EarthSystem.i: source/EarthSystem.cc.i
+.PHONY : source/EarthSystem.i
+
+# target to preprocess a source file
+source/EarthSystem.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.i
+.PHONY : source/EarthSystem.cc.i
+
+source/EarthSystem.s: source/EarthSystem.cc.s
+.PHONY : source/EarthSystem.s
+
+# target to generate assembly for a file
+source/EarthSystem.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/EarthSystem.cc.s
+.PHONY : source/EarthSystem.cc.s
+
 source/common/InitShader.o: source/common/InitShader.cpp.o
 .PHONY : source/common/InitShader.o
 
@@ -258,6 +282,30 @@ source/common/Trackball.cpp.s:
 	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/common/Trackball.cpp.s
 .PHONY : source/common/Trackball.cpp.s
 
+source/sMesh.o: source/sMesh.cc.o
+.PHONY : source/sMesh.o
+
+# target to build an object file
+source/sMesh.cc.o:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.o
+.PHONY : source/sMesh.cc.o
+
+source/sMesh.i: source/sMesh.cc.i
+.PHONY : source/sMesh.i
+
+# target to preprocess a source file
+source/sMesh.cc.i:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.i
+.PHONY : source/sMesh.cc.i
+
+source/sMesh.s: source/sMesh.cc.s
+.PHONY : source/sMesh.s
+
+# target to generate assembly for a file
+source/sMesh.cc.s:
+	$(MAKE) -f CMakeFiles/earth.dir/build.make CMakeFiles/earth.dir/source/sMesh.cc.s
+.PHONY : source/sMesh.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +318,9 @@ help:
 	@echo "... source/Earth.o"
 	@echo "... source/Earth.i"
 	@echo "... source/Earth.s"
+	@echo "... source/EarthSystem.o"
+	@echo "... source/EarthSystem.i"
+	@echo "... source/EarthSystem.s"
 	@echo "... source/common/InitShader.o"
 	@echo "... source/common/InitShader.i"
 	@echo "... source/common/InitShader.s"
@@ -285,6 +336,9 @@ help:
 	@echo "... source/common/Trackball.o"
 	@echo "... source/common/Trackball.i"
 	@echo "... source/common/Trackball.s"
+	@echo "... source/sMesh.o"
+	@echo "... source/sMesh.i"
+	@echo "... source/sMesh.s"
 .PHONY : help
 
 

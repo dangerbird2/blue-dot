@@ -16,36 +16,45 @@ class Mesh {
 public:
   bool hasUV;
 
-  std::vector<Angel::vec4> _vertices;
-  std::vector<Angel::vec2> uvs;
-  std::vector<Angel::vec3> normals;
+  std::vector<glm::vec3> positions;
+  std::vector<glm::vec2> uvs;
+  std::vector<glm::vec3> normals;
 
-  Angel::vec3 Box_min =
-      vec3(std::numeric_limits<float>::max(), std::numeric_limits<float>::max(),
-           std::numeric_limits<float>::max());
-  Angel::vec3 Box_max = vec3(0, 0, 0);
+  glm::vec3 Box_min =
+      glm::vec3(std::numeric_limits<float>::max(),
+                std::numeric_limits<float>::max(),
+                std::numeric_limits<float>::max());
+  glm::vec3 Box_max = glm::vec3(0, 0, 0);
 
-  unsigned int getNumTri() { return _vertices.size() / 3; }
+  unsigned int getNumTri() { return positions.size() / 3; }
 
   class SphereTriangle {
   public:
-    SphereTriangle(Angel::vec3 _p1, Angel::vec3 _p2, Angel::vec3 _p3) : a(_p1), b(_p2), c(_p3){};
-    Angel::vec3 a;
-    Angel::vec3 b;
-    Angel::vec3 c;
+    SphereTriangle(glm::vec3 _p1, glm::vec3 _p2, glm::vec3 _p3) : a(_p1), b(_p2), c(_p3) { };
+    glm::vec3 a;
+    glm::vec3 b;
+    glm::vec3 c;
   };
 
-  bool loadOBJ(const char* path);
+  bool loadOBJ(const char *path);
 
-  bool makeSphere(int steps = 8);
+  virtual bool make_sphere(int steps = 8);
 
-  Angel::vec3 setLength(Angel::vec3 p1, float r) {
-    float rl = r / length(p1);
-    return Angel::vec3(p1.x * rl, p1.y * rl, p1.z * rl);
+  static glm::vec3 set_length(glm::vec3 p1, float r)
+  {
+
+    float rl = r / p1.length();
+    return glm::vec3(p1.x * rl, p1.y * rl, p1.z * rl);
   }
 
-  friend std::ostream& operator<<(std::ostream& os, const Mesh& v);
+  friend std::ostream &operator<<(std::ostream &os, const Mesh &v);
 };
+
+std::ostream& operator<<(std::ostream& os, const glm::vec3& v);
+
+std::ostream& operator<<(std::ostream& os, const glm::vec2& v);
+
+std::ostream& operator<<(std::ostream& os, const glm::vec4& v);
 
 
 #endif //#ifndef __OBJLOADER__

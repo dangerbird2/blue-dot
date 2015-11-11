@@ -10,9 +10,13 @@
 #include "Trackball.h"
 #include "ObjMesh.h"
 #include "EarthSystem.h"
+#include "sMesh.h"
 
-typedef Angel::vec4 color4;
-typedef Angel::vec4 point4;
+
+#include <SOIL/SOIL.h>
+
+typedef glm::vec4 color4;
+typedef glm::vec4 point4;
 
 struct SolarSystem {
   float day = 0.f;
@@ -20,21 +24,30 @@ struct SolarSystem {
   float days_per_tick = 0.1;
   sls::EarthSystem earth;
 
-  float universe_scaling = 1/10000.f;
+  float universe_scaling = 1 / 10000.f;
 };
 
 static SolarSystem solar_system;
 
 bool render_line;
-Mesh mesh;
+sls::sMesh mesh;
 GLuint buffer;
 
-GLuint vPosition, vNormal;
+GLuint index_buffer;
+GLuint vao;
+
+
+GLuint vPosition, vNormal, vUv;
 
 GLuint program;
 
 // Model-view and projection matrices uniform location
 GLuint ModelView, NormalMatrix, Projection;
+
+
+struct {
+  GLuint position, normal, tex_coord;
+} attributes;
 
 
 //==========Trackball Variables==========
@@ -56,29 +69,36 @@ static float scalefactor;
 
 //----------------------------------------------------------------------------
 
+
 // OpenGL initialization
 void
 init()
 {
-  mesh.makeSphere();
+  mesh = sls::sMesh::make_cube();
+
+  auto verts = mesh.pack_vertices();
+
+  //for (auto const &i: verts) {
+  //  fprintf(stderr, "[%f %f %f] [%f %f %f] [%f %f]\n",
+  //          i.position.x, i.position.y, i.position.z,
+  //          i.normal.x, i.normal.y, i.normal.z,
+  //          i.uv.s, i.uv.t);
+  //}
 
   // Create a vertex array object
-  GLuint vao;
   glGenVertexArraysAPPLE(1, &vao);
   glBindVertexArrayAPPLE(vao);
 
   // Create and initialize a buffer object
   glGenBuffers(1, &buffer);
+  glGenBuffers(1, &index_buffer);
+
+  glBindBuffer(GL_ARRAY_BUFFER, index_buffer);
+  glBufferData(GL_ARRAY_BUFFER, mesh.triangles.size() * sizeof(uint32_t), &mesh.triangles[0], GL_DYNAMIC_DRAW);
+
 
   glBindBuffer(GL_ARRAY_BUFFER, buffer);
-  unsigned int vertices_bytes = mesh.vertices.size() * sizeof(vec4);
-  unsigned int normals_bytes = mesh.normals.size() * sizeof(vec3);
-
-  glBufferData(GL_ARRAY_BUFFER, vertices_bytes + normals_bytes, NULL, GL_STATIC_DRAW);
-  unsigned int offset = 0;
-  glBufferSubData(GL_ARRAY_BUFFER, offset, vertices_bytes, &mesh.vertices[0]);
-  offset += vertices_bytes;
-  glBufferSubData(GL_ARRAY_BUFFER, offset, normals_bytes, &mesh.normals[0]);
+  glBufferData(GL_ARRAY_BUFFER, verts.size() * sizeof(sls::Vertex), &verts[0], GL_DYNAMIC_DRAW);
 
   std::string vshader = source_path + "/shaders/vshading_example.glsl";
   std::string fshader = source_path + "/shaders/fshading_example.glsl";
@@ -93,6 +113,14 @@ init()
 
   vNormal = glGetAttribLocation(program, "vNormal");
   glEnableVertexAttribArray(vNormal);
+
+  vUv = glGetAttribLocation(program, "vTexCoord");
+  glEnableVertexAttribArray(vUv);
+
+  glVertexAttribPointer(vPosition, 3, GL_FLOAT, GL_FALSE, 0, (void*)offsetof(sls::Vertex, position));
+  glVertexAttribPointer(vNormal, 3, GL_FLOAT, GL_FALSE, 0, (void*)offsetof(sls::Vertex, normal));
+  glVertexAttribPointer(vUv, 2, GL_FLOAT, GL_FALSE, 0, (void*)offsetof(sls::Vertex, uv));
+
 
   // Initialize shader lighting parameters
   point4 light_position(0.0, 0.0, 10.0, 1.0);
@@ -173,16 +201,18 @@ display(void)
                     Scale(scalefactor, scalefactor, scalefactor);  //User Scale
 
 
-  glBindBuffer(GL_ARRAY_BUFFER, buffer);
-  glVertexAttribPointer(vPosition, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
-  glVertexAttribPointer(vNormal, 3, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(mesh.vertices.size() * sizeof(vec4)));
+
+  glBindVertexArrayAPPLE(vao);
 
   glUniformMatrix4fv(ModelView, 1, GL_TRUE, model_view);
   glUniformMatrix4fv(NormalMatrix, 1, GL_TRUE, transpose(invert(model_view)));
 
-  glDrawArrays(GL_TRIANGLES, 0, mesh.vertices.size());
+  GLsizei n_elements = GLsizei(mesh.triangles.size() - mesh.triangles.size() % 3);
+
+  glDrawElements(GL_TRIANGLES, (GLsizei)mesh.triangles.size(), GL_UNSIGNED_INT, 0);
 
 
+  glBindVertexArrayAPPLE(0);
   glutSwapBuffers();
 }
 
@@ -233,7 +263,7 @@ void motion(GLint x, GLint y)
     return;
   }
   else if (scaling) {
-    scalefactor *= (1.0f + dx);
+    scalefactor *= (0.5f + dx);
 
     beginx = x;
     beginy = y;
@@ -298,12 +328,12 @@ void timer(int value)
 
   solar_system.day += solar_system.days_per_tick;
 
-  fprintf(stderr, "\nsolar system log: day %f\n", solar_system.day);
+  //fprintf(stderr, "\nsolar system log: day %f\n", solar_system.day);
 
   auto sun = glm::vec4(solar_system.earth.get_solar_position(solar_system.day), 1.0);
-  fprintf(stderr, "sun position [%f %f %f]\n\n", sun.x, sun.y, sun.z);
+  ///fprintf(stderr, "sun position [%f %f %f]\n\n", sun.x, sun.y, sun.z);
 
-  glUniform4fv(glGetUniformLocation(program, "LightPosition"), 1, (float*)&sun);
+  glUniform4fv(glGetUniformLocation(program, "LightPosition"), 1, (float *) &sun);
 
   glutPostRedisplay();
 }

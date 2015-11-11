@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/earth.dir/source/common/Trackball.cpp.o"
   "CMakeFiles/earth.dir/source/Earth.cpp.o"
   "CMakeFiles/earth.dir/source/common/Material.cc.o"
+  "CMakeFiles/earth.dir/source/EarthSystem.cc.o"
+  "CMakeFiles/earth.dir/source/sMesh.cc.o"
   "earth.pdb"
   "earth"
 )

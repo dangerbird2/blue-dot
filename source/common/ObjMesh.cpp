@@ -1,11 +1,12 @@
 #include "ObjMesh.h"
 
+using namespace glm;
 
 bool Mesh::loadOBJ(const char* path) {
   std::vector<unsigned int> vertexIndices, uvIndices, normalIndices;
-  std::vector<vec3> temp_vertices;
-  std::vector<vec2> temp_uvs;
-  std::vector<vec3> temp_normals;
+  std::vector<glm::vec3> temp_vertices;
+  std::vector<glm::vec2> temp_uvs;
+  std::vector<glm::vec3> temp_normals;
 
   hasUV = true;
 
@@ -28,7 +29,7 @@ bool Mesh::loadOBJ(const char* path) {
     sscanf(line, "%s ", lineHeader);
 
     if (strcmp(lineHeader, "v") == 0) {
-      vec3 vertex;
+      glm::vec3 vertex;
       sscanf(&line[2], "%f %f %f", &vertex.x, &vertex.y, &vertex.z);
       temp_vertices.push_back(vertex);
       if (vertex.x < Box_min.x) {
@@ -50,11 +51,11 @@ bool Mesh::loadOBJ(const char* path) {
         Box_max.z = vertex.z;
       }
     } else if (strcmp(lineHeader, "vt") == 0) {
-      vec2 uv;
+      glm::vec2 uv;
       sscanf(&line[3], "%f %f", &uv.x, &uv.y);
       temp_uvs.push_back(uv);
     } else if (strcmp(lineHeader, "vn") == 0) {
-      vec3 normal;
+      glm::vec3 normal;
       sscanf(&line[3], "%f %f %f", &normal.x, &normal.y, &normal.z);
       temp_normals.push_back(normal);
     } else if (strcmp(lineHeader, "f") == 0) {
@@ -93,112 +94,67 @@ bool Mesh::loadOBJ(const char* path) {
   delete[] line;
   delete[] lineHeader;
 
-  std::cout << "Read " << temp_vertices.size() << " _vertices\n";
+  std::cout << "Read " << temp_vertices.size() << " positions\n";
   std::cout << "Read " << temp_normals.size() << " normals\n";
   std::cout << "Read " << vertexIndices.size() / 3 << " faces\n";
 
   // For each vertex of each triangle
   for (unsigned int i = 0; i < vertexIndices.size(); i++) {
     unsigned int vertexIndex = vertexIndices[i];
-    vec4 vertex = vec4(temp_vertices[vertexIndex - 1], 1.0);
-    _vertices.push_back(vertex);
+    glm::vec3 vertex (temp_vertices[vertexIndex - 1]);
+    positions.push_back(vertex);
   }
 
   if (hasUV) {
     for (unsigned int i = 0; i < uvIndices.size(); i++) {
       unsigned int uvIndex = uvIndices[i];
-      vec2 uv = temp_uvs[uvIndex - 1];
+      auto uv = temp_uvs[uvIndex - 1];
       uvs.push_back(uv);
     }
   }
 
   for (unsigned int i = 0; i < normalIndices.size(); i++) {
     unsigned int normalIndex = normalIndices[i];
-    vec3 normal = temp_normals[normalIndex - 1];
+    auto normal = temp_normals[normalIndex - 1];
     normals.push_back(normal);
   }
 
-  std::cout << "Total " << _vertices.size() << " _vertices\n";
+  std::cout << "Total " << positions.size() << " positions\n";
   std::cout << "Total " << normals.size() << " normals\n";
 
   return true;
 }
 
-bool Mesh::makeSphere(int steps) {
+bool Mesh::make_sphere(int steps) {
 
-  Box_min = vec3(-1, -1, -1);
-  Box_max = vec3(1, 1, 1);
 
-  std::list<SphereTriangle> tris;
-
-  tris.push_back(SphereTriangle(vec3(0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, 0.57735, -0.57735),
-                                vec3(0.57735, 0.57735, -0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, 0.57735, -0.57735),
-                                vec3(0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, 0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(0.57735, -0.57735, 0.57735),
-                                vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, -0.57735, -0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, -0.57735, 0.57735),
-                                vec3(-0.57735, -0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(0.57735, 0.57735, 0.57735),
-                                vec3(0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, 0.57735, -0.57735)));
-  tris.push_back(SphereTriangle(vec3(0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, 0.57735, 0.57735),
-                                vec3(0.57735, -0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(-0.57735, 0.57735, -0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(-0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, -0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, -0.57735, 0.57735),
-                                vec3(0.57735, -0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, -0.57735, 0.57735),
-                                vec3(0.57735, 0.57735, 0.57735),
-                                vec3(-0.57735, 0.57735, 0.57735)));
-  tris.push_back(SphereTriangle(vec3(0.57735, 0.57735, -0.57735),
-                                vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, -0.57735, -0.57735)));
-  tris.push_back(SphereTriangle(vec3(-0.57735, -0.57735, -0.57735),
-                                vec3(0.57735, 0.57735, -0.57735),
-                                vec3(-0.57735, 0.57735, -0.57735)));
-
-  for (unsigned int s = 0; s < steps; s++) {
-    std::list<SphereTriangle> newTris;
-    float l = length(tris.begin()->a);
-    for (auto &i: tris) {                        // go through all triangles
-      vec3 mid = (i.a + i.b) * 0.5f; // point betwenn points A and B
-      mid = setLength(mid, l);         // put in on the sphere
-      newTris.push_back(
-          SphereTriangle(i.b, i.c, mid)); // remember new triangles
-      newTris.push_back(SphereTriangle(i.a, i.c, mid));
-    }
-    tris.swap(newTris); // use new set of triangles;
-  }
-
-  for (auto &i : tris) {
-    _vertices.push_back(vec4(normalize(i.a), 1.0));
-    _vertices.push_back(vec4(normalize(i.b), 1.0));
-    _vertices.push_back(vec4(normalize(i.c), 1.0));
-
-    normals.push_back(normalize(i.a));
-    normals.push_back(normalize(i.b));
-    normals.push_back(normalize(i.c));
-  }
 
   return true;
+}
+
+std::ostream& operator<<(std::ostream& os, const glm::vec3& v)
+{
+  os << "glm::vec3{" << v.x << " " << v.y << " " << v.z << "}";
+  return os;
+}
+
+std::ostream& operator<<(std::ostream& os, const glm::vec2& v)
+{
+  os << "glm::vec2{" << v.x << " " << v.y <<  "}";
+  return os;
+}
+
+std::ostream& operator<<(std::ostream& os, const glm::vec4& v)
+{
+  os << "glm::vec2{" << v.x << " " << v.y <<" " << v.z <<" " << v.w <<  "}";
+  return os;
 }
 
 std::ostream& operator<<(std::ostream& os, const Mesh& v)
 {
   os << "Vertices:\n";
-  for (unsigned int i = 0; i < v._vertices.size(); i++) {
-    os << "\t\t" << v._vertices[i] << "\n";
+  for (unsigned int i = 0; i < v.positions.size(); i++) {
+    os << "\t\t" << v.positions[i] << "\n";
   }
   os << "Normals:\n";
   for (unsigned int i = 0; i < v.normals.size(); i++) {
