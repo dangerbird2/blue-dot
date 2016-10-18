@@ -87,4 +87,5 @@ install_manifest.txt
 *.exe
 *.out
 *.app
-
+#cmake default build
+/build/
